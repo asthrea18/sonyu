@@ -1,0 +1,86 @@
+.mypage {padding-top:30px;}
+.mypage .mypage-info {margin:0 0 30px; border:1px solid #cfcfcf; border-radius:10px; padding:35px 0; text-align:center;}
+.mypage .mypage-info .info-left {display:inline-block; position:relative; top:7px;}
+.mypage .mypage-info .info-left:after {display:block; clear:both; content:"";}
+.mypage .mypage-info .info-left .image {width:94px; height:94px; display:inline-block; position:relative; overflow:hidden; border:3px solid #ff7d9e; border-radius:50%; cursor:pointer;}
+.mypage .mypage-info .info-left .image img {width:100%; height:100%; object-fit:covber;}
+.mypage .mypage-info .info-left .image .upload {position:absolute; left:0; top:0; width:100%; height:100%; opacity:0;}
+.mypage .mypage-info .info-left .image .upload input {height:100%;}
+.mypage .mypage-info .info-left .info {width:268px; display:inline-block; vertical-align:top; text-align:left; padding-left:35px;}
+.mypage .mypage-info .info-left .info ul li:after {display:block; clear:both; content:"";}
+.mypage .mypage-info .info-left .info ul li:first-of-type {margin:17px 0 20px;}
+.mypage .mypage-info .info-left .info ul li > div {display:inline-block;}
+.mypage .mypage-info .info-left .info ul li > div.pull-left {float:left;}
+.mypage .mypage-info .info-left .info ul li > div.pull-left p {color:#434343; font-size:18px; font-weight:400;}
+.mypage .mypage-info .info-left .info ul li > div.pull-left p b {font-weight:bold;}
+.mypage .mypage-info .info-left .info ul li > div.pull-left .grade {font-size:24px; color:#434343; letter-spacing:-0.9px; font-family:'Noto-B';}
+.mypage .mypage-info .info-left .info ul li > div.pull-right {float:right;}
+.mypage .mypage-info .info-left .info ul li > div.pull-right a.download {display:block; width:111px; height:34px; line-height:34px; text-align:center; border:1px solid #d0d0d0; border-radius:5px; font-size:14px; color:#6f6f6f; font-weight:500; position:relative; top:-6px;}
+.mypage .mypage-info .info-left .info ul li > div.pull-right a.set {background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_setting.png') no-repeat center / 26px auto; display:block; width:26px; height:26px; text-indent:-9999px; position:relative; top:-3px;}
+.mypage .mypage-info .info-right {display:inline-block; vertical-align:top; padding-left:73px;}
+.mypage .mypage-info .info-right ul {display:inline-block;}
+.mypage .mypage-info .info-right ul li {display:inline-block; position:relative;}
+.mypage .mypage-info .info-right ul li:after {position:absolute; right:0; top:0; width:2px; height:calc(100% + 10px); content:""; background:#e5e5e5;}
+.mypage .mypage-info .info-right ul li:last-of-type:after {display:none;}
+.mypage .mypage-info .info-right ul li a {display:block; height:69px; text-align:center; padding:0 42px 0;}
+.mypage .mypage-info .info-right ul li a strong {display:block; font-size:18px; color:#7f7f7f; font-family:'Noto-M'; margin-bottom:30px; position:relative; top:8px;}
+.mypage .mypage-info .info-right ul li a strong img {position:relative; top:8px;}
+.mypage .mypage-info .info-right ul li a span {display:block; font-size:22px; color:#5c5b5b; font-family:'Noto-B';}
+.mypage .mypage-info .info-right .text {display:inline-block; vertical-align:top; background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_textimg.png') no-repeat center / 184px auto; width:184px; height:121px;}
+.mypage .mypage-info .info-right .text a {display:block; text-indent:-9999px; height:100%;}
+.mypage .myinfo-bg {background:#fff7f9; border:1px solid #cfcfcf; border-radius:10px;}
+
+.mypage .mypage-btn {max-width:1273px; margin:70px auto;}
+.mypage .mypage-btn ul:after {display:block; clear:both; content:"";}
+.mypage .mypage-btn ul li {position:relative; width:calc(25% - 48px); height:197px; float:left; margin:0 24px 25px; cursor:pointer; border:1px solid #e5e5e5; border-radius:10px; box-sizing:border-box; text-align:center;}
+.mypage .mypage-btn ul li:before {display:block; content:""; width:100%; height:56px; margin-top:40px;}
+.mypage .mypage-btn ul li:first-of-type:before {background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_mypage1_pc.png') no-repeat center top / 53px auto;}
+.mypage .mypage-btn ul li:nth-of-type(2):before {background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_mypage2_pc.png') no-repeat center top / 47px auto;}
+.mypage .mypage-btn ul li:nth-of-type(3):before {background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_mypage3_pc.png') no-repeat center top / 51px auto;}
+.mypage .mypage-btn ul li:nth-of-type(4):before {background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_mypage4_pc.png') no-repeat center top / 41px auto;}
+.mypage .mypage-btn ul li:nth-of-type(5):before {background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_mypage5_pc.png') no-repeat center top / 39px auto;}
+.mypage .mypage-btn ul li:nth-of-type(6):before {background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_mypage6_pc.png') no-repeat center top / 45px auto;}
+.mypage .mypage-btn ul li:nth-of-type(7):before {background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_mypage7_pc.png') no-repeat center top / 34px auto;}
+.mypage .mypage-btn ul li:last-of-type:before {background:url('//img.sonyunara.com/sonyunara/2020/jelly/icon_mypage8_pc.png') no-repeat center top / 39px auto;}
+.mypage .mypage-btn ul li strong {color:#f891aa; font-size:18px; font-weight:bold; margin-bottom:15px; display:block;}
+.mypage .mypage-btn ul li p {color:#818181; font-size:12px; line-height:1.3;}
+.mypage .mypage-board {max-width:1273px; margin:0 auto;}
+.mypage .mypage-board:after {display:block; clear:both; content:"";}
+.mypage .mypage-board .board {width:calc(50% - 50px); float:left; margin:0 25px;}
+.mypage .mypage-board .board .tit {margin-bottom:10px;}
+.mypage .mypage-board .board .tit:after {display:block; clear:both; content:"";}
+.mypage .mypage-board .board .tit .pull-left {font-size:18px; color:#010101; font-weight:bold; display:inline-block; float:left;}
+.mypage .mypage-board .board .tit .pull-right {display:inline-block; float:right;}
+.mypage .mypage-board .board .tit .pull-right a {display:block; width:18px; height:18px; position:relative; text-indent:-9999px;}
+.mypage .mypage-board .board .tit .pull-right a:before {position:absolute; left:50%; top:0; transform:translateX(-50%); width:2px; height:100%; background:#000; content:""; border-radius:10px;}
+.mypage .mypage-board .board .tit .pull-right a:after {position:absolute; left:0; top:50%; transform:translateY(-50%); width:100%; height:2px; background:#000; content:""; border-radius:10px;}
+.mypage .mypage-board .board .list {border-top:2px solid #bfbfbf;}
+.mypage .mypage-board .board .list ul li {padding:15px 10px; border-bottom:1px solid #e8e8e8;}
+.mypage .mypage-board .board .list ul li:last-of-type {border-color:#bfbfbf;}
+.mypage .mypage-board .board .list ul li:after {display:block; clear:both; content:"";}
+.mypage .mypage-board .board .list ul li > div {display:inline-block;}
+.mypage .mypage-board .board .list ul li > div a {font-size:14px; color:#010101;}
+.mypage .mypage-board .board .list ul li > div .cmt {color:#ff6c7c; font-size:14px;}
+.mypage .mypage-board .board .list ul li > div.pull-left {float:left;}
+.mypage .mypage-board .board .list ul li > div.pull-right {float:right; font-size:12px; color:#010101;}
+
+/* ëž­í‚¹ */
+.mypage .ranking:after {display:block; clear:both; content:"";padding:0 10px; margin:30px -16px 0;}
+.mypage .ranking ul {width:calc(50% - 16px); margin:5px 8px 7px; float:left;}
+.mypage .ranking ul li {height:63px; border:1px solid #c5c5c5; border-radius:7px; padding:14px; margin-bottom:7px; box-sizing:border-box;}
+.mypage .ranking ul li.on {border-color:#ff69c6;}
+.mypage .ranking ul li:after {display:block; clear:both; content:"";}
+.mypage .ranking ul li .pull-left {display:inline-block; float:left;}
+.mypage .ranking ul li .pull-left > div {position:relative; display:inline-block;}
+.mypage .ranking ul li .pull-left > div b {display:none !important; position:absolute; left:0; top:49%; transform:translateY(-50%); display:block; text-align:center; width:100%; font-weight:bold; color:#fff; font-size:12px; text-shadow:-1px 0 0 #828282 , 1px 0 0 #828282 , 0 -1px 0 #828282 , 0 1px 0 #828282 , -1px -1px 0 #828282 , 1px 1px 0 #828282}
+.mypage .ranking ul li .pull-left img {width:35px; display:inline-block;}
+.mypage .ranking ul li .pull-left img.rankingimage {margin-left:3px; width:30px;}
+.mypage .ranking ul li .pull-left span {display:inline-block; font-size:15px; font-weight:500; position:relative; top:2px; padding-left:5px;}
+.mypage .ranking ul li .pull-right {position:relative; top:8px; display:inline-block; float:right;}
+.mypage .ranking ul li .pull-right span {position:relative; color:#3a3a3a; display:inline-block; padding:3px 12px 3px 23px; border-radius:15px; font-weight:500; font-size:14px; background:#eaeaea;}
+.mypage .ranking ul li .pull-right span:before {position:absolute; left:-9px; top:-2px; content:""; width:25px; height:110%; background:url('//img.sonyunara.com/sonyunara/2020/jelly/jelly.png') no-repeat 0 0 / 25px auto;}
+
+.mypage .conbox > .left-bg .tit {background:#fff; color:#ff7d9e; border-color:#cfcfcf; border-top-left-radius:15px; border-top-right-radius:15px; border-bottom:1px solid #cfcfcf;}
+.mypage .conbox > .left-bg .menu {padding-top:0 !important; border-color:#cfcfcf; border-bottom-left-radius:15px; border-bottom-right-radius:15px;}
+
+.mypage .tabmenu-line > * span {border-top-left-radius:10px; border-top-right-radius:10px;}

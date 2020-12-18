@@ -1,0 +1,26 @@
+/* Ion.RangeSlider, Flat UI Skin
+// css version 2.0.3
+// ì§¤ Denis Ineshin, 2014    https://github.com/IonDen
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Skin details */
+
+
+.irs{height:32px;}
+.irs-with-grid{height:60px;}
+.irs-line {top:0;width:100%;height:6px;border:solid 1px #e8e8e8;border-radius:4px;background:#fff;box-sizing:border-box}
+.irs-line-left.
+.irs-line-mid.
+.irs-line-right{display:none}
+.irs-bar{height:6px;background:#ff485a;top:0;}
+.irs-bar-edge{top:0;height:12px;width:9px;background-position:0 -90px;}
+.irs-shadow{display:none}
+.irs-slider{top:-7px;width:18px;height:18px;border:1px solid #b1b1b1;border-radius:50%;background:#fff;}
+.irs-min, 
+.irs-max{top:20px;color:#888;font-size:14px;font-weight:300;line-height:1;letter-spacing:-0.05em;text-shadow:none;}
+.irs-from, 
+.irs-to, 
+.irs-single{top:20px;color:#333;font-size:14px;font-weight:500;line-height:1;letter-spacing:-0.05em;text-shadow:none;}
+.irs-grid-pol{background:#e1e4e9;}
+.irs-grid-text{color:#999;}
