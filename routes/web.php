@@ -21,7 +21,26 @@ Route::group(['prefix' => 'shop'], function () {
 
     Route::get('best', 'NavigatorController@best');
     Route::get('body', 'NavigatorController@body');
-    Route::get('training', 'NavigatorController@training');
+
+    /* Outer */
+    Route::get('card', 'NavigatorController@Cardigan');
+    Route::get('field', 'NavigatorController@Field');
+    Route::get('jacket', 'NavigatorController@Jacket');
+    Route::get('padding', 'NavigatorController@Padding');
+    Route::get('fleece', 'NavigatorController@Fleece');
+
+    /* top */
+    Route::get('longsleeve', 'NavigatorController@Longsleeve');
+    Route::get('man', 'NavigatorController@Man');
+    Route::get('hood', 'NavigatorController@Hood');
+    Route::get('shortsleeve', 'NavigatorController@Shortsleeve');
+    Route::get('neat', 'NavigatorController@Neat');
+
+    /* shirt */
+    Route::get('shirt', 'NavigatorController@Shirt');
+
+    /* training */
+    Route::get('training', 'NavigatorController@Training');
 
 }); /* Shop */
 
