@@ -898,7 +898,7 @@ $(document).ready(function() {
 	});
 });
 </script>	<!-- 나만없어 BEST상품 -->
-	<div class="product-box">
+{{-- <div class="product-box">
 	<div class="box">
 		<h2>
 		나만 없어!! BEST 상품
@@ -916,7 +916,7 @@ $(document).ready(function() {
 		<ul class="item" id="sn-best-product">
 		</ul>
 	</div>
-</div>
+</div> --}}
 
 <script>
 $(document).ready(function() {
@@ -1296,144 +1296,6 @@ window.onload = function(){
                       </div>
                    </div>
                 </li>
-                <li class="slick-slide">
-                   <div class="item-image">
-                      <span class="rank">6</span>
-                      <a href="/shop/view.php?index_no=65542" class="image">
-                         <img src="https://img.sonyunara.com/files/goods/65542/1600652273_5.gif.webp" alt="[FCMM](F/W신상컬러)[19일입고예정]클럽 에센셜 맨투맨 ">
-                         <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                      </a>
-                      <a href="javascript:" class="good "" onclick="GoodsProc.new_set_wish_single(65542);">
-                         <!-- 							<i class="fa fa-heart"></i> -->
-                      </a>
-                   </div>
-                   <div class="item-content">
-                      <div class="info">
-                         <div class="pull-left">
-                            <span>35,000</span>
-                         </div>
-                         <div class="pull-right">
-                         </div>
-                      </div>
-                      <div class="subject">
-                         <a href="/shop/view.php?index_no=65542">[무료배송][FCMM](F/W신상컬러)[19일입고예정]클럽 에센셜 맨투맨 </a>
-                      </div>
-                      <div class="count">
-                         <span>구매 556</span>
-                         <span>리뷰 <span>6</span></span>
-                      </div>
-                   </div>
-                </li>
-                <li class="slick-slide">
-                   <div class="item-image">
-                      <span class="rank">7</span>
-                      <a href="/shop/view.php?index_no=59446" class="image">
-                         <img src="https://img.sonyunara.com/files/goods/59446/1583369249_5.gif.webp" alt="[FCMMXSONA]단독상품 1988 파이핑 숏 스커트">
-                         <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                      </a>
-                      <a href="javascript:" class="good "" onclick="GoodsProc.new_set_wish_single(59446);">
-                         <!-- 							<i class="fa fa-heart"></i> -->
-                      </a>
-                   </div>
-                   <div class="item-content">
-                      <div class="info">
-                         <div class="pull-left">
-                            <span>25<em>%</em></span>								<span>33,000</span>
-                         </div>
-                         <div class="pull-right">
-                         </div>
-                      </div>
-                      <div class="subject">
-                         <a href="/shop/view.php?index_no=59446">[무료배송][FCMMXSONA]단독상품 1988 파이핑 숏 스커트</a>
-                      </div>
-                      <div class="count">
-                         <span>구매 451</span>
-                         <span>리뷰 <span>12</span></span>
-                      </div>
-                   </div>
-                </li>
-                <li class="slick-slide">
-                   <div class="item-image">
-                      <span class="rank">8</span>
-                      <a href="/shop/view.php?index_no=58144" class="image">
-                         <img src="https://img.sonyunara.com/files/goods/58144/1580693390_5.gif.webp" alt="[프랑켄모노]넥스트 크롭 맨투맨">
-                         <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                      </a>
-                      <a href="javascript:" class="good "" onclick="GoodsProc.new_set_wish_single(58144);">
-                         <!-- 							<i class="fa fa-heart"></i> -->
-                      </a>
-                   </div>
-                   <div class="item-content">
-                      <div class="info">
-                         <div class="pull-left">
-                            <span>40<em>%</em></span>								<span>33,000</span>
-                         </div>
-                         <div class="pull-right">
-                         </div>
-                      </div>
-                      <div class="subject">
-                         <a href="/shop/view.php?index_no=58144">[무료배송][프랑켄모노]넥스트 크롭 맨투맨</a>
-                      </div>
-                      <div class="count">
-                         <span>구매 364</span>
-                         <span>리뷰 <span>2</span></span>
-                      </div>
-                   </div>
-                </li>
-                <li class="slick-slide">
-                   <div class="item-image">
-                      <span class="rank">9</span>
-                      <a href="/shop/view.php?index_no=53996" class="image">
-                         <img src="https://img.sonyunara.com/files/goods/53996/1570154714_5.gif.webp" alt="[SNRD]데일리 캔버스화 쿠키스니커즈 (SN507)">
-                         <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                      </a>
-                      <a href="javascript:" class="good "" onclick="GoodsProc.new_set_wish_single(53996);">
-                         <!-- 							<i class="fa fa-heart"></i> -->
-                      </a>
-                   </div>
-                   <div class="item-content">
-                      <div class="info">
-                         <div class="pull-left">
-                            <span>59<em>%</em></span>								<span>18,800</span>
-                         </div>
-                         <div class="pull-right">
-                         </div>
-                      </div>
-                      <div class="subject">
-                         <a href="/shop/view.php?index_no=53996">[SNRD]데일리 캔버스화 쿠키스니커즈 (SN507)</a>
-                      </div>
-                      <div class="count">
-                         <span>구매 2493</span>
-                         <span>리뷰 <span>12</span></span>
-                      </div>
-                   </div>
-                </li>
-                <li class="slick-slide">
-                   <div class="item-image">
-                      <span class="rank">10</span>
-                      <a href="/shop/view.php?index_no=61446" class="image">
-                         <img src="https://img.sonyunara.com/files/goods/61446/1592198360_5.gif.webp" alt="[테일러스튜디오]로맨스 1862 로고 오버핏 반팔티">
-                         <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                      </a>
-                      <a href="javascript:" class="good "" onclick="GoodsProc.new_set_wish_single(61446);">
-                         <!-- 							<i class="fa fa-heart"></i> -->
-                      </a>
-                   </div>
-                   <div class="item-content">
-                      <div class="info">
-                         <div class="pull-left">
-                            <span>54<em>%</em></span>								<span>26,900</span>
-                         </div>
-                      </div>
-                      <div class="subject">
-                         <a href="/shop/view.php?index_no=61446">[무료배송][테일러스튜디오]로맨스 1862 로고 오버핏 반팔티</a>
-                      </div>
-                      <div class="count">
-                         <span>구매 290</span>
-                         <span>리뷰 <span>3</span></span>
-                      </div>
-                   </div>
-                </li>
             </ul>
 		</div>
 	</div>
@@ -1492,8 +1354,8 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67912" class="image">
-                      <img src="https://img.sonyunara.com/files/goods/67912/1608110392_5.gif.webp" alt="블루제이데님진(기모)">
+                   <a href="#" class="image">
+                      <img src="{{asset('img/today/1608110392_5.gif.webp')}}" alt="블루제이데님진(기모)">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                    </a>
@@ -1516,8 +1378,8 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67896" class="image">
-                      <img src="https://img.sonyunara.com/files/goods/67896/1608187965_5.gif.webp" alt="포스트버튼니트 (6colors!)">
+                   <a href="#" class="image">
+                      <img src="{{asset('img/today/1608187965_5.gif.webp')}}" alt="포스트버튼니트 (6colors!)">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                    </a>
@@ -1540,8 +1402,8 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67816" class="image">
-                      <img src="https://img.sonyunara.com/files/goods/67816/1607991422_5.gif.webp" alt="드래프기모후드">
+                   <a href="#" class="image">
+                      <img src="{{asset('img/today/1607991422_5.gif.webp')}}" alt="드래프기모후드">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                    </a>
@@ -1564,8 +1426,8 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67568" class="image">
-                      <img src="https://img.sonyunara.com/files/goods/67568/1607569019_5.gif.webp" alt="세리온레이스니트">
+                   <a href="#" class="image">
+                      <img src="{{asset('img/today/1607569019_5.gif.webp')}}" alt="세리온레이스니트">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                    </a>
@@ -1588,8 +1450,8 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67780" class="image">
-                      <img src="https://img.sonyunara.com/files/goods/67780/1608194588_5.gif.webp" alt="솔티니트원피스 (7colors!)">
+                   <a href="#" class="image">
+                      <img src="{{asset('img/today/1608194588_5.gif.webp')}}" alt="솔티니트원피스 (7colors!)">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                    </a>
@@ -1612,7 +1474,7 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67792" class="image">
+                   <a href="#" class="image">
                       <img src="https://img.sonyunara.com/files/goods/67792/1607904487_5.gif.webp" alt="옥스포드맨투맨(기모)">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
@@ -1628,7 +1490,7 @@ $(document).ready(function() {
                       </div>
                    </div>
                    <div class="subject">
-                      <a href="/shop/view.php?index_no=67792">옥스포드맨투맨(기모)</a>
+                      <a href="#">옥스포드맨투맨(기모)</a>
                    </div>
                    <div class="count">
                    </div>
@@ -1636,7 +1498,7 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67796" class="image">
+                   <a href="#" class="image">
                       <img src="https://img.sonyunara.com/files/goods/67796/1608193912_5.gif.webp" alt="플레이베어맨투맨(기모)">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
@@ -1660,7 +1522,7 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67800" class="image">
+                   <a href="#" class="image">
                       <img src="https://img.sonyunara.com/files/goods/67800/1608190390_5.gif.webp" alt="미니캉캉원피스(기모)">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
@@ -1684,7 +1546,7 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67794" class="image">
+                   <a href="#" class="image">
                       <img src="https://img.sonyunara.com/files/goods/67794/1607664051_5.gif.webp" alt="에이스후드원피스(기모)">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
@@ -1708,7 +1570,7 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67798" class="image">
+                   <a href="#" class="image">
                       <img src="https://img.sonyunara.com/files/goods/67798/1607673764_5.gif.webp" alt="라메인반폴라맨투맨(기모)">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
@@ -1732,7 +1594,7 @@ $(document).ready(function() {
              </li>
              <li class="slick-slide" style="float:none !important;">
                 <div class="item-image">
-                   <a href="/shop/view.php?index_no=67722" class="image">
+                   <a href="#" class="image">
                       <img src="https://img.sonyunara.com/files/goods/67722/1608193379_5.gif.webp" alt="케넷트임반폴라니트">
                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
                       <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
@@ -1754,102 +1616,6 @@ $(document).ready(function() {
                    </div>
                 </div>
              </li>
-             <li class="slick-slide" style="float:none !important;">
-                <div class="item-image">
-                   <a href="/shop/view.php?index_no=67750" class="image">
-                      <img src="https://img.sonyunara.com/files/goods/67750/1_5fd9f1598ef13_1.png.webp" alt="제니터틀넥투피스">
-                      <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
-                      <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                   </a>
-                   <a href="javascript:" class="good "" onclick="GoodsProc.new_set_wish_single(67750);">
-                      <!-- 							<i class="fa fa-heart"></i> -->
-                   </a>
-                </div>
-                <div class="item-content">
-                   <div class="info">
-                      <div class="pull-left">
-                         <span>17<em>%</em></span>								<span>41,600</span>
-                      </div>
-                   </div>
-                   <div class="subject">
-                      <a href="/shop/view.php?index_no=67750">제니터틀넥투피스</a>
-                   </div>
-                   <div class="count">
-                   </div>
-                </div>
-             </li>
-             <li class="slick-slide" style="float:none !important;">
-                <div class="item-image">
-                   <a href="/shop/view.php?index_no=67596" class="image">
-                      <img src="https://img.sonyunara.com/files/goods/67596/1_5fd9f11f3e4a4_2.png.webp" alt="밀키싱글하프코트(울30%)">
-                      <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
-                      <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                   </a>
-                   <a href="javascript:" class="good "" onclick="GoodsProc.new_set_wish_single(67596);">
-                      <!-- 							<i class="fa fa-heart"></i> -->
-                   </a>
-                </div>
-                <div class="item-content">
-                   <div class="info">
-                      <div class="pull-left">
-                         <span>19<em>%</em></span>								<span>44,800</span>
-                      </div>
-                   </div>
-                   <div class="subject">
-                      <a href="/shop/view.php?index_no=67596">밀키싱글하프코트(울30%)</a>
-                   </div>
-                   <div class="count">
-                   </div>
-                </div>
-             </li>
-             <li class="slick-slide" style="float:none !important;">
-                <div class="item-image">
-                   <a href="/shop/view.php?index_no=67786" class="image">
-                      <img src="https://img.sonyunara.com/files/goods/67786/1608107371_5.gif.webp" alt="페이지잔꽃블라우스">
-                      <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
-                      <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                   </a>
-                   <a href="javascript:" class="good "" onclick="GoodsProc.new_set_wish_single(67786);">
-                      <!-- 							<i class="fa fa-heart"></i> -->
-                   </a>
-                </div>
-                <div class="item-content">
-                   <div class="info">
-                      <div class="pull-left">
-                         <span>21<em>%</em></span>								<span>16,500</span>
-                      </div>
-                   </div>
-                   <div class="subject">
-                      <a href="/shop/view.php?index_no=67786">페이지잔꽃블라우스</a>
-                   </div>
-                   <div class="count">
-                   </div>
-                </div>
-             </li>
-             <li class="slick-slide" style="float:none !important;">
-                <div class="item-image">
-                   <a href="/shop/view.php?index_no=67754" class="image">
-                      <img src="https://img.sonyunara.com/files/goods/67754/1608104538_5.gif.webp" alt="페니퍼프블라우스">
-                      <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
-                      <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                   </a>
-                   <a href="javascript:" class="good "" onclick="GoodsProc.new_set_wish_single(67754);">
-                      <!-- 							<i class="fa fa-heart"></i> -->
-                   </a>
-                </div>
-                <div class="item-content">
-                   <div class="info">
-                      <div class="pull-left">
-                         <span>23<em>%</em></span>								<span>13,900</span>
-                      </div>
-                   </div>
-                   <div class="subject">
-                      <a href="/shop/view.php?index_no=67754">페니퍼프블라우스</a>
-                   </div>
-                   <div class="count">
-                   </div>
-                </div>
-             </li>
           </ul>
        </div>
     </div>
@@ -1864,7 +1630,7 @@ $(document).ready(function() {
     <div class="box slider">
        <h2>
           추천기획전
-          <a href="/shop/list_promotion.php" class="more"></a>
+          <a href="#" class="more"></a>
        </h2>
        <div class="item-arrow item-arrow5" style="top:190px;">
           <button type="button" class="best-prev"></button>
@@ -1929,7 +1695,7 @@ $(document).ready(function() {
     <div class="box">
        <h2>
           뮤즈리뷰
-          <a href="/review/review_muse.php" class="more"></a>
+          <a href="#" class="more"></a>
        </h2>
        <div class="item-wrap">
           <ul class="muse">
@@ -2328,25 +2094,25 @@ window.criteo_q.push(
 						</dd>
 						<dd style="margin-top: 93px;">
 							<div class="notice-box">
-								<div class="tit">NOTICE </div>
-								<ul class="board-simple">
-																			<li>
-											<a href="/board/read.php?index_no=53584&amp;boardid=csnotice">2021년1월 적립금 소멸안내</a>
-										</li>
-																			<li>
-											<a href="/board/read.php?index_no=53494&amp;boardid=csnotice">부정한 방법으로 적립한 젤리는 모두 차감됩니다!</a>
-										</li>
-																			<li>
-											<a href="/board/read.php?index_no=53286&amp;boardid=csnotice">추석연휴 주문 폭주로 일부 배송지연이 있습니다</a>
-										</li>
-																			<li>
-											<a href="/board/read.php?index_no=52966&amp;boardid=csnotice">동대문 여름 휴무와 8월 14일 전국 택배기사님 전체 휴무 관련..</a>
-										</li>
-																			<li>
-											<a href="/board/read.php?index_no=52796&amp;boardid=csnotice">네이버 스마트 알림서비스 오픈!</a>
-										</li>
-																	</ul>
-								<a href="/board/list.php?boardid=csnotice" class="more-small">더보기</a>
+							   <div class="tit">NOTICE </div>
+							   <ul class="board-simple">
+								  <li>
+									 <a href="#">2021년1월 적립금 소멸안내</a>
+								  </li>
+								  <li>
+									 <a href="#">부정한 방법으로 적립한 젤리는 모두 차감됩니다!</a>
+								  </li>
+								  <li>
+									 <a href="#">추석연휴 주문 폭주로 일부 배송지연이 있습니다</a>
+								  </li>
+								  <li>
+									 <a href="#">동대문 여름 휴무와 8월 14일 전국 택배기사님 전체 휴무 관련..</a>
+								  </li>
+								  <li>
+									 <a href="#">네이버 스마트 알림서비스 오픈!</a>
+								  </li>
+							   </ul>
+							   <a href="#" class="more-small">더보기</a>
 							</div>
 						</dd>
 					</dl>
@@ -2356,12 +2122,12 @@ window.criteo_q.push(
 						<dt>ABOUT US</dt>
 						<!--<dd><a href="/intro/intro.php">회사소개</a></dd>-->
 						<!--<dd><a href="/intro/recruit.php">입사지원</a></dd>-->
-						<dd><a href="/intro/membership_guide.php">멤버십 안내</a></dd>
+						<dd><a href="#">멤버십 안내</a></dd>
 						<dt>GUIDE</dt>
-						<dd><a href="/intro/use.php">이용약관</a></dd>
-						<dd><a href="/intro/privacy.php">개인정보 처리방침</a></dd>
+						<dd><a href="#">이용약관</a></dd>
+						<dd><a href="#">개인정보 처리방침</a></dd>
 						<dt style="margin-top:94px;">FAMILY SITE</dt>
-						<dd><a href="https://attrangs.co.kr/?enterc=sonyunara_PC" target="_blank">아뜨랑스</a></dd>
+						<dd><a href="#" target="_blank">아뜨랑스</a></dd>
 					</dl>
 					<div class="otherCountry">
 						<div>
