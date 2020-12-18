@@ -197,7 +197,7 @@
          <div class="swiper-slide " style="background-color:#dde6ff">
             <a href="/event/view.php?index_no=2858" target="_self" class="trace_link" data-name="피씨탑6420">
                <div style="position:relative; display:inline-block;">
-                  <img src="https://img.sonyunara.com/files/new_banner/1607669916_0.gif" style="margin:auto;">
+                  <img src="{{asset('img/new_banner.gif')}}" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
@@ -205,7 +205,7 @@
          <div class="swiper-slide " style="background-color:#6ec9c9">
             <a href="/event/view.php?index_no=2824#event-title" target="_self" class="trace_link" data-name="피씨탑6414">
                <div style="position:relative; display:inline-block;">
-                  <img src="https://img.sonyunara.com/files/new_banner/1607653363_0.gif" style="margin:auto;">
+                  <img src="{{asset('img/new_banner2.gif')}}" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
@@ -307,35 +307,35 @@
                      <div class="table">
                         <div class="wrap">
                            <div>
-                              <a href="/shop/search.php?searchOrder=1&keyword=기모" target="_self">
+                              <a href="#">
                               <strong>1.</strong> 기모								</a>
                            </div>
                            <div>
-                              <a href="/shop/search.php?searchOrder=1&keyword=후드집업" target="_self">
+                              <a href="#">
                               <strong>2.</strong> 후드집업								</a>
                            </div>
                            <div>
-                              <a href="/shop/search.php?searchOrder=1&keyword=양털" target="_self">
+                              <a href="#">
                               <strong>3.</strong> 양털								</a>
                            </div>
                            <div>
-                              <a href="/shop/search.php?searchOrder=1&keyword=플리스" target="_self">
+                              <a href="#">
                               <strong>4.</strong> 플리스								</a>
                            </div>
                            <div>
-                              <a href="/shop/search.php?searchOrder=&keyword=빵빵" target="_self">
+                              <a href="#">
                               <strong>5.</strong> 빵빵숏패딩								</a>
                            </div>
                            <div>
-                              <a href="/shop/search.php?searchOrder=&keyword=크림치즈" target="_self">
+                              <a href="#">
                               <strong>6.</strong> 크림치즈								</a>
                            </div>
                            <div>
-                              <a href="/shop/list.php?cate=010104" target="_self">
+                              <a href="#">
                               <strong>7.</strong> 맨투맨								</a>
                            </div>
                            <div>
-                              <a href="/shop/list.php?cate=010105" target="_self">
+                              <a href="#">
                               <strong>8.</strong> 니트								</a>
                            </div>
                            <div>
@@ -343,7 +343,7 @@
                               <strong>9.</strong> 융털								</a>
                            </div>
                            <div>
-                              <a href="/shop/search.php?searchOrder=&keyword=코듀로이" target="_self">
+                              <a href="#">
                               <strong>10.</strong> 코듀로이								</a>
                            </div>
                         </div>
@@ -355,7 +355,7 @@
                            <tbody>
                               <tr class='rank'>
                                  <td>
-                                    <strong>1.</strong><a href="/shop/search.php?searchOrder=1&keyword=기모" target="_self">기모</a>
+                                    <strong>1.</strong><a href="#">기모</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>999</small>
@@ -363,7 +363,7 @@
                               </tr>
                               <tr class='rank'>
                                  <td>
-                                    <strong>2.</strong><a href="/shop/search.php?searchOrder=1&keyword=후드집업" target="_self">후드집업</a>
+                                    <strong>2.</strong><a href="#">후드집업</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>988</small>
@@ -371,7 +371,7 @@
                               </tr>
                               <tr class='rank'>
                                  <td>
-                                    <strong>3.</strong><a href="/shop/search.php?searchOrder=1&keyword=양털" target="_self">양털</a>
+                                    <strong>3.</strong><a href="#">양털</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>970</small>
@@ -379,7 +379,7 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>4.</strong><a href="/shop/search.php?searchOrder=1&keyword=플리스" target="_self">플리스</a>
+                                    <strong>4.</strong><a href="#">플리스</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>NEW</small>
@@ -387,7 +387,7 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>5.</strong><a href="/shop/search.php?searchOrder=&keyword=빵빵" target="_self">빵빵숏패딩</a>
+                                    <strong>5.</strong><a href="#" target="_self">빵빵숏패딩</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>917</small>
@@ -395,7 +395,7 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>6.</strong><a href="/shop/search.php?searchOrder=&keyword=크림치즈" target="_self">크림치즈</a>
+                                    <strong>6.</strong><a href="#" target="_self">크림치즈</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>급상승</small>
@@ -403,7 +403,7 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>7.</strong><a href="/shop/list.php?cate=010104" target="_self">맨투맨</a>
+                                    <strong>7.</strong><a href="#">맨투맨</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>845</small>
@@ -411,7 +411,7 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>8.</strong><a href="/shop/list.php?cate=010105" target="_self">니트</a>
+                                    <strong>8.</strong><a href="#">니트</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>797</small>
@@ -419,7 +419,7 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>9.</strong><a href="/shop/search.php?searchOrder=&keyword=융털" target="_self">융털</a>
+                                    <strong>9.</strong><a href="#" target="_self">융털</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>급상승</small>
@@ -427,7 +427,7 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>10.</strong><a href="/shop/search.php?searchOrder=&keyword=코듀로이" target="_self">코듀로이</a>
+                                    <strong>10.</strong><a href="#" target="_self">코듀로이</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>759</small>
@@ -448,53 +448,53 @@
                <div id="allMenu">
                   <div class="box">
                      <ul class="list import">
-                        <li><a href="/shop/new.php">신상</a></li>
-                        <li><a href="/shop/best_new.php">베스트</a></li>
-                        <li><a href="/shop/delivery.php">오늘출발</a></li>
-                        <li><a href="/shop/list.php?cate=3001">득템찬스</a></li>
+                        <li><a href="#">신상</a></li>
+                        <li><a href="#">베스트</a></li>
+                        <li><a href="#">오늘출발</a></li>
+                        <li><a href="#">득템찬스</a></li>
                      </ul>
                      <div class="list-wrap">
                         <h2>소호샵</h2>
                         <ul>
-                           <li><a href="/shop/list.php?cate=0104">아우터</a></li>
-                           <li><a href="/shop/list.php?cate=0101">상의</a></li>
-                           <li><a href="/shop/list.php?cate=0102">셔츠/블라우스</a></li>
-                           <li><a href="/shop/list.php?cate=0105">트레이닝/홈웨어</a></li>
-                           <li><a href="/shop/list.php?cate=0407">베이직</a></li>
-                           <li><a href="/shop/list.php?cate=0103">원피스</a></li>
-                           <li><a href="/shop/list.php?cate=0202">스커트</a></li>
-                           <li><a href="/shop/list.php?cate=0201">팬츠/데님</a></li>
-                           <li><a href="/shop/list.php?cate=0601">가방</a></li>
-                           <li><a href="/shop/list.php?cate=0501">신발</a></li>
-                           <li><a href="/shop/list.php?cate=0701">악세사리</a></li>
-                           <li><a href="/shop/list.php?cate=0301">소나라벨</a></li>
+                           <li><a href="#">아우터</a></li>
+                           <li><a href="#">상의</a></li>
+                           <li><a href="#">셔츠/블라우스</a></li>
+                           <li><a href="#">트레이닝/홈웨어</a></li>
+                           <li><a href="#">베이직</a></li>
+                           <li><a href="#">원피스</a></li>
+                           <li><a href="#">스커트</a></li>
+                           <li><a href="#">팬츠/데님</a></li>
+                           <li><a href="#">가방</a></li>
+                           <li><a href="#">신발</a></li>
+                           <li><a href="#">악세사리</a></li>
+                           <li><a href="#">소나라벨</a></li>
                            <!-- 								<li><a href="/shop/search.php?searchOrder=&keyword=%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%ED%95%8F">스탠다드 핏</a></li> -->
                         </ul>
                      </div>
                      <div class="list-wrap">
                         <h2>브랜드</h2>
                         <ul class="wide">
-                           <li><a href="/shop/list.php?cate=3701">상의</a></li>
-                           <li><a href="/shop/list.php?cate=3702">하의</a></li>
-                           <li><a href="/shop/list.php?cate=3704">아우터</a></li>
-                           <li><a href="/shop/list.php?cate=3706">신발</a></li>
-                           <li><a href="/shop/list.php?cate=3703">패션잡화</a></li>
-                           <li><a href="/shop/list.php?cate=3705">가방</a></li>
+                           <li><a href="#">상의</a></li>
+                           <li><a href="#">하의</a></li>
+                           <li><a href="#">아우터</a></li>
+                           <li><a href="#">신발</a></li>
+                           <li><a href="#">패션잡화</a></li>
+                           <li><a href="#">가방</a></li>
                         </ul>
                         <ul class="brand">
-                           <li><a href="/shop/brand_list.php?cate=2801">휠라</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3501">FCMM</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3503">프랑켄모노</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3502">SNRD</a></li>
+                           <li><a href="#">휠라</a></li>
+                           <li><a href="#">FCMM</a></li>
+                           <li><a href="#">프랑켄모노</a></li>
+                           <li><a href="#">SNRD</a></li>
                            <!-- 							<li><a href="/shop/brand_list.php?cate=3506">널디</a></li> -->
-                           <li><a href="/shop/brand_list.php?cate=3505">론론</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3508">오프위</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3504">챔피온</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3507">데이라이프</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3509">테일러스튜디오</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3510">엠블러</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3511">애플앤딥</a></li>
-                           <li><a href="/shop/brand_list.php?cate=3512">베테제</a></li>
+                           <li><a href="#">론론</a></li>
+                           <li><a href="#">오프위</a></li>
+                           <li><a href="#">챔피온</a></li>
+                           <li><a href="#">데이라이프</a></li>
+                           <li><a href="#">테일러스튜디오</a></li>
+                           <li><a href="#">엠블러</a></li>
+                           <li><a href="#">애플앤딥</a></li>
+                           <li><a href="#">베테제</a></li>
                            <!--							<li><a href="/shop/brand_list.php?cate=3513">나이키</a></li>-->
                            <!--							<li><a href="/shop/brand_list.php?cate=3514">아디다스</a></li>-->
                            <!-- 							<li><a href="/shop/brand_list.php?cate=3515">칼하트</a></li> -->
@@ -530,34 +530,34 @@
                      <div class="list-wrap">
                         <h2>커뮤니티</h2>
                         <ul>
-                           <li><a href="/shop/list_promotion.php">기획전</a></li>
-                           <li><a href="/event/list.php">이벤트</a></li>
-                           <li><a href="/board/list.php?boardid=event_notice">이벤트 당첨자발표</a></li>
-                           <li><a href="/board/list.php?boardid=event_after">이벤트 당첨후기</a></li>
-                           <li><a href="/member/attend.php">출석체크</a></li>
-                           <li><a href="/review/review_index.php">소나후기</a></li>
-                           <li><a href="/review/review_muse.php">뮤즈후기</a></li>
+                           <li><a href="#">기획전</a></li>
+                           <li><a href="#">이벤트</a></li>
+                           <li><a href="#">이벤트 당첨자발표</a></li>
+                           <li><a href="#">이벤트 당첨후기</a></li>
+                           <li><a href="#">출석체크</a></li>
+                           <li><a href="#">소나후기</a></li>
+                           <li><a href="#">뮤즈후기</a></li>
                         </ul>
                      </div>
                      <div class="list-wrap">
                         <h2>마이페이지</h2>
                         <ul>
-                           <li><a href="/member/order.php">주문배송</a></li>
-                           <li><a href="/member/cart.php">장바구니</a></li>
-                           <li><a href="/member/coupon.php">적립금/쿠폰</a></li>
-                           <li><a href="/member/order.php">교환/반품신청</a></li>
-                           <li><a href="/member/wish.php">좋아요</a></li>
+                           <li><a href="#">주문배송</a></li>
+                           <li><a href="#">장바구니</a></li>
+                           <li><a href="#">적립금/쿠폰</a></li>
+                           <li><a href="#">교환/반품신청</a></li>
+                           <li><a href="#">좋아요</a></li>
                         </ul>
                      </div>
                      <div class="list-wrap">
                         <h2>고객센터</h2>
                         <ul>
-                           <li><a href="/board/list.php?boardid=csnotice">공지사항</a></li>
-                           <li><a href="/cs/index.php">자주묻는 질문</a></li>
-                           <li><a href="/cs/inquiry.php">1:1문의하기</a></li>
-                           <li><a href="/member/search_id_pw.php">아이디/비번찾기</a></li>
-                           <li><a href="/member/login.php">비회원 주문조회</a></li>
-                           <li><a href="/cs/inquiry_no.php">비회원 문의</a></li>
+                           <li><a href="#">공지사항</a></li>
+                           <li><a href="#">자주묻는 질문</a></li>
+                           <li><a href="#">1:1문의하기</a></li>
+                           <li><a href="#">아이디/비번찾기</a></li>
+                           <li><a href="#">비회원 주문조회</a></li>
+                           <li><a href="#">비회원 문의</a></li>
                         </ul>
                      </div>
                   </div>
@@ -565,65 +565,65 @@
                </div>
                <!-- //allMenu -->
                <ul class="menu">
-                  <li style="color: #9F3FF8;"><a href="/shop/best.php">베스트</a></li>
-                  <li style="color: #FF416F;"><a href="/shop/new.php">신상</a></li>
+                  <li style="color: #9F3FF8;"><a href="#">베스트</a></li>
+                  <li style="color: #FF416F;"><a href="#">신상</a></li>
                   <li>
-                     <a href="/shop/list.php?cate=0104">아우터</a>
+                     <a href="#">아우터</a>
                      <ul class="sub">
-                        <li><a href="/shop/list.php?cate=010401">가디건/조끼</a></li>
-                        <li><a href="/shop/list.php?cate=010403">야상/점퍼</a></li>
-                        <li><a href="/shop/list.php?cate=010404">자켓/코트</a></li>
-                        <li><a href="/shop/list.php?cate=010405">패딩</a></li>
-                        <li><a href="/shop/list.php?cate=010406">플리스</a></li>
+                        <li><a href="#">가디건/조끼</a></li>
+                        <li><a href="#">야상/점퍼</a></li>
+                        <li><a href="#">자켓/코트</a></li>
+                        <li><a href="#">패딩</a></li>
+                        <li><a href="#">플리스</a></li>
                      </ul>
                   </li>
                   <li>
-                     <a href="/shop/list.php?cate=0101">상의</a>
+                     <a href="#">상의</a>
                      <ul class="sub">
-                        <li><a href="/shop/list.php?cate=010102">긴팔티셔츠</a></li>
-                        <li><a href="/shop/list.php?cate=010104">맨투맨</a></li>
-                        <li><a href="/shop/list.php?cate=010103">후드</a></li>
-                        <li><a href="/shop/list.php?cate=010101">반팔/민소매티셔츠</a></li>
-                        <li><a href="/shop/list.php?cate=010105">니트</a></li>
+                        <li><a href="#">긴팔티셔츠</a></li>
+                        <li><a href="#">맨투맨</a></li>
+                        <li><a href="#">후드</a></li>
+                        <li><a href="#">반팔/민소매티셔츠</a></li>
+                        <li><a href="#">니트</a></li>
                      </ul>
                   </li>
-                  <li><a href="/shop/list.php?cate=0102">셔츠/블라우스</a></li>
-                  <li><a href="/shop/list.php?cate=0105">트레이닝</a></li>
-                  <li><a href="/shop/list.php?cate=0407">베이직</a></li>
-                  <li><a href="/shop/list.php?cate=0103">원피스</a></li>
-                  <li><a href="/shop/list.php?cate=0202">스커트</a></li>
+                  <li><a href="#">셔츠/블라우스</a></li>
+                  <li><a href="#">트레이닝</a></li>
+                  <li><a href="#">베이직</a></li>
+                  <li><a href="#">원피스</a></li>
+                  <li><a href="#">스커트</a></li>
                   <li>
-                     <a href="/shop/list.php?cate=0201">팬츠</a>
+                     <a href="#">팬츠</a>
                      <ul class="sub">
-                        <li><a href="/shop/list.php?cate=020103">청바지</a></li>
-                        <li><a href="/shop/list.php?cate=020102">롱팬츠</a></li>
-                        <li><a href="/shop/list.php?cate=020104">면바지</a></li>
-                        <li><a href="/shop/list.php?cate=020106">슬랙스</a></li>
-                        <li><a href="/shop/list.php?cate=020105">레깅스</a></li>
-                        <li><a href="/shop/list.php?cate=020101">숏팬츠</a></li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href="/shop/list.php?cate=0601">가방</a>
-                     <ul class="sub">
-                        <li><a href="/shop/list.php?cate=060101">백팩/스쿨백</a></li>
-                        <li><a href="/shop/list.php?cate=060102">크로스/토트백</a></li>
+                        <li><a href="#">청바지</a></li>
+                        <li><a href="#">롱팬츠</a></li>
+                        <li><a href="#">면바지</a></li>
+                        <li><a href="#">슬랙스</a></li>
+                        <li><a href="#">레깅스</a></li>
+                        <li><a href="#">숏팬츠</a></li>
                      </ul>
                   </li>
                   <li>
-                     <a href="/shop/list.php?cate=0501">신발</a>
+                     <a href="#">가방</a>
                      <ul class="sub">
-                        <li><a href="/shop/list.php?cate=050101">운동화/단화</a></li>
-                        <li><a href="/shop/list.php?cate=050102">구두/워커</a></li>
-                        <li><a href="/shop/list.php?cate=050103">샌들/슬리퍼/장화</a></li>
+                        <li><a href="#">백팩/스쿨백</a></li>
+                        <li><a href="#">크로스/토트백</a></li>
                      </ul>
                   </li>
                   <li>
-                     <a href="/shop/list.php?cate=0701">악세사리</a>
+                     <a href="#">신발</a>
                      <ul class="sub">
-                        <li><a href="/shop/list.php?cate=070101">주얼리</a></li>
-                        <li><a href="/shop/list.php?cate=070104">모자/벨트</a></li>
-                        <li><a href="/shop/list.php?cate=070105">양말/스타킹</a></li>
+                        <li><a href="#">운동화/단화</a></li>
+                        <li><a href="#">구두/워커</a></li>
+                        <li><a href="#">샌들/슬리퍼/장화</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="#">악세사리</a>
+                     <ul class="sub">
+                        <li><a href="#">주얼리</a></li>
+                        <li><a href="#">모자/벨트</a></li>
+                        <li><a href="#">양말/스타킹</a></li>
                      </ul>
                   </li>
                   <!-- 				<li> -->
@@ -635,9 +635,9 @@
                   <!-- 				<li class="c6"><a href="/shop/list.php?cate=3101"><span>선오픈 10%</span></a><em>33</em></li> -->
                   <!-- 				<li class="c1"><a href="/shop/new.php"><span>오늘신상</span></a><em>39</em></li> -->
                   <!-- 				<li class="c2"><a href="/shop/best_new.php"><span>베스트</span></a></li> -->
-                  <li class="c3"><a href="/shop/delivery.php"></a></li>
+                  <li class="c3"><a href="#"></a></li>
                   <!-- 				<li class="c5"><a href="/shop/beauty.php"></a></li> -->
-                  <li class="c4"><a href="/shop/brand.php"></a></li>
+                  <li class="c4"><a href="#"></a></li>
                   <!-- 				<li class="c5"><a href="/shop/list.php?cate=0704"><span>갑질</span></a></li> -->
                </ul>
             </nav>

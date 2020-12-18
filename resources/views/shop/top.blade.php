@@ -204,7 +204,7 @@
          <div class="swiper-slide " style="background-color:#6ec9c9">
             <a href="/event/view.php?index_no=2824#event-title" target="_self" class="trace_link" data-name="피씨탑6414">
                <div style="position:relative; display:inline-block;">
-                  <img src="#" style="margin:auto;">
+                  <img src="{{asset('img/new_banner.gif')}}" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
@@ -212,7 +212,7 @@
          <div class="swiper-slide " style="background-color:#dde6ff">
             <a href="/event/view.php?index_no=2858" target="_self" class="trace_link" data-name="피씨탑6420">
                <div style="position:relative; display:inline-block;">
-                  <img src="#" style="margin:auto;">
+                  <img src="{{asset('img/new_banner2.gif')}}" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
@@ -473,27 +473,27 @@
                      <div class="list-wrap">
                         <h2>브랜드</h2>
                         <ul class="wide">
-                           <li><a href="##">상의</a></li>
-                           <li><a href="##">하의</a></li>
-                           <li><a href="##">아우터</a></li>
-                           <li><a href="##">신발</a></li>
-                           <li><a href="##">패션잡화</a></li>
-                           <li><a href="##">가방</a></li>
+                           <li><a href="#">상의</a></li>
+                           <li><a href="#">하의</a></li>
+                           <li><a href="#">아우터</a></li>
+                           <li><a href="#">신발</a></li>
+                           <li><a href="#">패션잡화</a></li>
+                           <li><a href="#">가방</a></li>
                         </ul>
                         <ul class="brand">
-                           <li><a href="##">휠라</a></li>
-                           <li><a href="##">FCMM</a></li>
-                           <li><a href="##">프랑켄모노</a></li>
-                           <li><a href="##">SNRD</a></li>
-                           <!-- 							<li><a href="/shop/brand_list.php?cate=3506">널디</a></li> -->
-                           <li><a href="##">론론</a></li>
-                           <li><a href="##">오프위</a></li>
-                           <li><a href="##">챔피온</a></li>
-                           <li><a href="##">데이라이프</a></li>
-                           <li><a href="##">테일러스튜디오</a></li>
-                           <li><a href="##">엠블러</a></li>
-                           <li><a href="##">애플앤딥</a></li>
-                           <li><a href="##">베테제</a></li>
+                           <li><a href="#">휠라</a></li>
+                           <li><a href="#">FCMM</a></li>
+                           <li><a href="#">프랑켄모노</a></li>
+                           <li><a href="#">SNRD</a></li>
+                           <!-- 						<li><a href="/shop/brand_list.php?cate=3506">널디</a></li> -->
+                           <li><a href="#">론론</a></li>
+                           <li><a href="#">오프위</a></li>
+                           <li><a href="#">챔피온</a></li>
+                           <li><a href="#">데이라이프</a></li>
+                           <li><a href="#">테일러스튜디오</a></li>
+                           <li><a href="#">엠블러</a></li>
+                           <li><a href="#">애플앤딥</a></li>
+                           <li><a href="#">베테제</a></li>
                            <!--							<li><a href="/shop/brand_list.php?cate=3513">나이키</a></li>-->
                            <!--							<li><a href="/shop/brand_list.php?cate=3514">아디다스</a></li>-->
                            <!-- 							<li><a href="/shop/brand_list.php?cate=3515">칼하트</a></li> -->
@@ -683,7 +683,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="#" class="">
-                                       <img src="#">
+                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67164);">
@@ -709,7 +709,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="#" class="image">
-                                       <img src="">
+                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
                                        <!--<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66956);">
@@ -738,7 +738,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="#" class="image">
-                                       <img src="">
+                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65278);">
@@ -755,7 +755,7 @@
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=65278">[주문폭주]포니와플니트 (8colors!)(T)</a>
+                                       <a href="#">[주문폭주]포니와플니트 (8colors!)(T)</a>
                                     </div>
                                     <div class="count">
                                        <span>구매 7164</span>
@@ -766,8 +766,8 @@
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">4</span>
-                                    <a href="/shop/view.php?index_no=66096" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66096/1603858068_5[1].gif.webp">
+                                    <a href="#" class="image">
+                                       <img src="#">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66096);">
@@ -784,7 +784,7 @@
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=66096">겨울엔요고!기모맨투맨 (6colors!)(T)</a>
+                                       <a href="#">겨울엔요고!기모맨투맨 (6colors!)(T)</a>
                                     </div>
                                     <div class="count">
                                        <span>구매 1947</span>
@@ -795,8 +795,9 @@
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">5</span>
-                                    <a href="/shop/view.php?index_no=67184" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67184/1606460726_5.gif.webp">
+                                    <a href="#" class="image">
+                                    </a>
+                                    <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67184);">
@@ -810,7 +811,7 @@
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=67184">문베어기모맨투맨(T)</a>
+                                       <a href="#">문베어기모맨투맨(T)</a>
                                     </div>
                                     <div class="count">
                                        <span>구매 265</span>
@@ -821,8 +822,8 @@
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=67092" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67092/1607047703_5.gif.webp">
+                                    <a href="#">
+                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67092);">
@@ -836,7 +837,7 @@
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=67092">여리핏꽈배기니트 (9colors!)(T)</a>
+                                       <a href="#">여리핏꽈배기니트 (9colors!)(T)</a>
                                     </div>
                                     <div class="count">
                                        <span>구매 131</span>
@@ -846,8 +847,8 @@
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=67212" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67212/1606436143_5.gif.webp">
+                                    <a href="#">
+                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67212);">
@@ -861,7 +862,7 @@
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=67212">레퍼런스후드(고퀄양기모)(T)</a>
+                                       <a href="#">레퍼런스후드(고퀄양기모)(T)</a>
                                     </div>
                                     <div class="count">
                                        <span>구매 92</span>
@@ -876,10 +877,10 @@
                   <div class="list-info-box">
                      <div class="txt"><strong>464개의 상품</strong></div>
                      <ul class="list-sort">
-                        <li class="on"><a href="/shop/list.php?page=1&cate=0101">추천순</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=0101&orby=1">신상품</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=0101&orby=2">판매량</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=0101&orby=3">낮은가격</a></li>
+                        <li class="on"><a href="#">추천순</a></li>
+                        <li class=""><a href="#">신상품</a></li>
+                        <li class=""><a href="#">판매량</a></li>
+                        <li class=""><a href="#">낮은가격</a></li>
                         <!-- <li class=""><a href="/shop/list.php?page=1&cate=0101&orby=4">높은가격</a></li> -->
                      </ul>
                   </div>

@@ -189,7 +189,7 @@
          <div class="swiper-slide " style="background-color:#6ec9c9">
             <a href="/event/view.php?index_no=2824#event-title" target="_self" class="trace_link" data-name="피씨탑6414">
                <div style="position:relative; display:inline-block;">
-                  <img src="https://img.sonyunara.com/files/new_banner/1607653363_0.gif" style="margin:auto;">
+                  <img src="{{asset('img/new_banner.gif')}}" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
@@ -197,7 +197,7 @@
          <div class="swiper-slide " style="background-color:#dde6ff">
             <a href="/event/view.php?index_no=2858" target="_self" class="trace_link" data-name="피씨탑6420">
                <div style="position:relative; display:inline-block;">
-                  <img src="https://img.sonyunara.com/files/new_banner/1607669916_0.gif" style="margin:auto;">
+                  <img src="{{asset('img/new_banner2.gif')}}" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
