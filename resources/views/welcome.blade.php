@@ -566,28 +566,28 @@ function bannerChk() {
 				<li style="color: #9F3FF8;"><a href="{{url('shop/best')}}">베스트</a></li>
 				<li style="color: #FF416F;"><a href="{{url('shop/body')}}">신상</a></li>
 				<li>
-					<a href="/shop/list.php?cate=0104">아우터</a>
+					<a href="#">아우터</a><!-- //outer -->
 					<ul class="sub">
-						<li><a href="/shop/list.php?cate=010401">가디건/조끼</a></li>
-						<li><a href="/shop/list.php?cate=010403">야상/점퍼</a></li>
-						<li><a href="/shop/list.php?cate=010404">자켓/코트</a></li>
-						<li><a href="/shop/list.php?cate=010405">패딩</a></li>
-						<li><a href="/shop/list.php?cate=010406">플리스</a></li>
+						<li><a href="{{url('shop/card')}}">가디건/조끼</a></li><!-- //cardigan -->
+						<li><a href="{{url('shop/field')}}">야상/점퍼</a></li><!-- //field -->
+						<li><a href="{{url('shop/jacket')}}">자켓/코트</a></li><!-- //jacket -->
+						<li><a href="{{url('shop/padding')}}">패딩</a></li><!-- //padding -->
+						<li><a href="{{url('shop/fleece')}}">플리스</a></li><!-- //fleece -->
 					</ul>
 				</li>
 				<li>
-					<a href="/shop/list.php?cate=0101">상의</a>
+					<a href="#">상의</a><!-- //top -->
 					<ul class="sub">
-						<li><a href="/shop/list.php?cate=010102">긴팔티셔츠</a></li>
-						<li><a href="/shop/list.php?cate=010104">맨투맨</a></li>
-						<li><a href="/shop/list.php?cate=010103">후드</a></li>
-						<li><a href="/shop/list.php?cate=010101">반팔/민소매티셔츠</a></li>
-						<li><a href="/shop/list.php?cate=010105">니트</a></li>
+						<li><a href="{{url('shop/longsleeve')}}">긴팔티셔츠</a></li><!-- //longsleeves -->
+						<li><a href="{{url('shop/man')}}">맨투맨</a></li><!-- //man -->
+						<li><a href="{{url('shop/hood')}}">후드</a></li><!-- //hood -->
+						<li><a href="{{url('shop/shortsleeve')}}">반팔/민소매티셔츠</a></li><!-- //shortsleeve -->
+						<li><a href="{{url('shop/neat')}}">니트</a></li><!-- //neat -->
 					</ul>
 				</li>
-				<li><a href="/shop/list.php?cate=0102">셔츠/블라우스</a></li>
-				<li><a href="/shop/list.php?cate=0105">트레이닝</a></li>
-				<li><a href="/shop/list.php?cate=0407">베이직</a></li>
+				<li><a href="{{url('shop/shirt')}}">셔츠/블라우스</a></li><!-- //shirt or blouse -->
+				<li><a href="{{url('shop/training')}}">트레이닝</a></li><!-- //training -->
+				<li><a href="{{url('shop/basic')}}">베이직</a></li><!-- //basic -->
 				<li><a href="/shop/list.php?cate=0103">원피스</a></li>
 				<li><a href="/shop/list.php?cate=0202">스커트</a></li>
 				<li>
