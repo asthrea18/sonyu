@@ -15,4 +15,8 @@ class NavigatorController extends Controller
     {
         return view('shop/body');
     }
+    public function training()
+    {
+        return view('shop/training');
+    }
 }
