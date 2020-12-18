@@ -21,6 +21,7 @@ Route::group(['prefix' => 'shop'], function () {
 
     Route::get('best', 'NavigatorController@best');
     Route::get('body', 'NavigatorController@body');
+    Route::get('training', 'NavigatorController@training');
 
 }); /* Shop */
 

@@ -25,10 +25,8 @@
 	<script type="text/javascript" src="{{asset('libs/jquery.bxslider.min.js')}}"></script>
 	<script type="text/javascript" src="{{asset('libs/itemCarousel.js')}}"></script>
     <script type="text/javascript" src="{{asset('libs/slick.min.js')}}"></script>
-
 	<script type="text/javascript" src="{{asset('js/jquery.form.min.js')}}"></script>
 	<script type="text/javascript" src="{{asset('js/clipboard.js')}}"></script>
-
 	<script type="text/javascript" src="{{asset('class/cookie.js')}}"></script>
 	<script type="text/javascript" src="{{asset('class/goods.js')}}"></script>
 	<script type="text/javascript" src="{{asset('class/buy.js')}}"></script>
