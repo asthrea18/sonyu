@@ -50,6 +50,9 @@ class NavigatorController extends Controller
     public function Shirt(){
         return view('shop/shirt_blouse');
     }
+    public function Onepiece(){
+        return view('shop/onepiece');
+    }
 
     public function body()
     {

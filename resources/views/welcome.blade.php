@@ -588,7 +588,7 @@ function bannerChk() {
 				<li><a href="{{url('shop/shirt')}}">셔츠/블라우스</a></li><!-- //shirt or blouse -->
 				<li><a href="{{url('shop/training')}}">트레이닝</a></li><!-- //training -->
 				<li><a href="{{url('shop/basic')}}">베이직</a></li><!-- //basic -->
-				<li><a href="/shop/list.php?cate=0103">원피스</a></li>
+				<li><a href="{{url('shop/onepiece')}}">원피스</a></li>
 				<li><a href="/shop/list.php?cate=0202">스커트</a></li>
 				<li>
 					<a href="/shop/list.php?cate=0201">팬츠</a>

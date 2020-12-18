@@ -42,6 +42,9 @@ Route::group(['prefix' => 'shop'], function () {
     /* training */
     Route::get('training', 'NavigatorController@Training');
 
+    /* one piece */
+    Route::get('onepiece', 'NavigatorController@Onepiece');
+
 }); /* Shop */
 
 
