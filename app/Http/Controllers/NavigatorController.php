@@ -170,6 +170,22 @@ class NavigatorController extends Controller
     {
         return view('shop/acc_halt_belt');
     }
+    public function userlog()
+    {
+        return view('member/login');
+    }
+    public function registerterms()
+    {
+        return view('member/registration_agree');
+    }
+    public function registerform()
+    {
+        return view('member/registration_form');
+    }
+    public function userpage()
+    {
+        return view('member/user_page');
+    }
 
 
 }

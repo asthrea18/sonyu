@@ -13,7 +13,9 @@
 
 Route::get('/', function () {
     return view('welcome');
+
 });
+
 
 
 /* Shop */
@@ -81,6 +83,10 @@ Route::group(['prefix' => 'shop'], function () {
 
 
 
+    Route::get('member/login', 'NavigatorController@userlog');
+    Route::get('member/register-terms', 'NavigatorController@registerterms');
+    Route::get('member/register-form', 'NavigatorController@registerform');
+    Route::get('member/user-page', 'NavigatorController@userpage');
 }); /* Shop */
 
 

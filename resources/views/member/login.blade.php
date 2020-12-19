@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
    <head>
-      <title>소녀나라 - 아우터</title>
-      <meta name="build" content="" />
-      <meta name="title" content="소녀나라 - 아우터" />
-      <meta name="subject" content="아우터" />
-      <meta name="description" content="아우터,당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰" />
+      <title>소녀나라</title>
+      <meta name="Subject" content="여성의류 쇼핑몰">
+      <meta name="Description" content="당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰">
+      <meta property="og:title" content="소녀나라 - 여성의류 쇼핑몰">
+      <meta property="og:description" content="당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰">
+      <meta property="og:url" content="https://sonyunara.com">
+      <meta property="og:image" content="https://img.sonyunara.com/files/new_banner/">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <meta name="author" content="에스엔패션그룹(주)">
@@ -186,18 +188,18 @@
          .bannerStat > div.centerBox{display:none;}
       </style>
       <div class="pctopBanner" id="topBanner">
-         <div class="swiper-slide " style="background-color:#ffb7cc">
-            <a href="/event/view.php?index_no=2844" target="_self" class="trace_link" data-name="피씨탑6430">
+         <div class="swiper-slide " style="background-color:#002315">
+            <a href="/shop/promotion.php?pro_idx=1240" target="_self" class="trace_link" data-name="피씨탑6510">
                <div style="position:relative; display:inline-block;">
-                  <img src="{{asset('img/new_banner.gif')}}" style="margin:auto;">
+                  <img src="https://img.sonyunara.com/files/new_banner/1608191704_0.gif" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
          </div>
-         <div class="swiper-slide " style="background-color:#002315">
-            <a href="/shop/promotion.php?pro_idx=1240" target="_self" class="trace_link" data-name="피씨탑6510">
+         <div class="swiper-slide " style="background-color:#ffb7cc">
+            <a href="/event/view.php?index_no=2844" target="_self" class="trace_link" data-name="피씨탑6430">
                <div style="position:relative; display:inline-block;">
-                  <img src="{{asset('img/new_banner2.gif')}}" style="margin:auto;">
+                  <img src="https://img.sonyunara.com/files/new_banner/1607674382_0.gif" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
@@ -258,11 +260,10 @@
                   </a>
                </h1>
                <ul class="toplink">
-                <li><a href="shop/member/user-page">마이페이지 </a></li>
                   <li><a href="/member/register.php">회원가입<em>(<font style="color:#ff7d9e;">+ 2만원</font>)</em></a></li>
                   <li><a href="/cs/">고객센터</a></li>
                   <li>
-                    <a href="member/login">
+                     <a href="/member/login.php">
                         <!-- 						<img src="/asset/img/common/header/btn_login.png" alt="로그인"></span> -->
                         <div class="login-btn"><span>로그인</span></div>
                      </a>
@@ -550,75 +551,73 @@
                   <!-- //box -->
                </div>
                <!-- //allMenu -->
-
                <ul class="menu">
-				<li style="color: #9F3FF8;"><a href="{{url('shop/best')}}">베스트</a></li>
-				<li style="color: #FF416F;"><a href="{{url('shop/body')}}">신상</a></li>
-				<li>
-					<a href="{{url('shop/outer')}}">아우터</a><!-- //outer -->
-					<ul class="sub">
-						<li><a href="{{url('shop/card')}}">가디건/조끼</a></li><!-- //cardigan -->
-						<li><a href="{{url('shop/field')}}">야상/점퍼</a></li><!-- //field -->
-						<li><a href="{{url('shop/jacket')}}">자켓/코트</a></li><!-- //jacket -->
-						<li><a href="{{url('shop/padding')}}">패딩</a></li><!-- //padding -->
-						<li><a href="{{url('shop/fleece')}}">플리스</a></li><!-- //fleece -->
-					</ul>
-				</li>
-				<li>
-					<a href="{{url('shop/top')}}">상의</a><!-- //top -->
-					<ul class="sub">
-						<li><a href="{{url('shop/longsleeve')}}">긴팔티셔츠</a></li><!-- //longsleeves -->
-						<li><a href="{{url('shop/man')}}">맨투맨</a></li><!-- //man -->
-						<li><a href="{{url('shop/hood')}}">후드</a></li><!-- //hood -->
-						<li><a href="{{url('shop/shortsleeve')}}">반팔/민소매티셔츠</a></li><!-- //shortsleeve -->
-						<li><a href="{{url('shop/neat')}}">니트</a></li><!-- //neat -->
-					</ul>
-				</li>
-				<li><a href="{{url('shop/shirt')}}">셔츠/블라우스</a></li><!-- //shirt or blouse -->
-				<li><a href="{{url('shop/training')}}">트레이닝</a></li><!-- //training -->
-				<li><a href="{{url('shop/basic')}}">베이직</a></li><!-- //basic -->
-				<li><a href="{{url('shop/onepiece')}}">원피스</a></li><!-- //onepiece -->
-				<li><a href="{{url('shop/skirt')}}">스커트</a></li>  <!-- //skirt -->
-				<li>
-					<a href="{{url('shop/pants')}}">팬츠</a> <!--//pants-->
-					<ul class="sub">
-						<li><a href="{{url('shop/pants-bluejean')}}">청바지</a></li><!--//jeans-->
-						<li><a href="{{url('shop/pants-long')}}">롱팬츠</a></li><!--//longpants-->
-						<li><a href="{{url('shop/pants-cotton')}}">면바지</a></li><!--//cotton-->
-						<li><a href="{{url('shop/pants-slacks')}}">슬랙스</a></li><!--//slacks-->
-						<li><a href="{{url('shop/pants-legging')}}">레깅스</a></li><!--//leggings-->
-						<li><a href="{{url('shop/pants-short')}}">숏팬츠</a></li><!--//short pants-->
-					</ul>
-				</li>
-				<li>
-					<a href="{{url('shop/bag')}}">가방</a>
-					<ul class="sub">
-						<li><a href="{{url('shop/bag-backpack')}}">백팩/스쿨백</a></li><!--//bag backpack-->
-						<li><a href="{{url('shop/bag-crosstoe')}}">크로스/토트백</a></li><!--//short crosstoe-->
-					</ul>
-				</li>
-				<li>
-					<a href="{{url('shop/shoes')}}">신발</a> <!--//shoes -->
-					<ul class="sub">
-						<li><a href="{{url('shop/shoe-sneaker')}}">운동화/단화</a></li> <!--//shoes - sneaker -->
-						<li><a href="{{url('shop/shoe-walker')}}">구두/워커</a></li> <!--//shoes - walker -->
-                        <li><a href="{{url('shop/shoe-sandal')}}">샌들/슬리퍼/장화</a></li><!--//shoes - sandals -->
-                        <li><a href="{{url('shop/shoe-brand')}}">샌들/슬리퍼/장화</a></li><!--//shoes - brand -->
-
-					</ul>
-				</li>
-				<li>
-					<a href="{{url('shop/accessories')}}">악세사리</a> <!--//accessories -->
-					<ul class="sub">
-						<li><a href="{{url('shop/acce-')}}">주얼리</a></li> <!--//accessories -->
-						<li><a href="{{url('shop/acce-sneaker')}}">모자/벨트</a></li>  <!--//accessories -->
-						<li><a href="{{url('shop/acce-sneaker')}}">양말/스타킹</a></li> <!--//accessories -->
-					</ul>
-				</li>
-<!-- 				<li> -->
-<!-- 					<a href="/shop/list.php?cate=3101">선오픈</a> -->
-<!-- 				</li> -->
-			</ul><!-- //menu -->
+                  <li style="color: #9F3FF8;"><a href="/shop/best.php">베스트</a></li>
+                  <li style="color: #FF416F;"><a href="/shop/new.php">신상</a></li>
+                  <li>
+                     <a href="/shop/list.php?cate=0104">아우터</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=010401">가디건/조끼</a></li>
+                        <li><a href="/shop/list.php?cate=010403">야상/점퍼</a></li>
+                        <li><a href="/shop/list.php?cate=010404">자켓/코트</a></li>
+                        <li><a href="/shop/list.php?cate=010405">패딩</a></li>
+                        <li><a href="/shop/list.php?cate=010406">플리스</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="/shop/list.php?cate=0101">상의</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=010102">긴팔티셔츠</a></li>
+                        <li><a href="/shop/list.php?cate=010104">맨투맨</a></li>
+                        <li><a href="/shop/list.php?cate=010103">후드</a></li>
+                        <li><a href="/shop/list.php?cate=010101">반팔/민소매티셔츠</a></li>
+                        <li><a href="/shop/list.php?cate=010105">니트</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="/shop/list.php?cate=0102">셔츠/블라우스</a></li>
+                  <li><a href="/shop/list.php?cate=0105">트레이닝</a></li>
+                  <li><a href="/shop/list.php?cate=0407">베이직</a></li>
+                  <li><a href="/shop/list.php?cate=0103">원피스</a></li>
+                  <li><a href="/shop/list.php?cate=0202">스커트</a></li>
+                  <li>
+                     <a href="/shop/list.php?cate=0201">팬츠</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=020103">청바지</a></li>
+                        <li><a href="/shop/list.php?cate=020102">롱팬츠</a></li>
+                        <li><a href="/shop/list.php?cate=020104">면바지</a></li>
+                        <li><a href="/shop/list.php?cate=020106">슬랙스</a></li>
+                        <li><a href="/shop/list.php?cate=020105">레깅스</a></li>
+                        <li><a href="/shop/list.php?cate=020101">숏팬츠</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="/shop/list.php?cate=0601">가방</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=060101">백팩/스쿨백</a></li>
+                        <li><a href="/shop/list.php?cate=060102">크로스/토트백</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="/shop/list.php?cate=0501">신발</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=050101">운동화/단화</a></li>
+                        <li><a href="/shop/list.php?cate=050102">구두/워커</a></li>
+                        <li><a href="/shop/list.php?cate=050103">샌들/슬리퍼/장화</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="/shop/list.php?cate=0701">악세사리</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=070101">주얼리</a></li>
+                        <li><a href="/shop/list.php?cate=070104">모자/벨트</a></li>
+                        <li><a href="/shop/list.php?cate=070105">양말/스타킹</a></li>
+                     </ul>
+                  </li>
+                  <!-- 				<li> -->
+                  <!-- 					<a href="/shop/list.php?cate=3101">선오픈</a> -->
+                  <!-- 				</li> -->
+               </ul>
+               <!-- //menu -->
                <ul class="cateogry">
                   <!-- 				<li class="c6"><a href="/shop/list.php?cate=3101"><span>선오픈 10%</span></a><em>33</em></li> -->
                   <!-- 				<li class="c1"><a href="/shop/new.php"><span>오늘신상</span></a><em>39</em></li> -->
@@ -631,7 +630,7 @@
             </nav>
             <!-- //bottom -->
          </header>
-         <section id="container" class="subpage">
+         <section id="container" class="subpage login-wrap">
             <!-- 고정탭 -->
             <h1 class="blind">본문</h1>
             <div id="rightQuick">
@@ -644,193 +643,322 @@
                </ul>
             </div>
             <div class="contents">
-               <div style="text-align: center; position: relative; display: none;margin-bottom:80px;">
-                  <img src="https://img.sonyunara.com/files/cateimage/0104.gif" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
+               <h2 class="category-tit">로그인</h2>
+               <p class="category-txt">카카오로 1초안에 로그인 하세요.<br>아래 버튼 클릭만 하면 끝!</p>
+               <div class="kakao">
+                  <a href="javascript:" onclick="kakao_login_call()">
+                     <button type="button" class="kakao">
+                        <span>
+                           카카오 1초 로그인 / 회원가입<span id="kakao-login-btn" style='display: none;'></span>
+                           <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+                           <script type='text/javascript'>
+                              //<![CDATA[
+                                // 사용할 앱의 JavaScript 키를 설정해 주세요.
+                                Kakao.init('0545e53abfcf0e8bfb8cab54da928308');
+                                // 카카오 로그인 버튼을 생성합니다.
+                                Kakao.Auth.createLoginButton({
+                                  container: '#kakao-login-btn',
+                                  success: function(authObj) {
+                                    //alert(JSON.stringify(authObj));
+                                    // 로그인 성공시, API를 호출합니다.
+                                    Kakao.API.request({
+                                      url: '/v2/user/me',
+                                      success: function(res) {
+                                        //alert(JSON.stringify(res));
+                              	login_proc(res);
+                                      },
+                                      fail: function(error) {
+                                        alert(JSON.stringify(error));
+                                      }
+                                    });
+                                  },
+                                  fail: function(err) {
+                               if( err['error_description'] == 'User denied access' ){
+                              	//alert('취소되었습니다.');
+                               }else{
+                              	alert(JSON.stringify(error));
+                               }
+                                  }
+                                });
+                              //]]>
+                              function kakao_login_call(){
+                              Kakao.Auth.login({
+                              success: function(authObj) {
+                              	// 로그인 성공시, API를 호출합니다.
+                              	Kakao.API.request({
+                              		url: '/v2/user/me',
+                              		success: function(res) {
+                              			login_proc(res);
+                              		},
+                              		fail: function(err) {
+                              			 if( err['error_description'] == 'User denied access' ){
+                              				//alert('취소되었습니다.');
+                              			 }else{
+                              				alert(JSON.stringify(error));
+                              			 }
+                              		}
+                              	});
+                              },
+                              fail: function(err) {
+                              	alert(JSON.stringify(err));
+                              }
+                              });
+                              }
+
+                              function login_proc(json){
+                              if( json.id == '' ){
+                              alert("네트워크 에러발생\n문제가 지속될시 고객센터로 문의해주세요.");
+                              return false;
+                              }
+
+                              $('#id').val(json.id);
+                              $('#nickname').val(json.properties.nickname);
+                              $('#cp').val(json.kakao_account.phone_number);
+                              $('#email').val(json.kakao_account.email);
+                              $('#birthyear').val(json.kakao_account.birthyear);
+                              $('#birthday').val(json.kakao_account.birthday);
+                              $('#kakao_img').val(json.properties.profile_image);
+
+                              $('#kakao_form').submit();
+                              }
+                           </script>
+                           <form id='kakao_form' action="/api/kakaoSync/loginCheck.php" method='POST'>
+                              <input type="hidden" name='url' value=''>
+                              <input type="hidden" name='id' id='id'>
+                              <input type="hidden" name='nickname' id='nickname'>
+                              <input type="hidden" name='email' id='email'>
+                              <input type="hidden" name='cp' id='cp'>
+                              <input type="hidden" name='birthyear' id='birthyear'>
+                              <input type="hidden" name='birthday' id='birthday'>
+                              <input type="hidden" name='kakao_img' id='kakao_img'>
+                           </form>
+                        </span>
+                     </button>
+                  </a>
                </div>
-               <h2 class="">아우터</h2>
-               <div class="category-product">
-                  <ul class="tabmenu">
-                     <li class='on'><a class="" href="/shop/list.php?cate=0104">All</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010401">가디건·조끼</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010403">야상·점퍼</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010404">자켓·코트</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010405">패딩</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010406">플리스</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010407">브랜드아우터</a></li>
-                  </ul>
-                  <!-- //tabmenu -->
-                  <div class="product-box" style="padding-top:0 !important;">
-                     <div class="box slider">
-                        <h2>실시간 랭킹</h2>
-                        <div class="item-arrow">
-                           <button type="button" class="best-prev"></button>
-                           <button type="button" class="best-next"></button>
-                        </div>
-                        <div class="item-wrap">
-                           <ul class="item" id="swiper-container-list-ranking">
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">1</span>
-                                    <a href="/shop/view.php?index_no=64734" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64734/1608108013_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64734);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>53<em>%</em></span>												<span>35,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=64734">[프리미엄/신상주문폭주] 빵빵숏패딩(9colors!)(SN)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 11431</span>
-                                       <span>리뷰 87</span>
-                                    </div>
-                                 </div>
-                              </li>
+               <div class="banner">
+                  <a href="/member/register.php"><img src="https://img.sonyunara.com/2020/member/login3_pc.png"></a>
+               </div>
+               <div class="line"><span>또는</span></div>
+               <div class="member">
+                  <div class="login">
+                     <div class="tabmenu tab_find">
+                        <a href="javascript:" onclick="tabover('find', 0,''); return false;" class="on" ><span>소나 회원이세요?</span></a>
+                        <a href="javascript:" onclick="tabover('find', 1,''); return false;"><span>비회원이세요?</span></a>
+                     </div>
+                     <div class="form-box tabcnt_find0">
+                        <form name="loginform" method="post" action="/member/loginpro.php" onSubmit="return MemberProc.loginDataCheck();" autocomplete='off'>
+                           <input type="hidden" name='url' value='/' />
+                           <fieldset>
+                              <legend>정보입력</legend>
+                              <ul class="inform">
+                                 <li>
+                                    <label for="userID">아이디</label>
+                                    <input type="text" name="userID" id="userID" value="" class="placeholder" autocomplete='new-password'>
+                                 </li>
+                                 <li>
+                                    <label for="userPW">비밀번호</label>
+                                    <input type="password" name="userPW" id="userPW" class="placeholder" autocomplete='new-password'>
+                                 </li>
+                              </ul>
+                              <ul class="option">
+                                 <!-- 									<li><input type="checkbox" id="auto" name="auto" checked><label for="auto">자동 로그인</label></li> -->
+                                 <li><input type="checkbox" id="save" name="save" ><label for="save">아이디 저장</label></li>
+                                 <li><input type="checkbox" id="auto" name="auto" checked><label for="auto">로그인 상태 유지</label></li>
+                              </ul>
+                              <div class="btn"><button type="submit" class="btn-l-black"><span>로그인</span></button></div>
+                           </fieldset>
+                        </form>
+                     </div>
+                     <!-- //form-box -->
+                     <div class="form-box tabcnt_find1">
+                        <!-- 비회원주문조회폼 -->
+                        <form name="orderform" method="post" action="/member/order_view.php" onSubmit="return order_view();" autocomplete='off'>
+                           <fieldset>
+                              <legend>정보입력</legend>
+                              <ul class="inform">
+                                 <li>
+                                    <label for="ordername">주문자명</label>
+                                    <input type="text" id="ordername" name="ordername" class="placeholder" autocomplete="new-password">
+                                 </li>
+                                 <li>
+                                    <label for="orderno">주문번호</label>
+                                    <input type="text" id="orderno" name="orderno" class="placeholder" autocomplete="new-password">
+                                 </li>
+                                 <li>
+                                    <label for="passwd">비밀번호</label>
+                                    <input type="password" id="passwd" name="passwd" class="placeholder" autocomplete="new-password">
+                                 </li>
+                              </ul>
+                              <div class="btn"><button type="submit" class="btn-l-black"><span>비회원 주문조회</span></button></div>
+                              <div class="btn"><button type="button" class="btn-l-white" onClick="javascript:location.href='/cs/inquiry_no.php';"><span>비회원 문의하기</span></button></div>
+                              <div class="btn"><button type="button" class="btn-l-white" onClick="javascript:location.href='/member/register.php';"><span>일반 회원가입</span></button></div>
+                           </fieldset>
+                        </form>
+                     </div>
+                     <ul class="link-box">
+                        <li><a href="/member/register.php">일반 회원가입</a></li>
+                        <li><a href="/member/search_id_pw.php">아이디찾기</a></li>
+                        <li><a href="/member/search_id_pw.php?sc=pw">비밀번호 찾기</a></li>
+                     </ul>
+                     <!-- //link-box -->
+                     <div class="line"><span>또는</span></div>
+                     <ul class="login-type">
+                        <li><a href="javascript:" onclick="window.open('https://nid.naver.com/oauth2.0/authorize?response_type=code&client_id=2UKg3MXieUJHdny1nyzE&redirect_uri=https%3A%2F%2Fsonyunara.com%2Fapi%2Fnaver_login.php&state=RAMDOM_STATE','naver_login','width=1024,height=768')" class="naver"><button type="button" class="naver"><span>네이버 로그인</span></button></a></li>
+                        <li>
+                           <a href="javascript:" onclick="google_login_call()" id="google" class="google">
+                              <button type="button" class="google">
+                                 <span>
+                                    <p>구글 로그인</p>
+                                    <script src="https://apis.google.com/js/api:client.js"></script>
+                                    <script>
+                                       // 구글 로그인 script
+                                       var googleUser = {};
 
+                                       gapi.load('auth2', function(){
+                                         // Retrieve the singleton for the GoogleAuth library and set up the client.
+                                         auth2 = gapi.auth2.init({
+                                       	client_id: '751878850618-vvs475un1jaatfrt37cfsnt43bvbi451.apps.googleusercontent.com',
+                                       	cookiepolicy: 'single_host_origin',
+                                       	// Request scopes in addition to 'profile' and 'email'
+                                       	//scope: 'additional_scope'
+                                         });
 
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">4</span>
-                                    <a href="/shop/view.php?index_no=67196" class="image">
-                                       <img src="{{asset('img/outer/outer1.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67196);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>17<em>%</em></span>												<span>33,200</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=67196">베이밍크후드점퍼(JP)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 163</span>
-                                       <span>리뷰 3</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">5</span>
-                                    <a href="/shop/view.php?index_no=67174" class="image">
-                                       <img src="{{asset('img/outer/outer2.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67174);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>18<em>%</em></span>												<span>22,900</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=67174">대세플리스가디건(G)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 97</span>
-                                       <span>리뷰 1</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=66320" class="image">
-                                       <img src="{{asset('img/outer/outer3.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66320);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>21<em>%</em></span>												<span>47,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=66320">퍼카라숏패딩(JP)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 566</span>
-                                       <span>리뷰 7</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=66608" class="image">
-                                       <img src="{{asset('img/outer/outer4.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66608);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>21<em>%</em></span>												<span>29,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=66608">[기획특가]팡팡하이넥숏패딩 (9colors!)(JP)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 1114</span>
-                                       <span>리뷰 32</span>
-                                    </div>
-                                 </div>
-                              </li>
-                           </ul>
-                        </div>
+                                       });
+
+                                       function google_login_call(){
+                                       	attachSignin(document.getElementById('google'));
+                                       }
+
+                                       function attachSignin(element) {
+                                       auth2.attachClickHandler(element, {},
+                                       	function(googleUser) {
+                                       		$('#google_id').val(googleUser.getBasicProfile().getId());
+                                       		$('#google_email').val(googleUser.getBasicProfile().getEmail());
+                                       		$('#google_name').val(googleUser.getBasicProfile().getName());
+                                       		$('#google_img').val(googleUser.getBasicProfile().getImageUrl());
+                                       		window.open('','google_login','width=1024,height=768');
+                                       		$('#google_form').submit();
+
+                                       	}, function(error) {
+                                       	  //alert(JSON.stringify(error, undefined, 2));
+                                       	  //alert("로그인을 취소하였습니다.");
+                                       	});
+                                       }
+
+                                    </script>
+                                    <form id='google_form' action="/api/google_login.php" target='google_login' method='post'>
+                                       <input type="hidden" name='id' id='google_id' value='' />
+                                       <input type="hidden" name='name' id='google_name' value='' />
+                                       <input type="hidden" name='email' id='google_email' value='' />
+                                       <input type="hidden" name='img' id='google_img' value='' />
+                                    </form>
+                                 </span>
+                              </button>
+                           </a>
+                        </li>
+                        <!-- 						<li><a href="javascript:" onclick="google_login_call()" id="google" class="google"><button type="button" class="google"><span>구글 로그인<script src="https://apis.google.com/js/api:client.js"></script>
+                           <script>
+                           // 구글 로그인 script
+                           var googleUser = {};
+
+                           gapi.load('auth2', function(){
+                             // Retrieve the singleton for the GoogleAuth library and set up the client.
+                             auth2 = gapi.auth2.init({
+                           	client_id: '751878850618-vvs475un1jaatfrt37cfsnt43bvbi451.apps.googleusercontent.com',
+                           	cookiepolicy: 'single_host_origin',
+                           	// Request scopes in addition to 'profile' and 'email'
+                           	//scope: 'additional_scope'
+                             });
+
+                           });
+
+                           function google_login_call(){
+                           	attachSignin(document.getElementById('google'));
+                           }
+
+                           function attachSignin(element) {
+                           auth2.attachClickHandler(element, {},
+                           	function(googleUser) {
+                           		$('#google_id').val(googleUser.getBasicProfile().getId());
+                           		$('#google_email').val(googleUser.getBasicProfile().getEmail());
+                           		$('#google_name').val(googleUser.getBasicProfile().getName());
+                           		$('#google_img').val(googleUser.getBasicProfile().getImageUrl());
+                           		window.open('','google_login','width=1024,height=768');
+                           		$('#google_form').submit();
+
+                           	}, function(error) {
+                           	  //alert(JSON.stringify(error, undefined, 2));
+                           	  //alert("로그인을 취소하였습니다.");
+                           	});
+                           }
+
+                           </script>
+                           <form id='google_form' action="/api/google_login.php" target='google_login' method='post'>
+                           	<input type="hidden" name='id' id='google_id' value='' />
+                           	<input type="hidden" name='name' id='google_name' value='' />
+                           	<input type="hidden" name='email' id='google_email' value='' />
+                           	<input type="hidden" name='img' id='google_img' value='' />
+                           </form></span></button></a></li> -->
+                     </ul>
+                     <!-- //login-type -->
+                     <div class="txt">
+                        <b>카카오 1초 로그인 / 회원가입이란?</b>
+                        카카오 싱크를 활용한 간편 로그인 / 가입 기능입니다.
                      </div>
                   </div>
-
                </div>
-               <!-- //products-best -->
+               <!-- //member -->
             </div>
             <!-- //contents -->
          </section>
-         <!-- Criteo 카테고리/리스팅 태그 이유경 2020-06-25 남성민 -->
-         <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
-         <script type="text/javascript">
-            window.criteo_q = window.criteo_q || [];
-            var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d";
-            window.criteo_q.push(
-             { event: "setAccount", account: 16750}, // 이 라인은 업데이트하면 안됩니다
-             { event: "setEmail", email: "" }, // 유저가 로그인이 안되 있는 경우 빈 문자열을 전달
-             { event: "setSiteType", type: deviceType},
-             { event: "viewList", item: [67620,67718,67778] }); // 가장 위에있는 3개의 상품 ID를 전달
+         <div id="popBox">
+            <div class="align-middle">
+               <div class="inner">
+                  <div class="pop" id="popJoinCoupon">
+                     <button type="button" class="btn-close" onclick="pop.close();"><span>닫기</span></button>
+                     <div class="content">
+                        <div class="tit">지금 회원가입 하시면<br><strong>1,000원</strong> 쿠폰 증정!!</div>
+                        <ul class="btnbox">
+                           <li><button type="button" class="btn-m-black" onclick="pop.close();"><span>그래도 비회원</span></button></li>
+                           <li><a href="/member/register.php" class="btn-m-red"><span>회원가입</span></a></li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- //popMain -->
+               </div>
+               <!-- //inner -->
+            </div>
+            <!-- //align-middle -->
+         </div>
+         <!-- //popBox -->
+         <script>
+            //pop.open('#popJoinCoupon');
+
+
+            function order_view() {
+            	if($('input[name="ordername"]').val() == '') {
+            		alert('이름을 입력해주세요.');
+            		$('input[name="ordername"]').focus();
+            		return false;
+            	}
+
+            	if($('input[name="orderno"]').val() == '') {
+            		alert('주문번호를 입력해주세요.');
+            		$('input[name="orderno"]').focus();
+            		return false;
+            	}
+
+            	if($('input[name="passwd"]').val() == '') {
+            		alert('비밀번호를 입력해주세요.');
+            		$('input[name="passwd"]').focus();
+            		return false;
+            	}
+
+            	return true;
+            }
+
          </script>
-         <!-- END 카테고리/리스팅 태그 이유경 2020-06-25 남성민 -->
          <footer id="footer">
             <div class="top">
                <ul class="inner">
@@ -871,7 +999,7 @@
                               <div class="tit">전화상담 실시간 상황<img src="https://img.sonyunara.com/2019/asset/pc/img/common/footer/refresh.gif" alt=""></div>
                               <div class="info"><img src="https://img.sonyunara.com/2019/asset/pc/img/common/footer/info.jpg" alt="원활, 보통, 혼잡"></div>
                               <div class="img">
-                                 <img src="https://img.sonyunara.com/2019/asset/pc/img/common/footer/good.jpg" alt="원활" usemap="#shopStatus_good">
+                                 <img src="https://img.sonyunara.com/2019/asset/pc/img/common/footer/lunch.jpg" alt="원활" usemap="#shopStatus_lunch">
                                  <map name="shopStatus_busy">
                                     <area shape="rect" coords="54,19,94,35" href="/cs/inquiry.php" alt="">
                                     <area shape="rect" coords="110,17,151,34" href="javascript:" onclick="javascript:kakao_link('https://lc-api.lunasoft.co.kr/lunachat/api-connect/@소녀나라/main');" alt="">

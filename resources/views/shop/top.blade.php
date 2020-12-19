@@ -275,10 +275,11 @@
                   </a>
                </h1>
                <ul class="toplink">
+                <li><a href="shop/member/user-page">마이페이지 </a></li>
                   <li><a href="/member/join_step1.php">회원가입<em>(<font style="color:#ff7d9e;">+ 2만원</font>)</em></a></li>
                   <li><a href="/cs/">고객센터</a></li>
                   <li>
-                     <a href="/member/login.php">
+                    <a href="member/login">
                         <!-- 						<img src="/asset/img/common/header/btn_login.png" alt="로그인"></span> -->
                         <div class="login-btn"><span>로그인</span></div>
                      </a>

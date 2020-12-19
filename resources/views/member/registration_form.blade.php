@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="ko">
    <head>
-      <title>소녀나라 - 아우터</title>
-      <meta name="build" content="" />
-      <meta name="title" content="소녀나라 - 아우터" />
-      <meta name="subject" content="아우터" />
-      <meta name="description" content="아우터,당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰" />
+      <title>소녀나라</title>
+      <meta name="Subject" content="여성의류 쇼핑몰">
+      <meta name="Description" content="당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰">
+      <meta property="og:title" content="소녀나라 - 여성의류 쇼핑몰">
+      <meta property="og:description" content="당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰">
+      <meta property="og:url" content="https://sonyunara.com">
+      <meta property="og:image" content="https://img.sonyunara.com/files/new_banner/">
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <meta name="author" content="에스엔패션그룹(주)">
@@ -186,18 +188,18 @@
          .bannerStat > div.centerBox{display:none;}
       </style>
       <div class="pctopBanner" id="topBanner">
-         <div class="swiper-slide " style="background-color:#ffb7cc">
-            <a href="/event/view.php?index_no=2844" target="_self" class="trace_link" data-name="피씨탑6430">
+         <div class="swiper-slide " style="background-color:#002315">
+            <a href="/shop/promotion.php?pro_idx=1240" target="_self" class="trace_link" data-name="피씨탑6510">
                <div style="position:relative; display:inline-block;">
-                  <img src="{{asset('img/new_banner.gif')}}" style="margin:auto;">
+                  <img src="https://img.sonyunara.com/files/new_banner/1608191704_0.gif" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
          </div>
-         <div class="swiper-slide " style="background-color:#002315">
-            <a href="/shop/promotion.php?pro_idx=1240" target="_self" class="trace_link" data-name="피씨탑6510">
+         <div class="swiper-slide " style="background-color:#ffb7cc">
+            <a href="/event/view.php?index_no=2844" target="_self" class="trace_link" data-name="피씨탑6430">
                <div style="position:relative; display:inline-block;">
-                  <img src="{{asset('img/new_banner2.gif')}}" style="margin:auto;">
+                  <img src="https://img.sonyunara.com/files/new_banner/1607674382_0.gif" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
@@ -258,11 +260,10 @@
                   </a>
                </h1>
                <ul class="toplink">
-                <li><a href="shop/member/user-page">마이페이지 </a></li>
                   <li><a href="/member/register.php">회원가입<em>(<font style="color:#ff7d9e;">+ 2만원</font>)</em></a></li>
                   <li><a href="/cs/">고객센터</a></li>
                   <li>
-                    <a href="member/login">
+                     <a href="/member/login.php">
                         <!-- 						<img src="/asset/img/common/header/btn_login.png" alt="로그인"></span> -->
                         <div class="login-btn"><span>로그인</span></div>
                      </a>
@@ -435,7 +436,7 @@
                   <div class="box">
                      <ul class="list import">
                         <li><a href="/shop/new.php">신상</a></li>
-                        <li><a href="/shop/best_new.php">베스트</a></li>
+                        <li><a href="/shop/best.php">베스트</a></li>
                         <li><a href="/shop/delivery.php">오늘출발</a></li>
                         <li><a href="/shop/list.php?cate=3001">득템찬스</a></li>
                      </ul>
@@ -550,75 +551,73 @@
                   <!-- //box -->
                </div>
                <!-- //allMenu -->
-
                <ul class="menu">
-				<li style="color: #9F3FF8;"><a href="{{url('shop/best')}}">베스트</a></li>
-				<li style="color: #FF416F;"><a href="{{url('shop/body')}}">신상</a></li>
-				<li>
-					<a href="{{url('shop/outer')}}">아우터</a><!-- //outer -->
-					<ul class="sub">
-						<li><a href="{{url('shop/card')}}">가디건/조끼</a></li><!-- //cardigan -->
-						<li><a href="{{url('shop/field')}}">야상/점퍼</a></li><!-- //field -->
-						<li><a href="{{url('shop/jacket')}}">자켓/코트</a></li><!-- //jacket -->
-						<li><a href="{{url('shop/padding')}}">패딩</a></li><!-- //padding -->
-						<li><a href="{{url('shop/fleece')}}">플리스</a></li><!-- //fleece -->
-					</ul>
-				</li>
-				<li>
-					<a href="{{url('shop/top')}}">상의</a><!-- //top -->
-					<ul class="sub">
-						<li><a href="{{url('shop/longsleeve')}}">긴팔티셔츠</a></li><!-- //longsleeves -->
-						<li><a href="{{url('shop/man')}}">맨투맨</a></li><!-- //man -->
-						<li><a href="{{url('shop/hood')}}">후드</a></li><!-- //hood -->
-						<li><a href="{{url('shop/shortsleeve')}}">반팔/민소매티셔츠</a></li><!-- //shortsleeve -->
-						<li><a href="{{url('shop/neat')}}">니트</a></li><!-- //neat -->
-					</ul>
-				</li>
-				<li><a href="{{url('shop/shirt')}}">셔츠/블라우스</a></li><!-- //shirt or blouse -->
-				<li><a href="{{url('shop/training')}}">트레이닝</a></li><!-- //training -->
-				<li><a href="{{url('shop/basic')}}">베이직</a></li><!-- //basic -->
-				<li><a href="{{url('shop/onepiece')}}">원피스</a></li><!-- //onepiece -->
-				<li><a href="{{url('shop/skirt')}}">스커트</a></li>  <!-- //skirt -->
-				<li>
-					<a href="{{url('shop/pants')}}">팬츠</a> <!--//pants-->
-					<ul class="sub">
-						<li><a href="{{url('shop/pants-bluejean')}}">청바지</a></li><!--//jeans-->
-						<li><a href="{{url('shop/pants-long')}}">롱팬츠</a></li><!--//longpants-->
-						<li><a href="{{url('shop/pants-cotton')}}">면바지</a></li><!--//cotton-->
-						<li><a href="{{url('shop/pants-slacks')}}">슬랙스</a></li><!--//slacks-->
-						<li><a href="{{url('shop/pants-legging')}}">레깅스</a></li><!--//leggings-->
-						<li><a href="{{url('shop/pants-short')}}">숏팬츠</a></li><!--//short pants-->
-					</ul>
-				</li>
-				<li>
-					<a href="{{url('shop/bag')}}">가방</a>
-					<ul class="sub">
-						<li><a href="{{url('shop/bag-backpack')}}">백팩/스쿨백</a></li><!--//bag backpack-->
-						<li><a href="{{url('shop/bag-crosstoe')}}">크로스/토트백</a></li><!--//short crosstoe-->
-					</ul>
-				</li>
-				<li>
-					<a href="{{url('shop/shoes')}}">신발</a> <!--//shoes -->
-					<ul class="sub">
-						<li><a href="{{url('shop/shoe-sneaker')}}">운동화/단화</a></li> <!--//shoes - sneaker -->
-						<li><a href="{{url('shop/shoe-walker')}}">구두/워커</a></li> <!--//shoes - walker -->
-                        <li><a href="{{url('shop/shoe-sandal')}}">샌들/슬리퍼/장화</a></li><!--//shoes - sandals -->
-                        <li><a href="{{url('shop/shoe-brand')}}">샌들/슬리퍼/장화</a></li><!--//shoes - brand -->
-
-					</ul>
-				</li>
-				<li>
-					<a href="{{url('shop/accessories')}}">악세사리</a> <!--//accessories -->
-					<ul class="sub">
-						<li><a href="{{url('shop/acce-')}}">주얼리</a></li> <!--//accessories -->
-						<li><a href="{{url('shop/acce-sneaker')}}">모자/벨트</a></li>  <!--//accessories -->
-						<li><a href="{{url('shop/acce-sneaker')}}">양말/스타킹</a></li> <!--//accessories -->
-					</ul>
-				</li>
-<!-- 				<li> -->
-<!-- 					<a href="/shop/list.php?cate=3101">선오픈</a> -->
-<!-- 				</li> -->
-			</ul><!-- //menu -->
+                  <li style="color: #9F3FF8;"><a href="/shop/best_new.php">베스트</a></li>
+                  <li style="color: #FF416F;"><a href="/shop/new.php">신상</a></li>
+                  <li>
+                     <a href="/shop/list.php?cate=0104">아우터</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=010401">가디건/조끼</a></li>
+                        <li><a href="/shop/list.php?cate=010403">야상/점퍼</a></li>
+                        <li><a href="/shop/list.php?cate=010404">자켓/코트</a></li>
+                        <li><a href="/shop/list.php?cate=010405">패딩</a></li>
+                        <li><a href="/shop/list.php?cate=010406">플리스</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="/shop/list.php?cate=0101">상의</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=010102">긴팔티셔츠</a></li>
+                        <li><a href="/shop/list.php?cate=010104">맨투맨</a></li>
+                        <li><a href="/shop/list.php?cate=010103">후드</a></li>
+                        <li><a href="/shop/list.php?cate=010101">반팔/민소매티셔츠</a></li>
+                        <li><a href="/shop/list.php?cate=010105">니트</a></li>
+                     </ul>
+                  </li>
+                  <li><a href="/shop/list.php?cate=0102">셔츠/블라우스</a></li>
+                  <li><a href="/shop/list.php?cate=0105">트레이닝</a></li>
+                  <li><a href="/shop/list.php?cate=0407">베이직</a></li>
+                  <li><a href="/shop/list.php?cate=0103">원피스</a></li>
+                  <li><a href="/shop/list.php?cate=0202">스커트</a></li>
+                  <li>
+                     <a href="/shop/list.php?cate=0201">팬츠</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=020103">청바지</a></li>
+                        <li><a href="/shop/list.php?cate=020102">롱팬츠</a></li>
+                        <li><a href="/shop/list.php?cate=020104">면바지</a></li>
+                        <li><a href="/shop/list.php?cate=020106">슬랙스</a></li>
+                        <li><a href="/shop/list.php?cate=020105">레깅스</a></li>
+                        <li><a href="/shop/list.php?cate=020101">숏팬츠</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="/shop/list.php?cate=0601">가방</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=060101">백팩/스쿨백</a></li>
+                        <li><a href="/shop/list.php?cate=060102">크로스/토트백</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="/shop/list.php?cate=0501">신발</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=050101">운동화/단화</a></li>
+                        <li><a href="/shop/list.php?cate=050102">구두/워커</a></li>
+                        <li><a href="/shop/list.php?cate=050103">샌들/슬리퍼/장화</a></li>
+                     </ul>
+                  </li>
+                  <li>
+                     <a href="/shop/list.php?cate=0701">악세사리</a>
+                     <ul class="sub">
+                        <li><a href="/shop/list.php?cate=070101">주얼리</a></li>
+                        <li><a href="/shop/list.php?cate=070104">모자/벨트</a></li>
+                        <li><a href="/shop/list.php?cate=070105">양말/스타킹</a></li>
+                     </ul>
+                  </li>
+                  <!-- 				<li> -->
+                  <!-- 					<a href="/shop/list.php?cate=3101">선오픈</a> -->
+                  <!-- 				</li> -->
+               </ul>
+               <!-- //menu -->
                <ul class="cateogry">
                   <!-- 				<li class="c6"><a href="/shop/list.php?cate=3101"><span>선오픈 10%</span></a><em>33</em></li> -->
                   <!-- 				<li class="c1"><a href="/shop/new.php"><span>오늘신상</span></a><em>39</em></li> -->
@@ -631,6 +630,9 @@
             </nav>
             <!-- //bottom -->
          </header>
+         <style>
+            input::placeholder{color:#000;}
+         </style>
          <section id="container" class="subpage">
             <!-- 고정탭 -->
             <h1 class="blind">본문</h1>
@@ -644,193 +646,296 @@
                </ul>
             </div>
             <div class="contents">
-               <div style="text-align: center; position: relative; display: none;margin-bottom:80px;">
-                  <img src="https://img.sonyunara.com/files/cateimage/0104.gif" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
-               </div>
-               <h2 class="">아우터</h2>
-               <div class="category-product">
-                  <ul class="tabmenu">
-                     <li class='on'><a class="" href="/shop/list.php?cate=0104">All</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010401">가디건·조끼</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010403">야상·점퍼</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010404">자켓·코트</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010405">패딩</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010406">플리스</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010407">브랜드아우터</a></li>
-                  </ul>
-                  <!-- //tabmenu -->
-                  <div class="product-box" style="padding-top:0 !important;">
-                     <div class="box slider">
-                        <h2>실시간 랭킹</h2>
-                        <div class="item-arrow">
-                           <button type="button" class="best-prev"></button>
-                           <button type="button" class="best-next"></button>
-                        </div>
-                        <div class="item-wrap">
-                           <ul class="item" id="swiper-container-list-ranking">
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">1</span>
-                                    <a href="/shop/view.php?index_no=64734" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64734/1608108013_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64734);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>53<em>%</em></span>												<span>35,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=64734">[프리미엄/신상주문폭주] 빵빵숏패딩(9colors!)(SN)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 11431</span>
-                                       <span>리뷰 87</span>
-                                    </div>
-                                 </div>
+               <h2><img src="https://img.sonyunara.com/2019/asset/pc/img/sub/member/tit_join1.png" alt="JOIN US"></h2>
+               <div class="member">
+                  <div class="join">
+                     <form name="joinform" method="post" action="/member/joinpro.php" onSubmit="return join_chk();" autocomplete='off'>
+                        <input type='hidden' name='idcheck' id="idcheck" value='N'>
+                        <input type='hidden' name='emailcheck' id="emailcheck" value='N'>
+                        <input type='hidden' name='phonecheck' id="phonecheck" value='N'>
+                        <input type='hidden' name='email_agree' value='Y'>
+                        <fieldset>
+                           <legend>회원가입</legend>
+                           <ul class="form-box">
+                              <li>
+                                 <p class="tit">아이디</p>
+                                 <p class="form">
+                                    <!-- 										<span class="info">8-16자:영문,숫자조합</span> -->
+                                    <input type="text" class=" placeholder" placeholder="4-20자: 영문 소문자,숫자조합" name="join_id" title="아이디를 입력하세요" autocomplete='new-password'>
+                                 </p>
+                                 <p class="good" style="display:none;">예쁜 아이디네요!</p>
+                                 <p class="alert" style="display:none;">이미 사용중인 아이디입니다.</p>
                               </li>
-
-
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">4</span>
-                                    <a href="/shop/view.php?index_no=67196" class="image">
-                                       <img src="{{asset('img/outer/outer1.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67196);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>17<em>%</em></span>												<span>33,200</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=67196">베이밍크후드점퍼(JP)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 163</span>
-                                       <span>리뷰 3</span>
-                                    </div>
-                                 </div>
+                              <li>
+                                 <p class="tit">비밀번호</p>
+                                 <p class="form">
+                                    <span class="info">6-20자:영문,숫자,특수문자조합</span>
+                                    <input type="password" name="join_pw" class=" placeholder" title="비밀번호를 입력하세요" autocomplete='new-password'>
+                                 </p>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">5</span>
-                                    <a href="/shop/view.php?index_no=67174" class="image">
-                                       <img src="{{asset('img/outer/outer2.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67174);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>18<em>%</em></span>												<span>22,900</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=67174">대세플리스가디건(G)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 97</span>
-                                       <span>리뷰 1</span>
-                                    </div>
-                                 </div>
+                              <li>
+                                 <p class="tit">비밀번호 확인</p>
+                                 <p class="form">
+                                    <span class="info">6-20자:영문,숫자,특수문자조합</span>
+                                    <input type="password" name="join_pw1" class=" placeholder" title="비밀번호를 입력하세요" autocomplete='new-password'>
+                                 </p>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=66320" class="image">
-                                       <img src="{{asset('img/outer/outer3.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66320);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>21<em>%</em></span>												<span>47,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=66320">퍼카라숏패딩(JP)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 566</span>
-                                       <span>리뷰 7</span>
-                                    </div>
-                                 </div>
+                              <li>
+                                 <p class="tit">이름</p>
+                                 <p class="form">
+                                    <input type="text" name="join_name" title="이름을 입력하세요" autocomplete='new-password'>
+                                 </p>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=66608" class="image">
-                                       <img src="{{asset('img/outer/outer4.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66608);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>21<em>%</em></span>												<span>29,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=66608">[기획특가]팡팡하이넥숏패딩 (9colors!)(JP)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 1114</span>
-                                       <span>리뷰 32</span>
-                                    </div>
-                                 </div>
+                              <li>
+                                 <p class="tit">휴대전화</p>
+                                 <ul class="form-tel">
+                                    <li>
+                                       <select name="join_cell">
+                                          <option value="010">010</option>
+                                          <option value="011">011</option>
+                                          <option value="016">016</option>
+                                          <option value="017">017</option>
+                                       </select>
+                                    </li>
+                                    <li><input type="text" maxlength="4" title="휴대전화 앞자리" name="join_cell1" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" autocomplete='new-password'></li>
+                                    <li><input type="text" maxlength="4" title="휴대전화 뒷자리" name="join_cell2" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" autocomplete='new-password'></li>
+                                 </ul>
+                                 <p class="caution caution_cell" style="padding-top: 10px;">※숫자만 입력 가능합니다.</p>
+                                 <p class="good3" style="display:none;">등록 가능한 핸드폰번호입니다.</p>
+                                 <p class="alert3" style="display:none;">이미 등록된 핸드폰번호입니다.</p>
                               </li>
+                              <li>
+                                 <p class="tit">sms수신여부</p>
+                                 <p class="form-agree">
+                                    <span class="cs-form radio">
+                                    <input type="radio" name="smsAllow" id="smsY" checked value="Y">
+                                    <label for="smsY">수신함</label>
+                                    </span>
+                                    <span class="cs-form radio">
+                                    <input type="radio" name="smsAllow" id="smsN" value="N">
+                                    <label for="smsN">수신안함</label>
+                                    </span>
+                                 </p>
+                              </li>
+                              <li>
+                                 <p class="tit">생일</p>
+                                 <ul class="form-date">
+                                    <li>
+                                       <select name="birth_year">
+                                          <option value=""></option>
+                                          <option value="2020">2020</option>
+                                          <option value="2019">2019</option>
+                                          <option value="2018">2018</option>
+                                          <option value="2017">2017</option>
+                                          <option value="2016">2016</option>
+                                          <option value="2015">2015</option>
+                                          <option value="2014">2014</option>
+                                          <option value="2013">2013</option>
+                                          <option value="2012">2012</option>
+                                          <option value="2011">2011</option>
+                                          <option value="2010">2010</option>
+                                          <option value="2009">2009</option>
+                                          <option value="2008">2008</option>
+                                          <option value="2007">2007</option>
+                                          <option value="2006">2006</option>
+                                          <option value="2005">2005</option>
+                                          <option value="2004">2004</option>
+                                          <option value="2003">2003</option>
+                                          <option value="2002">2002</option>
+                                          <option value="2001">2001</option>
+                                          <option value="2000">2000</option>
+                                          <option value="1999">1999</option>
+                                          <option value="1998">1998</option>
+                                          <option value="1997">1997</option>
+                                          <option value="1996">1996</option>
+                                          <option value="1995">1995</option>
+                                          <option value="1994">1994</option>
+                                          <option value="1993">1993</option>
+                                          <option value="1992">1992</option>
+                                          <option value="1991">1991</option>
+                                          <option value="1990">1990</option>
+                                          <option value="1989">1989</option>
+                                          <option value="1988">1988</option>
+                                          <option value="1987">1987</option>
+                                          <option value="1986">1986</option>
+                                          <option value="1985">1985</option>
+                                          <option value="1984">1984</option>
+                                          <option value="1983">1983</option>
+                                          <option value="1982">1982</option>
+                                          <option value="1981">1981</option>
+                                          <option value="1980">1980</option>
+                                          <option value="1979">1979</option>
+                                          <option value="1978">1978</option>
+                                          <option value="1977">1977</option>
+                                          <option value="1976">1976</option>
+                                          <option value="1975">1975</option>
+                                          <option value="1974">1974</option>
+                                          <option value="1973">1973</option>
+                                          <option value="1972">1972</option>
+                                          <option value="1971">1971</option>
+                                          <option value="1970">1970</option>
+                                          <option value="1969">1969</option>
+                                          <option value="1968">1968</option>
+                                          <option value="1967">1967</option>
+                                          <option value="1966">1966</option>
+                                          <option value="1965">1965</option>
+                                          <option value="1964">1964</option>
+                                          <option value="1963">1963</option>
+                                          <option value="1962">1962</option>
+                                          <option value="1961">1961</option>
+                                          <option value="1960">1960</option>
+                                          <option value="1959">1959</option>
+                                          <option value="1958">1958</option>
+                                          <option value="1957">1957</option>
+                                          <option value="1956">1956</option>
+                                          <option value="1955">1955</option>
+                                          <option value="1954">1954</option>
+                                          <option value="1953">1953</option>
+                                          <option value="1952">1952</option>
+                                          <option value="1951">1951</option>
+                                          <option value="1950">1950</option>
+                                          <option value="1949">1949</option>
+                                          <option value="1948">1948</option>
+                                          <option value="1947">1947</option>
+                                          <option value="1946">1946</option>
+                                          <option value="1945">1945</option>
+                                          <option value="1944">1944</option>
+                                          <option value="1943">1943</option>
+                                          <option value="1942">1942</option>
+                                          <option value="1941">1941</option>
+                                          <option value="1940">1940</option>
+                                          <option value="1939">1939</option>
+                                          <option value="1938">1938</option>
+                                          <option value="1937">1937</option>
+                                          <option value="1936">1936</option>
+                                          <option value="1935">1935</option>
+                                          <option value="1934">1934</option>
+                                          <option value="1933">1933</option>
+                                          <option value="1932">1932</option>
+                                          <option value="1931">1931</option>
+                                          <option value="1930">1930</option>
+                                          <option value="1929">1929</option>
+                                          <option value="1928">1928</option>
+                                          <option value="1927">1927</option>
+                                          <option value="1926">1926</option>
+                                          <option value="1925">1925</option>
+                                          <option value="1924">1924</option>
+                                          <option value="1923">1923</option>
+                                          <option value="1922">1922</option>
+                                          <option value="1921">1921</option>
+                                          <option value="1920">1920</option>
+                                       </select>
+                                       <span>년</span>
+                                    </li>
+                                    <li>
+                                       <select name="birth_month">
+                                          <option value=""></option>
+                                          <option value="01">01</option>
+                                          <option value="02">02</option>
+                                          <option value="03">03</option>
+                                          <option value="04">04</option>
+                                          <option value="05">05</option>
+                                          <option value="06">06</option>
+                                          <option value="07">07</option>
+                                          <option value="08">08</option>
+                                          <option value="09">09</option>
+                                          <option value="10">10</option>
+                                          <option value="11">11</option>
+                                          <option value="12">12</option>
+                                       </select>
+                                       <span>월</span>
+                                    </li>
+                                    <li>
+                                       <select name="birth_day">
+                                          <option value=""></option>
+                                          <option value="01">01</option>
+                                          <option value="02">02</option>
+                                          <option value="03">03</option>
+                                          <option value="04">04</option>
+                                          <option value="05">05</option>
+                                          <option value="06">06</option>
+                                          <option value="07">07</option>
+                                          <option value="08">08</option>
+                                          <option value="09">09</option>
+                                          <option value="10">10</option>
+                                          <option value="11">11</option>
+                                          <option value="12">12</option>
+                                          <option value="13">13</option>
+                                          <option value="14">14</option>
+                                          <option value="15">15</option>
+                                          <option value="16">16</option>
+                                          <option value="17">17</option>
+                                          <option value="18">18</option>
+                                          <option value="19">19</option>
+                                          <option value="20">20</option>
+                                          <option value="21">21</option>
+                                          <option value="22">22</option>
+                                          <option value="23">23</option>
+                                          <option value="24">24</option>
+                                          <option value="25">25</option>
+                                          <option value="26">26</option>
+                                          <option value="27">27</option>
+                                          <option value="28">28</option>
+                                          <option value="29">29</option>
+                                          <option value="30">30</option>
+                                          <option value="31">31</option>
+                                       </select>
+                                       <span>일</span>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li>
+                                 <p class="tit">이메일</p>
+                                 <ul class="form-email">
+                                    <li>
+                                       <input type="text" name="join_email0" autocomplete='new-password'>
+                                       <span>@</span>
+                                    </li>
+                                    <li>
+                                       <input type="text" name="join_email1" autocomplete='new-password'>
+                                    </li>
+                                    <li>
+                                       <select name="join_email_sel" id="join_email_sel">
+                                          <option value="">선택</option>
+                                          <option value="naver.com">naver.com</option>
+                                          <option value="google.com">google.com</option>
+                                          <option value="daum.net">daum.net</option>
+                                          <option value="etc">직접입력</option>
+                                       </select>
+                                    </li>
+                                 </ul>
+                                 <p class="caution caution_email" style="padding-top: 10px;">※영문,숫자만 입력 가능합니다.</p>
+                                 <p class="good2" style="display:none;">사용가능한 이메일입니다.</p>
+                                 <p class="alert2" style="display:none;">이미 사용중인 이메일입니다.</p>
+                              </li>
+                              <!-- 								<li> -->
+                              <!-- 									<p class="tit">이메일 수신여부</p> -->
+                              <!-- 									<p class="form-agree"> -->
+                              <!-- 										<span class="cs-form radio"> -->
+                              <!-- 											<input type="radio" name="email_agree" value="Y" id="emailY" checked> -->
+                              <!-- 											<label for="emailY">수신함</label> -->
+                              <!-- 										</span> -->
+                              <!-- 										<span class="cs-form radio"> -->
+                              <!-- 											<input type="radio" name="email_agree" value="N" id="emailN"> -->
+                              <!-- 											<label for="emailN">수신안함</label> -->
+                              <!-- 										</span> -->
+                              <!-- 									</p> -->
+                              <!-- 									<p class="caution">※쇼핑몰에서 제공하는 유익한 이벤트 소식을 이메일로 받으실 수 있습니다</p> -->
+                              <!-- 								</li> -->
                            </ul>
-                        </div>
-                     </div>
+                           <ul class="btnbox">
+                              <li><button type="submit" class="btn-m-red"><span>가입</span></button></li>
+                              <li><button type="button" class="btn-m-line" onclick="javascript:location.href='login.php'"><span>취소</span></button></li>
+                           </ul>
+                        </fieldset>
+                     </form>
                   </div>
-
+                  <!-- //join1 -->
                </div>
-               <!-- //products-best -->
+               <!-- //member -->
             </div>
             <!-- //contents -->
          </section>
-         <!-- Criteo 카테고리/리스팅 태그 이유경 2020-06-25 남성민 -->
-         <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async="true"></script>
-         <script type="text/javascript">
-            window.criteo_q = window.criteo_q || [];
-            var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d";
-            window.criteo_q.push(
-             { event: "setAccount", account: 16750}, // 이 라인은 업데이트하면 안됩니다
-             { event: "setEmail", email: "" }, // 유저가 로그인이 안되 있는 경우 빈 문자열을 전달
-             { event: "setSiteType", type: deviceType},
-             { event: "viewList", item: [67620,67718,67778] }); // 가장 위에있는 3개의 상품 ID를 전달
-         </script>
-         <!-- END 카테고리/리스팅 태그 이유경 2020-06-25 남성민 -->
          <footer id="footer">
             <div class="top">
                <ul class="inner">
@@ -1473,4 +1578,246 @@
    ga('require', 'displayfeatures');
    ga('send', 'pageview');
 </script>
-<!-- google analytics 2019-12-12 end-->
+<!-- google analytics 2019-12-12 end--><script>
+   $("#join_email_sel").change(function(){
+   	var val = $(this).val();
+
+   	if(val == 'etc'){
+   		$("input[name=join_email1]").focus();
+   	}else{
+   		$("input[name=join_email1]").val(val);
+   	}
+
+   	checkemail();
+   });
+
+   //한글입력 안되게 처리
+   $("input[name=join_email0],input[name=join_email1]").keyup(function(event){
+   if (!(event.keyCode >=37 && event.keyCode<=40)) {
+   	var inputVal = $(this).val();
+   	$(this).val(inputVal.replace(/[^a-z0-9@_.-]/gi,''));
+   }
+   });
+
+   function checkid(){
+   	var id_ch = eval(document.joinform.join_id);
+   	var value=id_ch.value;
+   	var str = value;
+   	var han = /[ㄱ-힣]/g;
+   	var chk_han = str.match(han);
+
+   	$('#idcheck').val('N');
+   	if(chk_han){
+   		$('.alert').text('한글은 입력할 수 없습니다.').show();
+   		$(".good").hide();
+   		return false;
+   	}
+
+   	if (!IsID(value))
+   	{
+   		$('.alert').text('아이디는 4~20자리 영문 소문자,숫자 이어야 합니다.').show();
+   		$(".good").hide();
+   		$('input[name="join_id"]').focus();
+   		return;;
+   	}
+
+   	if(!id_ch.value){
+   		$('.alert').text('아이디를 입력해주세요.').show();
+   		$(".good").hide();
+   		return false;
+   	}else{
+   		var strlength = id_ch.value.length;
+   		if(strlength < 4 || strlength > 20){
+   			$('.alert').text('아이디는 4~20자리 영문 소문자,숫자 이어야 합니다.').show();
+   			$(".good").hide();
+   			return false;
+   		}
+   	}
+
+   	$.ajax({
+   		url:'/member/join_step2.php',
+   		type:'post',
+   		async:false,
+   		data: {
+   			mode: 'id_chk',
+   			id: value
+   		},
+   		success:function(data){
+   			eval(data);
+   		}
+   	});
+
+   }
+
+   function checkemail(){
+   	$('#emailcheck').val('N');
+   	var e1 = document.joinform.join_email0.value;
+   	var e2 = document.joinform.join_email1.value;
+
+   	$.ajax({
+   		url:'/member/join_step2.php',
+   		type:'post',
+   		async:false,
+   		data: {
+   			mode: 'email_chk',
+   			e1: e1,
+   			e2: e2
+   		},
+   		success:function(data){
+   			eval(data);
+   		}
+   	});
+   }
+
+   function checkphone(){
+   	$('#phonecheck').val('N');
+   	var e1 = document.joinform.join_cell.value;
+   	var e2 = document.joinform.join_cell1.value;
+   	var e3 = document.joinform.join_cell2.value;
+
+   	$.ajax({
+   		url:'/member/join_step2.php',
+   		type:'post',
+   		async:false,
+   		data: {
+   			mode: 'phone_chk',
+   			e1: e1,
+   			e2: e2,
+   			e3: e3
+   		},
+   		success:function(data){
+   			eval(data);
+   		}
+   	});
+   }
+
+   $(function(){
+   	$('input[name="join_id"]').focusout(function(){
+   		checkid();
+   	});
+
+   	$('input[name="join_email1"]').focusout(function(){
+   		checkemail();
+   	});
+
+   	$("input[name='join_cell1'],input[name='join_cell2']").focusout(function(){
+   		checkphone();
+   	});
+
+   });
+
+   function IsPASSWD(strvalue)
+   {
+   	var check = /[ㄱ-ㅎ|ㅏ-ㅣ|가-힣]/;
+   	if(check.test(strvalue)){
+   		return false;
+   	}
+   	return true;
+   }
+
+   function IsID(strvalue)
+   {
+   	if(strvalue.length < 4 || strvalue.length > 20)
+   	{	return false;	}
+   	for(var i = 0; i < strvalue.length; i++)
+   	{
+   		var chr = strvalue.substr(i,1);
+   		if((chr < '0' || chr > '9') && (chr < 'a' || chr > 'z'))
+   		{	return false;	}
+   	}
+   	return true;
+   }
+
+   function join_chk() {
+
+   	if($('input[name="join_id"]').val() == '') {
+   		alert("아이디를 입력해주세요.");
+   		$('input[name="join_id"]').focus();
+   		return false;
+   	}
+
+   	if($('#idcheck').val() == 'N') {
+   		alert("아이디 중복확인을 해주세요.");
+   		$('input[name="join_id"]').focus();
+   		return false;
+   	}
+
+   	if($('input[name="join_pw"]').val() == '') {
+   		alert("비밀번호를 입력해주세요.");
+   		$('input[name="join_pw"]').focus();
+   		return false;
+   	}
+
+   	if($('input[name="join_pw"]').val().length < 6 || $('input[name="join_pw"]').val().length > 20)
+   	{
+   		alert("비밀번호는 6~20자리 이어야 합니다.");
+   		$('input[name="join_pw"]').focus();
+   		return false;
+   	}
+
+   	if(!IsPASSWD($('input[name="join_pw"]').val()))
+   	{
+   		alert('비밀번호는 한글 입력이 불가합니다.');
+   		$('input[name="join_pw"]').focus();
+   		return;;
+   	}
+
+   	if($('input[name="join_pw1"]').val() == '') {
+   		alert("비밀번호 확인을 입력해주세요.");
+   		$('input[name="join_pw1"]').focus();
+   		return false;
+   	}
+
+   	if($('input[name="join_pw"]').val() != $('input[name="join_pw1"]').val()) {
+   		alert("비밀번호가 일치하지 않습니다.");
+   		$('input[name="join_pw"]').val("");
+   		$('input[name="join_pw1"]').val("");
+   		return false;
+   	}
+
+   	if($('input[name="join_name"]').val() == '') {
+   		alert("이름을 입력해주세요.");
+   		$('input[name="join_name"]').focus();
+   		return false;
+   	}
+
+   	if($('input[name="join_cell1"]').val() == '') {
+   		alert("휴대폰번호를 입력해주세요.");
+   		$('input[name="join_cell1"]').focus();
+   		return false;
+   	}
+
+   	if($('input[name="join_cell2"]').val() == '') {
+   		alert("휴대폰번호를 입력해주세요.");
+   		$('input[name="join_cell2"]').focus();
+   		return false;
+   	}
+
+   	if($('input[name="join_email0"]').val() == '') {
+   		alert("이메일을 입력해주세요.");
+   		$('input[name="join_email0"]').focus();
+   		return false;
+   	}
+
+   	if(!$('input[name="join_email1"]').val()) {
+   		alert("이메일을 입력해주세요.");
+   		$('input[name="join_email1"]').focus();
+   		return false;
+   	}
+
+   	if($('#emailcheck').val() == 'N') {
+   		alert("이메일 중복확인을 해주세요.");
+   		$('input[name="join_email0"]').focus();
+   		return false;
+   	}
+
+   //		if($('input[name="email_agree"]').is(":checked") == false) {
+   //			alert("이메일 수신여부를 선택해주세요.");
+   //			$('input[name="email_agree"]').focus();
+   //			return false;
+   //		}
+
+   	return true;
+   }
+
+</script>
