@@ -259,7 +259,6 @@
                </h1>
                <ul class="toplink">
                 <li><a href="shop/member/user-page">마이페이지 </a></li>
-
                   <li><a href="/member/register.php">회원가입<em>(<font style="color:#ff7d9e;">+ 2만원</font>)</em></a></li>
                   <li><a href="/cs/">고객센터</a></li>
                   <li>
