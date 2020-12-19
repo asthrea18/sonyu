@@ -142,6 +142,18 @@ class NavigatorController extends Controller
     {
         return view('shop/outer');
     }
+    public function bag()
+    {
+        return view('shop/bag');
+    }
+    public function bagbackpack()
+    {
+        return view('shop/bag_backpack');
+    }
+    public function bagcrosstoe()
+    {
+        return view('shop/bag_crosstoe');
+    }
 
 
 }

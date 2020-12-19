@@ -67,13 +67,12 @@ Route::group(['prefix' => 'shop'], function () {
     Route::get('pants-denim', 'NavigatorController@Pantsdenim');
     Route::get('pants-cotton', 'NavigatorController@Pantscotton');
     Route::get('pants-bluejean', 'NavigatorController@Pantsjean');
-
-
-
-
-
     /* one piece */
     Route::get('onepiece', 'NavigatorController@Onepiece');
+    /* one piece */
+    Route::get('bag', 'NavigatorController@bag');
+    Route::get('bag', 'NavigatorController@bagbackpack');
+    Route::get('bag', 'NavigatorController@bagcrosstoe');
 
 }); /* Shop */
 

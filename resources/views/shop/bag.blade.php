@@ -693,7 +693,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=46911" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/46911/1548812580_5.gif.webp">
+                                       <img src="{{asset('img/bag/bag1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(46911);">
@@ -722,7 +722,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=64802" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64802/1598251843_5.gif.webp">
+                                       <img src="{{asset('img/bag/bag2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64802);">
@@ -748,8 +748,8 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=58028" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/58028/1579683966_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
+                                       <img src="{{asset('img/bag/bag3.webp')}}">
+                                       <!-- 											<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(58028);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
@@ -774,7 +774,7 @@
                                  <div class="item-image">
                                     <span class="rank ">5</span>
                                     <a href="/shop/view.php?index_no=58992" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/58992/1582522208_5.gif.webp">
+                                       <img src="{{asset('img/bag/bag4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(58992);">
@@ -796,83 +796,14 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=39403" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/39403/1520304500_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(39403);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>36<em>%</em></span>												<span>17,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=39403">플레잉크로스백(BA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 4038</span>
-                                       <span>리뷰 34</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=27938" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/27938/1516157250_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(27938);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>5<em>%</em></span>												<span>18,800</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=27938">컬러이펙트백팩(BA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 22042</span>
-                                       <span>리뷰 162</span>
-                                    </div>
-                                 </div>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="list-info-box">
-                     <div class="txt"><strong>84개의 상품</strong></div>
-                     <ul class="list-sort">
-                        <li class="on"><a href="/shop/list.php?page=1&cate=0601">추천순</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=0601&orby=1">신상품</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=0601&orby=2">판매량</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=0601&orby=3">낮은가격</a></li>
-                        <!-- <li class=""><a href="/shop/list.php?page=1&cate=0601&orby=4">높은가격</a></li> -->
-                     </ul>
-                  </div>
-                  <!-- //list-info-box -->
-                  <div class="product-box" style="padding-top:0 !important;">
-                     <div class="box">
-                        <div class="item-wrap">
-                           <ul class="item rows admSortTable" data-table="shop_goods_cate" data-cate='0601'">
 
                            </ul>
-                           <div class='paging'><a class='first' href='javascript:' onclick='alert("첫 페이지 입니다.")'>first</a><a class='prev' href='javascript:' onclick='alert("첫 페이지 입니다.")'>prev</a><span><strong><a href='javascript:' class='active'>1</a></strong></span><a class='next' href='javascript:' onclick='alert("마지막 페이지 입니다.")'>next</a><a class='last' href='javascript:' onclick='alert("마지막 페이지 입니다.")'>last</a></div>
                         </div>
                      </div>
                   </div>
+
+                  <!-- //list-info-box -->
+
                </div>
                <!-- //products-best -->
             </div>

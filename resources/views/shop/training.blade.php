@@ -310,43 +310,43 @@
                         <div class="wrap">
                            <div>
                               <a href="#" target="_self">
-                              <strong>1.</strong> 기모								</a>
+                              <strong>1.</strong> 기모</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>2.</strong> 후드집업								</a>
+                              <strong>2.</strong> 후드집업</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>3.</strong> 양털								</a>
+                              <strong>3.</strong> 양털</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>4.</strong> 플리스								</a>
+                              <strong>4.</strong> 플리스</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>5.</strong> 빵빵숏패딩								</a>
+                              <strong>5.</strong> 빵빵숏패딩</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>6.</strong> 크림치즈								</a>
+                              <strong>6.</strong> 크림치즈</a>
                            </div>
                            <div>
                               <a href="#">
-                              <strong>7.</strong> 맨투맨								</a>
+                              <strong>7.</strong> 맨투맨</a>
                            </div>
                            <div>
                               <a href="#">
-                              <strong>8.</strong> 니트								</a>
+                              <strong>8.</strong> 니트</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>9.</strong> 융털								</a>
+                              <strong>9.</strong> 융털</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>10.</strong> 코듀로이								</a>
+                              <strong>10.</strong> 코듀로이</a>
                            </div>
                         </div>
                      </div>

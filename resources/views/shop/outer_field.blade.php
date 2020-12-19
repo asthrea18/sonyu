@@ -686,7 +686,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="/shop/view.php?index_no=64734" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64734/1605234266_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64734);">
@@ -715,7 +715,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=66504" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66504/1603948305_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66504);">
@@ -741,7 +741,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=64500" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64500/1604022551_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64500);">
@@ -770,7 +770,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=45799" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/45799/1597996170_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(45799);">
@@ -795,93 +795,7 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">5</span>
-                                    <a href="/shop/view.php?index_no=44601" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/44601/1603415855_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(44601);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>17<em>%</em></span>												<span>29,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=44601">[인기양털1탄 재입고]박시양털후드집업(ZU)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 14330</span>
-                                       <span>리뷰 275</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=65510" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65510/1600647215_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65510);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>39<em>%</em></span>												<span>15,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=65510">오리지널후드집업[P]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 776</span>
-                                       <span>리뷰 8</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=57220" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/57220/1578453039_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(57220);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>23<em>%</em></span>												<span>25,500</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=57220">파스텔후드집업 (7colors!)(ZU)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 2389</span>
-                                       <span>리뷰 30</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                            </ul>
                         </div>
                      </div>
