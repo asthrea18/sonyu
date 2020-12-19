@@ -564,7 +564,7 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#">상의</a><!-- //top -->
+					<a href="">상의</a><!-- //top -->
 					<ul class="sub">
 						<li><a href="{{url('shop/longsleeve')}}">긴팔티셔츠</a></li><!-- //longsleeves -->
 						<li><a href="{{url('shop/man')}}">맨투맨</a></li><!-- //man -->
@@ -694,64 +694,13 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">2</span>
-                                    <a href="/shop/view.php?index_no=67238" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67238/1606461465_5.gif.webp">
-                                       <img class="list_hot_icon" src="https://img.sonyunara.com/2020/icon/pc_hotItem.png" alt="" >
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67238);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>21<em>%</em></span>												<span>43,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=67238">밍크양면패딩(JP)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 71</span>
-                                       <span>리뷰 2</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">3</span>
-                                    <a href="/shop/view.php?index_no=45077" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/45077/1605249704_5_uniq5fae691850cc4.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(45077);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>20<em>%</em></span>												<span>39,800</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=45077">템포양면후리스집업(JU)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 7670</span>
-                                       <span>리뷰 134</span>
-                                    </div>
-                                 </div>
-                              </li>
+
+
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=67196" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67196/1606696685_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67196);">
@@ -780,7 +729,7 @@
                                  <div class="item-image">
                                     <span class="rank ">5</span>
                                     <a href="/shop/view.php?index_no=67174" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67174/1607069759_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67174);">
@@ -806,7 +755,7 @@
                                  <div class="item-image">
                                     <span class="rank ">6</span>
                                     <a href="/shop/view.php?index_no=66320" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66320/1603159253_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66320);">
@@ -832,7 +781,7 @@
                                  <div class="item-image">
                                     <span class="rank ">7</span>
                                     <a href="/shop/view.php?index_no=66608" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66608/1605771752_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66608);">
@@ -861,51 +810,7 @@
                         </div>
                      </div>
                   </div>
-                  <div class="list-info-box">
-                     <div class="txt"><strong>232개의 상품</strong></div>
-                     <ul class="list-sort">
-                        <li class="on"><a href="/shop/list.php?page=1&cate=0104">추천순</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=0104&orby=1">신상품</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=0104&orby=2">판매량</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=0104&orby=3">낮은가격</a></li>
-                        <!-- <li class=""><a href="/shop/list.php?page=1&cate=0104&orby=4">높은가격</a></li> -->
-                     </ul>
-                  </div>
-                  <!-- //list-info-box -->
-                  <div class="product-box" style="padding-top:0 !important;">
-                     <div class="box">
-                        <div class="item-wrap">
-                           <ul class="item rows admSortTable" data-table="shop_goods_cate" data-cate='0104'">
-                              <li>
-                                 <div class="item-image">
-                                    <a href="/shop/view.php?index_no=67596" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67596/1_5fd9f11f3e4a4_2.png.webp">
-                                       <img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/new_icon_20200917.png" alt="" >
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67596);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>19<em>%</em></span>												<span>44,800</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=67596">밀키싱글하프코트(울30%)(CT)</a>
-                                    </div>
-                                    <div class="count">
-                                    </div>
-                                 </div>
-                              </li>
 
-                           </ul>
-                           <div class='paging'><a class='first' href='javascript:' onclick='alert("첫 페이지 입니다.")'>first</a><a class='prev' href='javascript:' onclick='alert("첫 페이지 입니다.")'>prev</a><span><strong><a href='javascript:' class='active'>1</a></strong><a href='/shop/list.php?page=2&cate=0104'>2</a><a href='/shop/list.php?page=3&cate=0104'>3</a></span><a class='next' href='/shop/list.php?page=3&cate=0104'>next</a><a class='last' href='/shop/list.php?page=3&cate=0104'>last</a></div>
-                        </div>
-                     </div>
-                  </div>
                </div>
                <!-- //products-best -->
             </div>

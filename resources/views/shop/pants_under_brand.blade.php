@@ -675,7 +675,7 @@
                                  <div class="item-image">
                                     <span class="rank brand">1</span>
                                     <a href="/shop/view.php?index_no=65640" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65640/1600758666_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65640);">
@@ -704,7 +704,7 @@
                                  <div class="item-image">
                                     <span class="rank brand">2</span>
                                     <a href="/shop/view.php?index_no=63436" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63436/1592355983_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63436);">
@@ -733,7 +733,7 @@
                                  <div class="item-image">
                                     <span class="rank brand">3</span>
                                     <a href="/shop/view.php?index_no=58392" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/58392/1581496854_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(58392);">
@@ -762,7 +762,7 @@
                                  <div class="item-image">
                                     <span class="rank brand">4</span>
                                     <a href="/shop/view.php?index_no=58330" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/58330/1580980956_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(58330);">
@@ -810,277 +810,7 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">6</span>
-                                    <a href="/shop/view.php?index_no=53890" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/53890/1569564096_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(53890);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>50<em>%</em></span>												<span>23,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=53890">[무료배송][프랑켄모노]2019FRNM 와이드 트레이닝 팬츠[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 998</span>
-                                       <span>리뷰 17</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">7</span>
-                                    <a href="/shop/view.php?index_no=65638" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65638/1600764467_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65638);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>39,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=65638">[무료배송][FCMM]클럽 에센셜 조거팬츠[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 172</span>
-                                       <span>리뷰 2</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">8</span>
-                                    <a href="/shop/view.php?index_no=65112" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65112/1599097363_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65112);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>59<em>%</em></span>												<span>17,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=65112">[무료배송][오프위]그라데이션 와이드롱팬츠[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 181</span>
-                                       <span>리뷰 1</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">9</span>
-                                    <a href="/shop/view.php?index_no=65064" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65064/1600163147_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65064);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>48<em>%</em></span>												<span>25,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=65064">[무료배송][프랑켄모노]NEW FALL WIDE LONG PANTS[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 415</span>
-                                       <span>리뷰 9</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">10</span>
-                                    <a href="/shop/view.php?index_no=63724" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63724/1592909034_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63724);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>61<em>%</em></span>												<span>19,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63724">[무료배송][오프위]타입라운드 트임롱스커트[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 273</span>
-                                       <span>리뷰 6</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">11</span>
-                                    <a href="/shop/view.php?index_no=53880" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/53880/1568960117_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(53880);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>46<em>%</em></span>												<span>25,900</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=53880">[무료배송][프랑켄모노]프랑켄 라벨 카고 조거팬츠[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 822</span>
-                                       <span>리뷰 10</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">12</span>
-                                    <a href="/shop/view.php?index_no=66194" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66194/1602729826_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66194);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>20<em>%</em></span>												<span>45,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=66194">[무료배송][론론]OUT STITCH BANDING PANTS[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 63</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">13</span>
-                                    <a href="/shop/view.php?index_no=65688" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65688/1600826272_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65688);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>49,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=65688">[무료배송][애플앤딥]체크 미니 스커트[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 64</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">14</span>
-                                    <a href="/shop/view.php?index_no=65636" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65636/1600764614_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65636);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>39,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=65636">[무료배송][FCMM]클럽 빅로고 팬츠[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 150</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">15</span>
-                                    <a href="/shop/view.php?index_no=65632" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65632/1600759112_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65632);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>49,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=65632">[무료배송][FCMM]피그먼트 워시드 레터링 조거팬츠[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 88</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                            </ul>
                         </div>
                      </div>

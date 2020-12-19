@@ -672,7 +672,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="/shop/view.php?index_no=64170" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64170/1594282595_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64170);">
@@ -701,7 +701,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=62744" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/62744/1591664974_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(62744);">
@@ -727,7 +727,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=51340" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/51340/1592876270_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(51340);">
@@ -756,7 +756,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=48585" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/48585/1556095053_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(48585);">
@@ -804,286 +804,6 @@
                                     <div class="count">
                                        <span>구매 3347</span>
                                        <span>리뷰 16</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=64366" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64366/1595312926_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64366);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>16<em>%</em></span>												<span>23,400</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=64366">원포인트숏데님(JE)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 173</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=64312" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64312/1594977156_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64312);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>14<em>%</em></span>												<span>12,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=64312">롤업5부숏팬츠(PA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 229</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">8</span>
-                                    <a href="/shop/view.php?index_no=64242" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64242/1594627870_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64242);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>24<em>%</em></span>												<span>19,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=64242">심플코튼밴딩숏팬츠(PA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 222</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">9</span>
-                                    <a href="/shop/view.php?index_no=64086" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64086/1594107522_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64086);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>16<em>%</em></span>												<span>21,500</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=64086">하이웨스트숏팬츠(JE)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 260</span>
-                                       <span>리뷰 1</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">10</span>
-                                    <a href="/shop/view.php?index_no=63900" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63900/1593583357_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63900);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>17<em>%</em></span>												<span>14,800</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63900">오링벨트셋숏데님(JE)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 848</span>
-                                       <span>리뷰 18</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">11</span>
-                                    <a href="/shop/view.php?index_no=63772" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63772/1592979339_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63772);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>29<em>%</em></span>												<span>19,800</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63772">심플트임린넨숏팬츠(PA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 305</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">12</span>
-                                    <a href="/shop/view.php?index_no=63530" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63530/1592810840_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63530);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>39<em>%</em></span>												<span>13,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63530">포켓밴딩숏데님팬츠(JE)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 1873</span>
-                                       <span>리뷰 13</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">13</span>
-                                    <a href="/shop/view.php?index_no=63408" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63408/1592272034_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63408);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>38<em>%</em></span>												<span>17,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63408">벨트셋롤업숏데님(JE)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 577</span>
-                                       <span>리뷰 1</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">14</span>
-                                    <a href="/shop/view.php?index_no=63346" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63346/1591866127_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63346);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>27<em>%</em></span>												<span>19,800</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63346">아이보리숏코튼팬츠(PA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 252</span>
-                                       <span>리뷰 2</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">15</span>
-                                    <a href="/shop/view.php?index_no=63236" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63236/1591696669_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                       <div class="soldOut">
-                                          <span>SOLD OUT</span>
-                                       </div>
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63236);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>28<em>%</em></span>												<span>17,900</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63236">스페이스점프슈트(PA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 330</span>
-                                       <span>리뷰 1</span>
                                     </div>
                                  </div>
                               </li>

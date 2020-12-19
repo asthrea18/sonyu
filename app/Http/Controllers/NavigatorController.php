@@ -32,9 +32,17 @@ class NavigatorController extends Controller
     }
 
     public function Longsleeve(){
-        return view('shop.top_long_sleve');
+        return view('shop.top_long_sleeve');
     }
+    public function Top()
+    {
+        return view('shop/top');
+    }
+    public function Shortsleeve()
+    {
+        return view('shop/top_short_sleeve');
 
+    }
     public function Man(){
         return view('shop.top_man');
     }
@@ -58,10 +66,94 @@ class NavigatorController extends Controller
     {
         return view('shop/body');
     }
-
-
     public function Training()
     {
         return view('shop/training');
     }
+    public function Basic()
+    {
+        return view('shop/basic');
+    }
+
+    public function Skirt()
+    {
+        return view('shop/skirt');
+    }
+    public function Shoebrand()
+    {
+        return view('shop/shoes_brand');
+    }
+    public function Shoe()
+    {
+        return view('shop/shoes');
+    }
+    public function Shoewalker()
+    {
+        return view('shop/shoes_walker');
+    }
+    public function Shoesneaker()
+    {
+        return view('shop/shoes_sneaker');
+    }
+    public function Shoesandal()
+    {
+        return view('shop/shoes_sandal');
+    }
+    public function Pantsbrand()
+    {
+        return view('shop/pants_under_brand');
+    }
+    public function Pantsslacks()
+    {
+        return view('shop/pants_slacks');
+    }
+    public function Pantsshort()
+    {
+        return view('shop/pants_short');
+
+    }
+    public function Pantsrec()
+    {
+        return view('shop/pants_recommended');
+    }
+    public function Pantslong()
+    {
+        return view('shop/pants_long');
+    }
+    public function Pantsleggings()
+    {
+        return view('shop/pants_legging');
+    }
+    public function Pantsdenim()
+    {
+        return view('shop/pants_denim');
+    }
+    public function Pantscotton()
+    {
+        return view('shop/pants_cotton');
+    }
+
+    public function Pantsjean()
+    {
+        return view('shop/pants_bluejean');
+    }
+
+    public function outer()
+    {
+        return view('shop/outer');
+    }
+    public function bag()
+    {
+        return view('shop/bag');
+    }
+    public function bagbackpack()
+    {
+        return view('shop/bag_backpack');
+    }
+    public function bagcrosstoe()
+    {
+        return view('shop/bag_crosstoe');
+    }
+
+
 }

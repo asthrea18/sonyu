@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko">
    <head>
-      <title>소녀나라 - 상의</title>
+      <title>소녀나라 - 트레이닝/홈웨어</title>
       <meta name="build" content="" />
-      <meta name="title" content="소녀나라 - 상의" />
-      <meta name="subject" content="상의" />
-      <meta name="description" content="상의,당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰" />
+      <meta name="title" content="소녀나라 - 트레이닝/홈웨어" />
+      <meta name="subject" content="트레이닝/홈웨어" />
+      <meta name="description" content="트레이닝/홈웨어,당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰" />
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <meta name="author" content="에스엔패션그룹(주)">
@@ -21,8 +21,10 @@
       <script type="text/javascript" src="{{asset('libs/jquery.bxslider.min.js')}}"></script>
       <script type="text/javascript" src="{{asset('libs/itemCarousel.js')}}"></script>
       <script type="text/javascript" src="{{asset('libs/slick.min.js')}}"></script>
+
       <script type="text/javascript" src="{{asset('js/jquery.form.min.js')}}"></script>
       <script type="text/javascript" src="{{asset('js/clipboard.js')}}"></script>
+
       <script type="text/javascript" src="{{asset('class/cookie.js')}}"></script>
       <script type="text/javascript" src="{{asset('class/goods.js')}}"></script>
       <script type="text/javascript" src="{{asset('class/buy.js')}}"></script>
@@ -78,11 +80,12 @@
       <!-- [구글에즈 태그 ] Global site tag (gtag.js) - Google Ads: 781540206 -->
       <!-- Enliple Common Tracker v3.6 [공용] start 2019-11-13 -->
       <script type="text/javascript">
+         <!--
          function mobRf() {
-         var rf = new EN();
-         rf.setData("userid", "ssonyunara");
-         rf.setSSL(true);
-         rf.sendRf();
+             var rf = new EN();
+             rf.setData("userid", "ssonyunara");
+             rf.setSSL(true);
+             rf.sendRf();
          }
          //-->
       </script>
@@ -109,8 +112,8 @@
       <!--남성민 데이터라이즈 2020-09-25 -->
       <script>
          (function(d,s,i) {
-         var se = d.createElement(s);se.type='text/x-javascript';se.async=true;se.src='//assets.datarize.ai/logger/genesis.'+i+'.min.js';
-         var x = d.getElementsByTagName(s)[0];x.parentNode.insertBefore(se,x);
+             var se = d.createElement(s);se.type='text/x-javascript';se.async=true;se.src='//assets.datarize.ai/logger/genesis.'+i+'.min.js';
+             var x = d.getElementsByTagName(s)[0];x.parentNode.insertBefore(se,x);
          })(document, 'script', '10028');
       </script>
       <!--남성민 데이터라이즈 2020-09-25 -->
@@ -143,23 +146,23 @@
 
       /*검색시 상품 리스트 노출*/
       $( function() {
-      $( "#keyword" ).autocomplete({
-      	source: availableTags,
-      	select: function (event, ui) {
-      		window.location = "/shop/view.php?index_no="+ui.item.index;
-      	},
-      	change: function (event, ui) {
-      		return false;
-      	},
-      	focus: function (event, ui) {
-      		return false;
-      	}
-      }).data("uiAutocomplete")._renderItem = function (ul, item) {
-      	return $("<li />")
-      		.data("item.autocomplete", item)
-      		.append("<img src='https://img.sonyunara.com/files/goods/" + item.index + "/t50." + item.image + "' style='padding:0;margin-right:5px' /><a>" + item.label + "</a>")
-      		.appendTo(ul);
-      };
+      	$( "#keyword" ).autocomplete({
+      		source: availableTags,
+      		select: function (event, ui) {
+      			window.location = "/shop/view.php?index_no="+ui.item.index;
+      		},
+      		change: function (event, ui) {
+      			return false;
+      		},
+      		focus: function (event, ui) {
+      			return false;
+      		}
+      	}).data("uiAutocomplete")._renderItem = function (ul, item) {
+      		return $("<li />")
+      			.data("item.autocomplete", item)
+      			.append("<img src='https://img.sonyunara.com/files/goods/" + item.index + "/t50." + item.image + "' style='padding:0;margin-right:5px' /><a>" + item.label + "</a>")
+      			.appendTo(ul);
+      	};
 
       });
    </script>
@@ -169,8 +172,8 @@
       <i id="crema-login-name" style="display:none;"></i>
       <div class="crema-popup"></div>
       <div id="skip">
-         <a href="#gnb">메인 메뉴로 바로가기</a>
-         <a href="#container">본문으로 바로가기</a>
+         <a href="#">메인 메뉴로 바로가기</a>
+         <a href="#">본문으로 바로가기</a>
       </div>
       <!-- //skip -->
       <script type="text/javascript" src="/asset/js/slick.min.js"></script>
@@ -185,24 +188,8 @@
          .bannerStat > div.centerBox{display:none;}
       </style>
       <div class="pctopBanner" id="topBanner">
-         <div class="swiper-slide " style="background-color:#ffb7cc">
-            <a href="/event/view.php?index_no=2844" target="_self" class="trace_link" data-name="피씨탑6430">
-               <div style="position:relative; display:inline-block;">
-                  <img src="#" style="margin:auto;">
-                  <button type="button" class="btn-close" >닫기</button>
-               </div>
-            </a>
-         </div>
          <div class="swiper-slide " style="background-color:#49bfb3">
-            <a href="/event/view.php?index_no=2838#event-title" target="_self" class="trace_link" data-name="피씨탑6372">
-               <div style="position:relative; display:inline-block;">
-                  <img src="#" style="margin:auto;">
-                  <button type="button" class="btn-close" >닫기</button>
-               </div>
-            </a>
-         </div>
-         <div class="swiper-slide " style="background-color:#6ec9c9">
-            <a href="/event/view.php?index_no=2824#event-title" target="_self" class="trace_link" data-name="피씨탑6414">
+            <a href="#" target="_self" class="trace_link" data-name="피씨탑6372">
                <div style="position:relative; display:inline-block;">
                   <img src="{{asset('img/new_banner.gif')}}" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
@@ -217,50 +204,66 @@
                </div>
             </a>
          </div>
+         <div class="swiper-slide " style="background-color:#6ec9c9">
+            <a href="/event/view.php?index_no=2824#event-title" target="_self" class="trace_link" data-name="피씨탑6414">
+               <div style="position:relative; display:inline-block;">
+                  <img src="https://img.sonyunara.com/files/new_banner/1607653363_0.gif" style="margin:auto;">
+                  <button type="button" class="btn-close" >닫기</button>
+               </div>
+            </a>
+         </div>
+         <div class="swiper-slide " style="background-color:#ffb7cc">
+            <a href="/event/view.php?index_no=2844" target="_self" class="trace_link" data-name="피씨탑6430">
+               <div style="position:relative; display:inline-block;">
+                  <img src="https://img.sonyunara.com/files/new_banner/1607674382_0.gif" style="margin:auto;">
+                  <button type="button" class="btn-close" >닫기</button>
+               </div>
+            </a>
+         </div>
       </div>
       <script type="text/javascript">
          $(document).ready(function() {
-         		$('.pctopBanner').slick({
+         	 $('.pctopBanner').slick({
          		slidesToShow: 1,
          		slidesToScroll: 1,
          		autoplay: true,
          		fade:true,
          		autoplaySpeed: 15000,
-         		});
+         	 });
          });
       </script>
       <script>
          $(document).ready(function() {
-         bannerChk();
+         	bannerChk();
          });
 
          $(document).on('click','.btn-close',function(e){
-         var name = 'topBanner';
-         delCookie(name);
-         $('#topBanner').animate({'height':'0'}, 400, function(){
-         	$(this).hide();
-         });
-         return false;
+         	var name = 'topBanner';
+         	delCookie(name);
+         	$('#topBanner').animate({'height':'0'}, 400, function(){
+         		$(this).hide();
+         	});
+         	return false;
          });
 
          function bannerClose(name) {
-         delCookie(name);
-         $('#topBanner').animate({'height':'0'}, 400, function(){
-         	$(this).hide();
-         });
-         }
-
-         function bannerChk() {
-         var isCookie = getCookie('topBanner');
-
-         if(!isCookie) {
-         	var h = $('#topBanner').find(".swiper-slide").innerHeight();
-         	$('#topBanner').show().css({'height':h}, 400);
-         } else {
+         	delCookie(name);
          	$('#topBanner').animate({'height':'0'}, 400, function(){
          		$(this).hide();
          	});
          }
+
+         function bannerChk() {
+         	var isCookie = getCookie('topBanner');
+
+         	if(!isCookie) {
+         		var h = $('#topBanner').find(".swiper-slide").innerHeight();
+         		$('#topBanner').show().css({'height':h}, 400);
+         	} else {
+         		$('#topBanner').animate({'height':'0'}, 400, function(){
+         			$(this).hide();
+         		});
+         	}
          }
       </script>
       <div class="wrap">
@@ -268,7 +271,7 @@
             <div class="top">
                <h1>
                   <a href="/">
-                  <img src="" alt="sonyunara" width="130px">
+                  <img src="https://img.sonyunara.com/2019/asset/pc/img/common/header/renual_logo.png" alt="sonyunara" width="130px">
                   </a>
                </h1>
                <ul class="toplink">
@@ -294,56 +297,56 @@
                </div>
                <!-- //search -->
                <ul class="mymenu">
-                  <li class="l1"><a href="/member/attend.php"><img src="" alt="출첵" class="icon"><strong>출첵</strong></a></li>
-                  <li class="l2"><a href="/member/wish.php"><img src="#" alt="좋아요" class="icon"><strong>좋아요</strong></a></li>
+                  <li class="l1"><a href="/member/attend.php"><img src="https://img.sonyunara.com/2020/asset/pc/img/common/header/my_icon1.png" alt="출첵" class="icon"><strong>출첵</strong></a></li>
+                  <li class="l2"><a href="/member/wish.php"><img src="https://img.sonyunara.com/2020/asset/pc/img/common/header/my_icon2.png" alt="좋아요" class="icon"><strong>좋아요</strong></a></li>
                   <!--				<li class="l2"><a href="/member/order.php"><img src="/asset/img/common/header/my_icon2.png" alt="MY소나" class="icon"><strong>MY소나</strong></a></li>-->
                   <li class="l3" style="margin-left:23px;">
-                     <a href="/member/cart.php"><img src="#" alt="장바구니" class="icon" style="margin-left:-19px;margin-top: 0px;"><strong>장바구니</strong></a>
+                     <a href="/member/cart.php"><img src="https://img.sonyunara.com/2020/asset/pc/img/common/header/my_icon3.png" alt="장바구니" class="icon" style="margin-left:-19px;margin-top: 0px;"><strong>장바구니</strong></a>
                      <span>0</span>
                   </li>
-                  <li class="l5"><a href="/shop/list_promotion.php"><img src="#" alt="기획전" class="icon" style="margin-left: -17px;margin-top: 1px;"><strong>기획전</strong></a></li>
+                  <li class="l5"><a href="/shop/list_promotion.php"><img src="https://img.sonyunara.com/2020/asset/pc/img/common/header/my_icon5.png" alt="기획전" class="icon" style="margin-left: -17px;margin-top: 1px;"><strong>기획전</strong></a></li>
                   <li class="l4">
                      <div class="table">
                         <div class="wrap">
                            <div>
                               <a href="#" target="_self">
-                              <strong>1.</strong> 기모								</a>
+                              <strong>1.</strong> 기모</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>2.</strong> 후드집업								</a>
+                              <strong>2.</strong> 후드집업</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>3.</strong> 양털								</a>
+                              <strong>3.</strong> 양털</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>4.</strong> 플리스								</a>
+                              <strong>4.</strong> 플리스</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>5.</strong> 빵빵숏패딩								</a>
+                              <strong>5.</strong> 빵빵숏패딩</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>6.</strong> 크림치즈								</a>
+                              <strong>6.</strong> 크림치즈</a>
+                           </div>
+                           <div>
+                              <a href="#">
+                              <strong>7.</strong> 맨투맨</a>
+                           </div>
+                           <div>
+                              <a href="#">
+                              <strong>8.</strong> 니트</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>7.</strong> 맨투맨								</a>
+                              <strong>9.</strong> 융털</a>
                            </div>
                            <div>
                               <a href="#" target="_self">
-                              <strong>8.</strong> 니트								</a>
-                           </div>
-                           <div>
-                              <a href="#" target="_self">
-                              <strong>9.</strong> 융털								</a>
-                           </div>
-                           <div>
-                              <a href="#" target="_self">
-                              <strong>10.</strong> 코듀로이								</a>
+                              <strong>10.</strong> 코듀로이</a>
                            </div>
                         </div>
                      </div>
@@ -447,10 +450,10 @@
                <div id="allMenu">
                   <div class="box">
                      <ul class="list import">
-                        <li><a href="/shop/new.php">신상</a></li>
-                        <li><a href="/shop/best.php">베스트</a></li>
-                        <li><a href="/shop/delivery.php">오늘출발</a></li>
-                        <li><a href="/shop/list.php?cate=3001">득템찬스</a></li>
+                        <li><a href="#">신상</a></li>
+                        <li><a href="#">베스트</a></li>
+                        <li><a href="#">오늘출발</a></li>
+                        <li><a href="#">득템찬스</a></li>
                      </ul>
                      <div class="list-wrap">
                         <h2>소호샵</h2>
@@ -485,7 +488,7 @@
                            <li><a href="#">FCMM</a></li>
                            <li><a href="#">프랑켄모노</a></li>
                            <li><a href="#">SNRD</a></li>
-                           <!-- 						<li><a href="/shop/brand_list.php?cate=3506">널디</a></li> -->
+                           <!-- 							<li><a href="/shop/brand_list.php?cate=3506">널디</a></li> -->
                            <li><a href="#">론론</a></li>
                            <li><a href="#">오프위</a></li>
                            <li><a href="#">챔피온</a></li>
@@ -635,9 +638,9 @@
                   <!-- 				<li class="c6"><a href="/shop/list.php?cate=3101"><span>선오픈 10%</span></a><em>33</em></li> -->
                   <!-- 				<li class="c1"><a href="/shop/new.php"><span>오늘신상</span></a><em>39</em></li> -->
                   <!-- 				<li class="c2"><a href="/shop/best_new.php"><span>베스트</span></a></li> -->
-                  <li class="c3"><a href="/shop/delivery.php"></a></li>
+                  <li class="c3"><a href="#"></a></li>
                   <!-- 				<li class="c5"><a href="/shop/beauty.php"></a></li> -->
-                  <li class="c4"><a href="/shop/brand.php"></a></li>
+                  <li class="c4"><a href="#"></a></li>
                   <!-- 				<li class="c5"><a href="/shop/list.php?cate=0704"><span>갑질</span></a></li> -->
                </ul>
             </nav>
@@ -657,18 +660,12 @@
             </div>
             <div class="contents">
                <div style="text-align: center; position: relative; display: none;margin-bottom:80px;">
-                  <img src="#" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
+                  <img src="{{asset('img/top/top1.webp')}}" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
                </div>
-               <h2 class="">상의</h2>
+               <h2 class="">트레이닝/홈웨어</h2>
                <div class="category-product">
                   <ul class="tabmenu">
                      <li class='on'><a class="" href="#">All</a></li>
-                     <li class=''><a class="" href="#">긴팔티셔츠</a></li>
-                     <li class=''><a class="" href="#">맨투맨</a></li>
-                     <li class=''><a class="" href="#">후드</a></li>
-                     <li class=''><a class="" href="#">반팔/민소매티셔츠</a></li>
-                     <li class=''><a class="" href="#">니트</a></li>
-                     <li class=''><a class="" href="#">브랜드상의</a></li>
                   </ul>
                   <!-- //tabmenu -->
                   <div class="product-box" style="padding-top:0 !important;">
@@ -683,95 +680,91 @@
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">1</span>
-                                    <a href="#" class="">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
+                                    <a href="/shop/view.php?index_no=67138" class="image">
+                                       <img src="{{asset('img/top/top2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67164);">
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67138);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
                                     </a>
                                  </div>
                                  <div class="item-content">
                                     <div class="info">
                                        <div class="pull-left">
-                                          <span>19<em>%</em></span>												<span>17,900</span>
+                                          <span>34<em>%</em></span>												<span>7,900</span>
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="#">퐁당카라맨투맨(T)</a>
+                                       <a href="#">[특가]피치줄레깅스-2종(겉기모)(PA)</a>
                                     </div>
                                     <div class="count">
-                                       <span>구매 113</span>
-                                       <span>리뷰 2</span>
+                                       <span>구매 154</span>
                                     </div>
                                  </div>
                               </li>
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">2</span>
-                                    <a href="#" class="image">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
-                                       <!--<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
+                                    <a href="#">
+                                       <img src="{{asset('img/top/top3.webp')}}">
+                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66956);">
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66724);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
                                     </a>
                                  </div>
                                  <div class="item-content">
                                     <div class="info">
                                        <div class="pull-left">
-                                          <span>16<em>%</em></span>												<span>16,800</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
+                                          <span>22<em>%</em></span>												<span>23,500</span>
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="#">[sns인기템]문라이트맨투맨(기모)(T)</a>
+                                       <a href="#">캘리기모트레이닝세트(TR)</a>
                                     </div>
                                     <div class="count">
-                                       <span>구매 715</span>
-                                       <span>리뷰 6</span>
+                                       <span>구매 508</span>
+                                       <span>리뷰 11</span>
                                     </div>
                                  </div>
                               </li>
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">3</span>
-                                    <a href="#" class="image">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
+                                    <a href="" class="image">
+                                       <img src="{{asset('img/top/top4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65278);">
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64960);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
                                     </a>
                                  </div>
                                  <div class="item-content">
                                     <div class="info">
                                        <div class="pull-left">
-                                          <span>25<em>%</em></span>												<span>13,500</span>
+                                          <span>28<em>%</em></span>												<span>14,500</span>
                                        </div>
                                        <div class="pull-right">
                                           오늘출발
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="#">[주문폭주]포니와플니트 (8colors!)(T)</a>
+                                       <a href="#">[기획]인생핏 NEW라인트랙팬츠 150/160[P]</a>
                                     </div>
                                     <div class="count">
-                                       <span>구매 7164</span>
-                                       <span>리뷰 82</span>
+                                       <span>구매 4925</span>
+                                       <span>리뷰 63</span>
                                     </div>
                                  </div>
                               </li>
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">4</span>
-                                    <a href="#" class="image">
-                                       <img src="#">
+                                    <a href="#">
+                                       <img src="{{asset('img/training/training4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66096);">
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66704);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
                                     </a>
                                  </div>
@@ -785,104 +778,26 @@
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="#">겨울엔요고!기모맨투맨 (6colors!)(T)</a>
+                                       <a href="#">LA자수트레이닝팬츠(기모)(PA)</a>
                                     </div>
                                     <div class="count">
-                                       <span>구매 1947</span>
-                                       <span>리뷰 33</span>
+                                       <span>구매 368</span>
+                                       <span>리뷰 7</span>
                                     </div>
                                  </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">5</span>
-                                    <a href="#" class="image">
-                                    </a>
-                                    <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67184);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>14<em>%</em></span>												<span>13,800</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="#">문베어기모맨투맨(T)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 265</span>
-                                       <span>리뷰 3</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="#">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67092);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>23<em>%</em></span>												<span>21,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="#">여리핏꽈배기니트 (9colors!)(T)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 131</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="#">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67212);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>18<em>%</em></span>												<span>27,900</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="#">레퍼런스후드(고퀄양기모)(T)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 92</span>
-                                       <span>리뷰 1</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                            </ul>
                         </div>
                      </div>
                   </div>
                   <div class="list-info-box">
-                     <div class="txt"><strong>464개의 상품</strong></div>
+                     <div class="txt"><strong>79개의 상품</strong></div>
                      <ul class="list-sort">
                         <li class="on"><a href="#">추천순</a></li>
                         <li class=""><a href="#">신상품</a></li>
                         <li class=""><a href="#">판매량</a></li>
                         <li class=""><a href="#">낮은가격</a></li>
-                        <!-- <li class=""><a href="/shop/list.php?page=1&cate=0101&orby=4">높은가격</a></li> -->
+                        <!-- <li class=""><a href="/shop/list.php?page=1&cate=0105&orby=4">높은가격</a></li> -->
                      </ul>
                   </div>
                   <!-- //list-info-box -->
@@ -898,10 +813,10 @@
             window.criteo_q = window.criteo_q || [];
             var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d";
             window.criteo_q.push(
-            { event: "setAccount", account: 16750}, // 이 라인은 업데이트하면 안됩니다
-            { event: "setEmail", email: "" }, // 유저가 로그인이 안되 있는 경우 빈 문자열을 전달
-            { event: "setSiteType", type: deviceType},
-            { event: "viewList", item: [67564,67576,66106] }); // 가장 위에있는 3개의 상품 ID를 전달
+             { event: "setAccount", account: 16750}, // 이 라인은 업데이트하면 안됩니다
+             { event: "setEmail", email: "" }, // 유저가 로그인이 안되 있는 경우 빈 문자열을 전달
+             { event: "setSiteType", type: deviceType},
+             { event: "viewList", item: [66566,60184,66152] }); // 가장 위에있는 3개의 상품 ID를 전달
          </script>
          <!-- END 카테고리/리스팅 태그 이유경 2020-06-25 남성민 -->
          <footer id="footer">
@@ -1244,242 +1159,242 @@
       <!-- //popBox -->
       <script type="text/javascript" >
          $(function(){
-         //pop.open('#popMain', '#notToday');  //팝업(활성화 팝업 아이디/오늘하루닫기 사용할 경우 체크박스 아이디)
+         	//pop.open('#popMain', '#notToday');  //팝업(활성화 팝업 아이디/오늘하루닫기 사용할 경우 체크박스 아이디)
          //	topBanner.open(); //상단배너 활성화
 
-         $('#visualSlide').css('visibility','visible');
+         	$('#visualSlide').css('visibility','visible');
 
-         $('#visualSlide').slick({ // 메인슬라이드
-         	infinite: true,
-         	slidesToShow: 1,
-         	autoplay: true,
-         	autoplaySpeed: 4000,
-         	speed: 600,
-         	arrows: true,
-         	centerMode: true,
-         	slidesToShow: 1,
-         	variableWidth: true,
-         	centerPadding: '250px'
-         });
+         	$('#visualSlide').slick({ // 메인슬라이드
+         		infinite: true,
+         		slidesToShow: 1,
+         		autoplay: true,
+         		autoplaySpeed: 4000,
+         		speed: 600,
+         		arrows: true,
+         		centerMode: true,
+         		slidesToShow: 1,
+         		variableWidth: true,
+         		centerPadding: '250px'
+         	});
 
-         $('#tabSlider').css('visibility','visible');
+         	$('#tabSlider').css('visibility','visible');
 
-         $('#tabSlider').slick({ // 소나브랜드슬라이드
-         	infinite: true,
-         	slidesToShow: 1,
-         	arrows: true,
-         	centerMode: true,
-         	slidesToShow: 1,
-         	centerPadding: '250px',
-         	variableWidth: true,
-         	speed: 400
-         });
+         	$('#tabSlider').slick({ // 소나브랜드슬라이드
+         		infinite: true,
+         		slidesToShow: 1,
+         		arrows: true,
+         		centerMode: true,
+         		slidesToShow: 1,
+         		centerPadding: '250px',
+         		variableWidth: true,
+         		speed: 400
+         	});
 
-         $('#tabSlider1').css('visibility','visible');
+         	$('#tabSlider1').css('visibility','visible');
 
-         $('#tabSlider1').slick({ // 입점브랜드슬라이드
-         	infinite: true,
-         	slidesToShow: 1,
-         	arrows: true,
-         	centerMode: true,
-         	slidesToShow: 1,
-         	centerPadding: '250px',
-         	variableWidth: true,
-         	speed: 400
-         });
+         	$('#tabSlider1').slick({ // 입점브랜드슬라이드
+         		infinite: true,
+         		slidesToShow: 1,
+         		arrows: true,
+         		centerMode: true,
+         		slidesToShow: 1,
+         		centerPadding: '250px',
+         		variableWidth: true,
+         		speed: 400
+         	});
 
-         $('#tabSlider1').slick('slickGoTo','');
+         	$('#tabSlider1').slick('slickGoTo','');
 
-         $('.special-zone .sortmenu li').on('click', function() {
-         	var idx = $(this).index();
-         	$('#tabSlider').slick('slickGoTo',idx);
-         });
+         	$('.special-zone .sortmenu li').on('click', function() {
+         		var idx = $(this).index();
+         		$('#tabSlider').slick('slickGoTo',idx);
+         	});
 
-         $('.special-zone1 .sortmenu1 li').on('click', function() {
-         	var idx = $(this).index();
-         	$('#tabSlider1').slick('slickGoTo',idx);
-         });
+         	$('.special-zone1 .sortmenu1 li').on('click', function() {
+         		var idx = $(this).index();
+         		$('#tabSlider1').slick('slickGoTo',idx);
+         	});
 
-         $('#tabSlider').on('afterChange', function(event, slick, currentSlide, nextSlide){
-         	$('.special-zone .sortmenu li').removeClass('on');
-         	$('.special-zone .sortmenu .brand'+currentSlide).addClass('on');
-         	$('.special-zone .sonaBrand').removeClass('on');
-         	$('.special-zone #sonaBrand'+currentSlide).addClass('on');
-         });
+         	$('#tabSlider').on('afterChange', function(event, slick, currentSlide, nextSlide){
+         		$('.special-zone .sortmenu li').removeClass('on');
+         		$('.special-zone .sortmenu .brand'+currentSlide).addClass('on');
+         		$('.special-zone .sonaBrand').removeClass('on');
+         		$('.special-zone #sonaBrand'+currentSlide).addClass('on');
+         	});
 
-         $('#tabSlider1').on('afterChange', function(event, slick, currentSlide, nextSlide){
-         	$('.special-zone1 .sortmenu1 li').removeClass('on');
-         	$('.special-zone1 .sortmenu1 .brand0'+currentSlide).addClass('on');
-         	$('.special-zone1 .sonaBrand1').removeClass('on');
-         	$('.special-zone1 #sonaBrand0'+currentSlide).addClass('on');
-         });
+         	$('#tabSlider1').on('afterChange', function(event, slick, currentSlide, nextSlide){
+         		$('.special-zone1 .sortmenu1 li').removeClass('on');
+         		$('.special-zone1 .sortmenu1 .brand0'+currentSlide).addClass('on');
+         		$('.special-zone1 .sonaBrand1').removeClass('on');
+         		$('.special-zone1 #sonaBrand0'+currentSlide).addClass('on');
+         	});
 
-         var $scrollCarousel = $('#itemCarousel');
-         $scrollCarousel.sly({
-         	horizontal: 1,
-         	itemNav: 'basic',
-         	smart: 1,
-         	mouseDragging: 1,
-         	touchDragging: 1,
-         	releaseSwing: 1,
-         	startAt: 0,
-         	scrollBar: $scrollCarousel.parent().find('.scrollbar'),
-         	scrollBy: 1,
-         	speed: 800,
-         	maxHandleSize:10,
-         	elasticBounds: 1,
-         	easing: 'easeOutSine',
-         	dragHandle: 1,
-         	dynamicHandle: 1,
-         	clickBar: 1,
-         	prev: $scrollCarousel.parent().find('.prev'),
-         	next: $scrollCarousel.parent().find('.next')
-         });
+         	var $scrollCarousel = $('#itemCarousel');
+         	$scrollCarousel.sly({
+         		horizontal: 1,
+         		itemNav: 'basic',
+         		smart: 1,
+         		mouseDragging: 1,
+         		touchDragging: 1,
+         		releaseSwing: 1,
+         		startAt: 0,
+         		scrollBar: $scrollCarousel.parent().find('.scrollbar'),
+         		scrollBy: 1,
+         		speed: 800,
+         		maxHandleSize:10,
+         		elasticBounds: 1,
+         		easing: 'easeOutSine',
+         		dragHandle: 1,
+         		dynamicHandle: 1,
+         		clickBar: 1,
+         		prev: $scrollCarousel.parent().find('.prev'),
+         		next: $scrollCarousel.parent().find('.next')
+         	});
 
-         $('#sonaTv .slider').slick({
-         	dots: true,
-         	customPaging : function(slider, i) {
-         		var $item = $(slider.$slides[i]);
-         		var tit = $item.find('.txt1').html();
-         		var writer = $item.find('.txt2').text();
-         		var view = $item.find('.txt3').text();
-         		var date = $item.find('.txt4').text();
-         		var thumb = $item.find('.thumb img').attr('src');
-         		var html ='';
-         		html += '	<span class="thumb"><img src="'+thumb+'"></span>',
-         		html += '	<span class="tit" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">'+tit+'</span>',
-         		html += '	<span class="writer">'+writer+'</span>',
-         		html += '	<span class="info"><span>'+view+'</span><span>'+date+'</span></span>';
-         		return html;
-         	},
-         	speed :600,
-         	infinite: true,
-         	centerMode: true,
-         	slidesToShow: 3,
-         	slidesToScroll: 1,
-         	variableWidth: true
-         });
+         	$('#sonaTv .slider').slick({
+         		dots: true,
+         		customPaging : function(slider, i) {
+         			var $item = $(slider.$slides[i]);
+         			var tit = $item.find('.txt1').html();
+         			var writer = $item.find('.txt2').text();
+         			var view = $item.find('.txt3').text();
+         			var date = $item.find('.txt4').text();
+         			var thumb = $item.find('.thumb img').attr('src');
+         			var html ='';
+         			html += '	<span class="thumb"><img src="'+thumb+'"></span>',
+         			html += '	<span class="tit" style="overflow: hidden; white-space: nowrap; text-overflow: ellipsis;">'+tit+'</span>',
+         			html += '	<span class="writer">'+writer+'</span>',
+         			html += '	<span class="info"><span>'+view+'</span><span>'+date+'</span></span>';
+         		    return html;
+         		},
+         		speed :600,
+         		infinite: true,
+         		centerMode: true,
+         		slidesToShow: 3,
+         		slidesToScroll: 1,
+         		variableWidth: true
+         	});
 
-         $('#sonaTv .slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
-         	$('#sonaTv .slider .slick-cloned.slick-active').addClass('zoom');
-         	setTimeout(function(){
-         		$('#sonaTv .slider .slick-cloned.slick-active').removeClass('zoom');
-         	}, 100);
-         });
+         	$('#sonaTv .slider').on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+         		$('#sonaTv .slider .slick-cloned.slick-active').addClass('zoom');
+         		setTimeout(function(){
+         			$('#sonaTv .slider .slick-cloned.slick-active').removeClass('zoom');
+         		}, 100);
+         	});
 
-         $('#swiper-container-list-ranking').slick({
-         	slidesToShow: 5,
-         	slidesToScroll: 5,
-         	arrows: true,
-         	dots: false,
-         	swipe: false,
-         	infinite: false,
-         	speed: 1000,
-         	prevArrow: $(".item-arrow .best-prev"),
-         	nextArrow: $(".item-arrow .best-next")
-         });
+         	$('#swiper-container-list-ranking').slick({
+         		slidesToShow: 5,
+         		slidesToScroll: 5,
+         		arrows: true,
+         		dots: false,
+         		swipe: false,
+         		infinite: false,
+         		speed: 1000,
+         		prevArrow: $(".item-arrow .best-prev"),
+         		nextArrow: $(".item-arrow .best-next")
+         	});
          });
 
          // 스마트서치
          function goSmartSearch() {
-         var cate_arr = new Array();
-         var color_arr = new Array();
-         var size_arr = new Array();
-         var neck_arr = new Array();
-         var model_arr = new Array();
-         var linging_arr = new Array();
-         var keyword = $('input[name="search_keyword1"]').val();
-         var height = $('input[name="search_height1"]').val();
-         var price = $('input[name="search_price1"]').val();
-         var sale = $('input[name="search_sale1"]').val();
+         	var cate_arr = new Array();
+         	var color_arr = new Array();
+         	var size_arr = new Array();
+         	var neck_arr = new Array();
+         	var model_arr = new Array();
+         	var linging_arr = new Array();
+         	var keyword = $('input[name="search_keyword1"]').val();
+         	var height = $('input[name="search_height1"]').val();
+         	var price = $('input[name="search_price1"]').val();
+         	var sale = $('input[name="search_sale1"]').val();
 
-         $('input[name="search_cate1"]:checked').each(function() {
-         	cate_arr.push(this.value);
-         });
+         	$('input[name="search_cate1"]:checked').each(function() {
+         		cate_arr.push(this.value);
+         	});
 
-         $('input[name="search_color1"]:checked').each(function() {
-         	color_arr.push(this.value);
-         });
+         	$('input[name="search_color1"]:checked').each(function() {
+         		color_arr.push(this.value);
+         	});
 
-         $('input[name="search_size1"]:checked').each(function() {
-         	size_arr.push(this.value);
-         });
+         	$('input[name="search_size1"]:checked').each(function() {
+         		size_arr.push(this.value);
+         	});
 
-         $('input[name="search_neck1"]:checked').each(function() {
-         	neck_arr.push(this.value);
-         });
+         	$('input[name="search_neck1"]:checked').each(function() {
+         		neck_arr.push(this.value);
+         	});
 
-         $('input[name="search_model1"]:checked').each(function() {
-         	model_arr.push(this.value);
-         });
+         	$('input[name="search_model1"]:checked').each(function() {
+         		model_arr.push(this.value);
+         	});
 
-         $('input[name="search_lining1"]:checked').each(function() {
-         	linging_arr.push(this.value);
-         });
+         	$('input[name="search_lining1"]:checked').each(function() {
+         		linging_arr.push(this.value);
+         	});
 
-         $('input[name="search_cate"]').val(cate_arr);
-         $('input[name="search_keyword"]').val(keyword);
-         $('input[name="search_color"]').val(color_arr);
-         $('input[name="search_size"]').val(size_arr);
-         $('input[name="search_neck"]').val(neck_arr);
-         $('input[name="search_model"]').val(model_arr);
-         $('input[name="search_lining"]').val(linging_arr);
-         $('input[name="search_height"]').val(height);
-         $('input[name="search_price"]').val(price);
-         $('input[name="search_sale"]').val(sale);
+         	$('input[name="search_cate"]').val(cate_arr);
+         	$('input[name="search_keyword"]').val(keyword);
+         	$('input[name="search_color"]').val(color_arr);
+         	$('input[name="search_size"]').val(size_arr);
+         	$('input[name="search_neck"]').val(neck_arr);
+         	$('input[name="search_model"]').val(model_arr);
+         	$('input[name="search_lining"]').val(linging_arr);
+         	$('input[name="search_height"]').val(height);
+         	$('input[name="search_price"]').val(price);
+         	$('input[name="search_sale"]').val(sale);
 
-         $('#smartSearchForm').submit();
+         	$('#smartSearchForm').submit();
          }
 
          $(function(){
-         // 스마트서치 검색 후 뒤로가기 시 키워드창 placeholder랑 value 겹침 현상
-         var e = jQuery.Event( "keyup", { keyCode: 38 });
-         $('input[name="search_keyword1"]').trigger('focus');
-         $('input[name="search_keyword1"]').trigger(e);
+         	// 스마트서치 검색 후 뒤로가기 시 키워드창 placeholder랑 value 겹침 현상
+         	var e = jQuery.Event( "keyup", { keyCode: 38 });
+         	$('input[name="search_keyword1"]').trigger('focus');
+         	$('input[name="search_keyword1"]').trigger(e);
 
-         $('input[name="search_keyword1"]').keydown(function(key) {
-         	if (key.keyCode == 13) {
-         		goSmartSearch();
-         	}
-         });
+         	$('input[name="search_keyword1"]').keydown(function(key) {
+         		if (key.keyCode == 13) {
+         			goSmartSearch();
+         		}
+         	});
          });
 
          $('a[href^="/shop/view.php"]').click(function(e){
-         e.preventDefault();
-         e.stopPropagation();
+         	e.preventDefault();
+         	e.stopPropagation();
 
-         if( $(this).hasClass('trace_link') ){
-         	var name = $(this).data('name');
-         	var url = $(this).attr('href');
-         	var src = $(this).find('img').attr('src');
+         	if( $(this).hasClass('trace_link') ){
+         		var name = $(this).data('name');
+         		var url = $(this).attr('href');
+         		var src = $(this).find('img').attr('src');
 
-         	$.ajax({
-         		url:'/ajax_proc/trace_link.php',
-         		type:'post',
-         		data:{'name':name,'src':src},
-         		async:false,
-         		success:function(){
-         		}
-         	});
-         }
-
-         if( $(this).find('img').length < 1 ){
-         	location.href = $(this).attr('href');
-         }else{
-         	var src = $(this).find('img').attr('src');
-         		src = src.split('/');
-
-         	var file_name = src.pop();
-         	var goods_idx = src.pop();
-
-         	if( file_name.indexOf('.gif') !== -1 ){
-         		location.href = $(this).attr('href');
-         		return false;
+         		$.ajax({
+         			url:'/ajax_proc/trace_link.php',
+         			type:'post',
+         			data:{'name':name,'src':src},
+         			async:false,
+         			success:function(){
+         			}
+         		});
          	}
 
-         	SiteProc.imgLinkCnt(goods_idx,file_name);
-         	location.href = $(this).attr('href');
-         }
+         	if( $(this).find('img').length < 1 ){
+         		location.href = $(this).attr('href');
+         	}else{
+         		var src = $(this).find('img').attr('src');
+         			src = src.split('/');
+
+         		var file_name = src.pop();
+         		var goods_idx = src.pop();
+
+         		if( file_name.indexOf('.gif') !== -1 ){
+         			location.href = $(this).attr('href');
+         			return false;
+         		}
+
+         		SiteProc.imgLinkCnt(goods_idx,file_name);
+         		location.href = $(this).attr('href');
+         	}
          });
       </script>
    </body>
@@ -1506,20 +1421,20 @@
 <!-- Facebook Pixel Code 2019-11-15 -->
 <script>
    function fbqSearchKeyword() {
-   var uri = document.referrer;
-   if (!uri) return;
-   var link = document.createElement('a');
-   link.setAttribute('href', uri);
-   var pattern = new RegExp('[\\?&](?:utm_term|n_keyword|q|query)=([^&#]*)');
-   var query = link.search.match(pattern);
-   if (query && query.length > 0) {
-   var keyword = query[1].replace(/\+/gi, "%20");
-   }
-   if (keyword) {
-   fbq('trackCustom', 'SearchKeyword', {
-   	hostname: link.hostname,
-   	keyword: decodeURIComponent(keyword),
-   });
+     var uri = document.referrer;
+     if (!uri) return;
+     var link = document.createElement('a');
+     link.setAttribute('href', uri);
+     var pattern = new RegExp('[\\?&](?:utm_term|n_keyword|q|query)=([^&#]*)');
+     var query = link.search.match(pattern);
+     if (query && query.length > 0) {
+       var keyword = query[1].replace(/\+/gi, "%20");
+     }
+     if (keyword) {
+       fbq('trackCustom', 'SearchKeyword', {
+         hostname: link.hostname,
+         keyword: decodeURIComponent(keyword),
+       });
    }
    }
    fbqSearchKeyword();
