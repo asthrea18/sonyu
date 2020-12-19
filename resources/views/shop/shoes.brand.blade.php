@@ -697,7 +697,7 @@
                                  <div class="item-image">
                                     <span class="rank brand">2</span>
                                     <a href="/shop/view.php?index_no=55574" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/55574/1573192172_5.gif.webp">
+                                       <img src="{{asset('img/shoes/shoes1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(55574);">
@@ -723,7 +723,7 @@
                                  <div class="item-image">
                                     <span class="rank brand">3</span>
                                     <a href="/shop/view.php?index_no=53994" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/53994/1569997827_5.gif.webp">
+                                       <img src="{{asset('img/shoes/shoes2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(53994);">
@@ -752,7 +752,7 @@
                                  <div class="item-image">
                                     <span class="rank brand">4</span>
                                     <a href="/shop/view.php?index_no=53996" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/53996/1570154714_5.gif.webp">
+                                       <img src="{{asset('img/shoes/shoes3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(53996);">
@@ -781,7 +781,7 @@
                                  <div class="item-image">
                                     <span class="rank brand">5</span>
                                     <a href="/shop/view.php?index_no=54002" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/54002/1569826274_5.gif.webp">
+                                       <img src="{{asset('img/shoes/shoes4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(54002);">
@@ -806,61 +806,8 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">6</span>
-                                    <a href="/shop/view.php?index_no=56900" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/56900/1576634819_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(56900);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>50<em>%</em></span>												<span>24,800</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=56900">[무료배송][SNRD] 여성 키높이 컨버스4컬러 4cm 셀업 통굽 스니커즈 (SN566)[B]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 1035</span>
-                                       <span>리뷰 12</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank brand">7</span>
-                                    <a href="/shop/view.php?index_no=47689" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/47689/1552469215_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(47689);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>39,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=47689">[휠라]클래식 킥스 B</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 782</span>
-                                       <span>리뷰 3</span>
-                                    </div>
-                                 </div>
-                              </li>
+
+
                            </ul>
                         </div>
                      </div>

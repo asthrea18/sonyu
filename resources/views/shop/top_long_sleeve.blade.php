@@ -714,7 +714,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=66696" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66696/1605510275_5.gif.webp">
+                                       <img src="{{asset('img/top/top1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66696);">
@@ -740,7 +740,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=66308" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66308/1603785798_5.gif.webp">
+                                       <img src="{{asset('img/top/top2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66308);">
@@ -769,7 +769,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=65882" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65882/1603155019_5.gif.webp">
+                                       <img src="{{asset('img/top/top3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65882);">
@@ -798,7 +798,7 @@
                                  <div class="item-image">
                                     <span class="rank ">5</span>
                                     <a href="/shop/view.php?index_no=42223" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/42223/1597995421_5.gif.webp">
+                                       <img src="{{asset('img/top/top4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(42223);">
@@ -822,62 +822,7 @@
                                        <span>리뷰 638</span>
                                     </div>
                                  </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=37041" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/37041/1598413985_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(37041);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>23<em>%</em></span>												<span>11,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=37041">반폴라단가라티[P]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 34086</span>
-                                       <span>리뷰 295</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=66854" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66854/1605248131_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66854);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>25<em>%</em></span>												<span>10,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=66854">[기획특가]365쭈욱기모박시핏T(기모)(T)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 223</span>
-                                       <span>리뷰 4</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                            </ul>
                         </div>
                      </div>

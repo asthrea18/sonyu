@@ -701,7 +701,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=66442" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66442/1603953153_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66442);">
@@ -730,7 +730,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=66578" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66578/1604039816_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66578);">
@@ -756,7 +756,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=64962" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64962/1603188402_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64962);">
@@ -785,7 +785,7 @@
                                  <div class="item-image">
                                     <span class="rank ">5</span>
                                     <a href="/shop/view.php?index_no=64592" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64592/1599783360_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64592);">
@@ -810,93 +810,7 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=61066" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/61066/1602831707_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(61066);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>25<em>%</em></span>												<span>11,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=61066">[기획/기모추가]인생핏 트레이닝 조거밴딩팬츠150/160(SN)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 32299</span>
-                                       <span>리뷰 250</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=66132" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66132/1602572530_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66132);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>16<em>%</em></span>												<span>23,500</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=66132">하이웨스트기모팬츠(PA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 637</span>
-                                       <span>리뷰 10</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">8</span>
-                                    <a href="/shop/view.php?index_no=46987" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/46987/1600917153_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(46987);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>24<em>%</em></span>												<span>15,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=46987">[4만장판매]카렌코튼일자팬츠 [P]</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 46614</span>
-                                       <span>리뷰 1352</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                            </ul>
                         </div>
                      </div>

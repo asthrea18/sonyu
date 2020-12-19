@@ -663,7 +663,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="/shop/view.php?index_no=67154" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67154/1606813566_5.gif.webp">
+                                       <img src="{{asset('img/skirt/skirt1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67154);">
@@ -685,37 +685,12 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">2</span>
-                                    <a href="/shop/view.php?index_no=67450" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67450/1607049018_5.gif.webp">
-                                       <img class="list_hot_icon" src="https://img.sonyunara.com/2020/icon/pc_hotItem.png" alt="" >
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67450);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>19<em>%</em></span>												<span>17,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=67450">케미니트스커트(SK)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 69</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=58464" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/58464/1599016270_5.gif.webp">
+                                       <img src="{{asset('img/skirt/skirt2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(58464);">
@@ -744,7 +719,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=47321" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/47321/1599042532_5.gif.webp">
+                                       <img src="{{asset('img/skirt/skirt3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(47321);">
@@ -773,7 +748,7 @@
                                  <div class="item-image">
                                     <span class="rank ">5</span>
                                     <a href="/shop/view.php?index_no=64570" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64570/1596763801_5.gif.webp">
+                                       <img src="{{asset('img/skirt/skirt4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64570);">
@@ -798,32 +773,7 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=64854" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64854/1599443576_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64854);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>25<em>%</em></span>												<span>13,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=64854">어텀밴딩치마바지(SK)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 1582</span>
-                                       <span>리뷰 11</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">7</span>

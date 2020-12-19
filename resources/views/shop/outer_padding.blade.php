@@ -666,8 +666,8 @@
                      <li class=''><a class="" href="/shop/list.php?cate=0104">All</a></li>
                      <li class=''><a class="" href="/shop/list.php?cate=010401">가디건·조끼</a></li>
                      <li class=''><a class="" href="/shop/list.php?cate=010403">야상·점퍼</a></li>
-                     <li class='on'><a class="" href="/shop/list.php?cate=010404">자켓·코트</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010405">패딩</a></li>
+                     <li class=''><a class="" href="/shop/list.php?cate=010405">자켓·코트</a></li>
+                     <li class='on'><a class="" href="/shop/list.php?cate=010404">패딩</a></li>
                      <li class=''><a class="" href="/shop/list.php?cate=010406">플리스</a></li>
                      <li class=''><a class="" href="/shop/list.php?cate=010407">브랜드아우터</a></li>
                   </ul>
@@ -685,7 +685,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="/shop/view.php?index_no=64466" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64466/1597836978_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64466);">
@@ -714,7 +714,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=65948" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65948/1605234093_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65948);">
@@ -743,7 +743,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=59333" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/59333/1600822479_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(59333);">
@@ -772,7 +772,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=65912" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65912/1601968585_5.gif.webp">
+                                       <img src="{{asset('img/outer/outer4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65912);">
@@ -794,58 +794,7 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">5</span>
-                                    <a href="/shop/view.php?index_no=65938" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65938/1601861417_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65938);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>23<em>%</em></span>												<span>21,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=65938">데님스티치자켓(JK)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 275</span>
-                                       <span>리뷰 3</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=58100" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/58100/1579749269_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(58100);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>28<em>%</em></span>												<span>28,900</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=58100">박시핏라이더자켓(JK)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 651</span>
-                                       <span>리뷰 7</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                            </ul>
                         </div>
                      </div>

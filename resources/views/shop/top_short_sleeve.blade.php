@@ -658,7 +658,7 @@
             </div>
             <div class="contents">
                <div style="text-align: center; position: relative; display: none;margin-bottom:80px;">
-                  <img src="https://img.sonyunara.com/files/cateimage/0101.gif" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
+                  <img src="{{asset('img/top/top1.webp')}}f" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
                </div>
                <h2 class="">상의</h2>
                <div class="category-product">
@@ -685,7 +685,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="/shop/view.php?index_no=63190" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63190/1599109456_5.gif.webp">
+                                       <img src="{{asset('img/top/top2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63190);">
@@ -714,7 +714,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=62626" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/62626/1597991579_5.gif.webp">
+                                       <img src="{{asset('img/top/top3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(62626);">
@@ -743,7 +743,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=45145" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/45145/1597992869_5.gif.webp">
+                                       <img src="{{asset('img/top/top4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(45145);">
@@ -769,118 +769,35 @@
                                  </div>
                               </li>
                               <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">4</span>
-                                    <a href="/shop/view.php?index_no=45154" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/45154/1597992615_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(45154);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>61<em>%</em></span>												<span>3,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=45154">[파격세일]아이스크림 단가라반팔티 (SN)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 22217</span>
-                                       <span>리뷰 555</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">5</span>
-                                    <a href="/shop/view.php?index_no=60198" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/60198/1584690278_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(60198);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>52<em>%</em></span>												<span>11,900</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=60198">누구나기본티3장set(T)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 1951</span>
-                                       <span>리뷰 54</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=51171" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/51171/1564705458_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(51171);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>39<em>%</em></span>												<span>7,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=51171">(재진행)츄파춥스반팔티 (10colors!)(T)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 7003</span>
-                                       <span>리뷰 126</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=45151" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/45151/1597992668_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(45151);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>61<em>%</em></span>												<span>3,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=45151">[파격세일]아이스크림 데일리반팔티 (SN)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 23189</span>
-                                       <span>리뷰 469</span>
-                                    </div>
-                                 </div>
-                              </li>
+                                <div class="item-image">
+                                   <span class="rank ">3</span>
+                                   <a href="/shop/view.php?index_no=45145" class="image">
+                                      <img src="{{asset('img/top/top1.webp')}}">
+                                      <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
+                                   </a>
+                                   <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(45145);">
+                                      <!-- 											<i class="fa fa-heart"></i> -->
+                                   </a>
+                                </div>
+                                <div class="item-content">
+                                   <div class="info">
+                                      <div class="pull-left">
+                                         <span>61<em>%</em></span>												<span>3,900</span>
+                                      </div>
+                                      <div class="pull-right">
+                                         오늘출발
+                                      </div>
+                                   </div>
+                                   <div class="subject">
+                                      <a href="/shop/view.php?index_no=45145">[파격세일]아이스크림 무지박시반팔(SN)</a>
+                                   </div>
+                                   <div class="count">
+                                      <span>구매 37659</span>
+                                      <span>리뷰 855</span>
+                                   </div>
+                                </div>
+                             </li>
+
                            </ul>
                         </div>
                      </div>

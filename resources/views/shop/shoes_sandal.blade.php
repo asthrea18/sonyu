@@ -668,7 +668,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="/shop/view.php?index_no=67228" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67228/1606807884_5.jpg.webp">
+                                       <img src="{{asset('img/shoes/shoes1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67228);">
@@ -693,7 +693,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=67226" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67226/1606447335_5.gif.webp">
+                                       <img src="{{asset('img/shoes/shoes2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67226);">
@@ -718,7 +718,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=65390" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65390/1600148417_5.jpg.webp">
+                                       <img src="{{asset('img/shoes/shoes3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65390);">
@@ -743,7 +743,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=64022" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64022/1594107140_5.jpg.webp">
+                                       <img src="{{asset('img/shoes/shoes4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64022);">
@@ -789,267 +789,8 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=64004" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64004/1593759116_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64004);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>13<em>%</em></span>												<span>25,200</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=64004">데이지스니커즈뮬(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 206</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=63988" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63988/1593685797_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63988);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>16<em>%</em></span>												<span>29,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63988">리얼소가죽슬리퍼(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 167</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">8</span>
-                                    <a href="/shop/view.php?index_no=63972" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63972/1593661451_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63972);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>13<em>%</em></span>												<span>28,800</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63972">세줄스트랩슬리퍼(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 164</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">9</span>
-                                    <a href="/shop/view.php?index_no=63758" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63758/1592988106_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63758);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>20<em>%</em></span>												<span>28,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63758">꼬임스트랩슬리퍼(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 188</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">10</span>
-                                    <a href="/shop/view.php?index_no=63354" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/63354/1591931373_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(63354);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>29<em>%</em></span>												<span>19,800</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=63354">베이직통굽쪼리(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 186</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">11</span>
-                                    <a href="/shop/view.php?index_no=62708" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/62708/1590111998_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(62708);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>46<em>%</em></span>												<span>14,500</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=62708">이지스트랩슬리퍼(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 283</span>
-                                       <span>리뷰 4</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">12</span>
-                                    <a href="/shop/view.php?index_no=61690" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/61690/1588138903_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(61690);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>18<em>%</em></span>												<span>27,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=61690">노벨스트랩슬리퍼(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 262</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">13</span>
-                                    <a href="/shop/view.php?index_no=61686" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/61686/1588129127_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(61686);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>15<em>%</em></span>												<span>25,500</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=61686">엔젤리스트랩샌들(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 248</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">14</span>
-                                    <a href="/shop/view.php?index_no=61646" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/61646/1588043043_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(61646);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>13<em>%</em></span>												<span>39,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=61646">볼드워커샌들(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 234</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">15</span>
-                                    <a href="/shop/view.php?index_no=61628" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/61628/1588036886_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(61628);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>41<em>%</em></span>												<span>12,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=61628">나인쪼리슈즈 (9colors!)(SH)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 362</span>
-                                       <span>리뷰 1</span>
-                                    </div>
-                                 </div>
-                              </li>
+
+
                            </ul>
                         </div>
                      </div>

@@ -576,7 +576,7 @@ function bannerChk() {
 					</ul>
 				</li>
 				<li>
-					<a href="#">상의</a><!-- //top -->
+					<a href="{{url('shop/top')}}">상의</a><!-- //top -->
 					<ul class="sub">
 						<li><a href="{{url('shop/longsleeve')}}">긴팔티셔츠</a></li><!-- //longsleeves -->
 						<li><a href="{{url('shop/man')}}">맨투맨</a></li><!-- //man -->

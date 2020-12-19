@@ -685,7 +685,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="/shop/view.php?index_no=66940" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66940/1605505396_5.gif.webp">
+                                       <img src="{{asset('img/top/top1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66940);">
@@ -711,7 +711,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=64496" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/64496/1_5f507ea23091a_1.png.webp">
+                                       <img src="{{asset('img/top/top2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64496);">
@@ -740,7 +740,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=67146" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67146/1606447770_5.gif.webp">
+                                       <img src="{{asset('img/top/top3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67146);">
@@ -766,7 +766,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=66248" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66248/1602752878_5.gif.webp">
+                                       <img src="{{asset('img/top/top4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66248);">
@@ -791,90 +791,7 @@
                                     </div>
                                  </div>
                               </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">5</span>
-                                    <a href="/shop/view.php?index_no=66956" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66956/1606179337_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66956);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>16<em>%</em></span>												<span>16,800</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=66956">[sns인기템]문라이트맨투맨(기모)(T)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 715</span>
-                                       <span>리뷰 5</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=67184" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67184/1606460726_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67184);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>14<em>%</em></span>												<span>13,800</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=67184">문베어기모맨투맨(T)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 261</span>
-                                       <span>리뷰 3</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=66388" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/66388/1603872363_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66388);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>22<em>%</em></span>												<span>19,500</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=66388">[겨울기획]후끈!양기모맨투맨(18colors!)(T)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 471</span>
-                                       <span>리뷰 6</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                            </ul>
                         </div>
                      </div>

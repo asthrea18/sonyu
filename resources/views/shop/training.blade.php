@@ -660,7 +660,7 @@
             </div>
             <div class="contents">
                <div style="text-align: center; position: relative; display: none;margin-bottom:80px;">
-                  <img src="{{asset('img/today/1608196461_5.gif.webp')}}" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
+                  <img src="{{asset('img/training/training1.webp')}}" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
                </div>
                <h2 class="">트레이닝/홈웨어</h2>
                <div class="category-product">
@@ -681,7 +681,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="/shop/view.php?index_no=67138" class="image">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
+                                       <img src="{{asset('img/training/training3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67138);">
@@ -706,7 +706,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="#">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
+                                       <img src="{{asset('img/training/training2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66724);">
@@ -732,7 +732,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="" class="image">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
+                                       <img src="{{asset('img/training/training1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64960);">
@@ -761,7 +761,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="#">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
+                                       <img src="{{asset('img/training/training4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66704);">
@@ -785,62 +785,7 @@
                                        <span>리뷰 7</span>
                                     </div>
                                  </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">5</span>
-                                    <a href="#">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(59351);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>28<em>%</em></span>												<span>28,900</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="#">(기모변경)꾸안꾸로이드세트(TR)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 2996</span>
-                                       <span>리뷰 52</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="#">
-                                       <img src="{{asset('img/today/1608196461_5.gif.webp')}}">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(54932);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>38<em>%</em></span>												<span>18,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="#">웰컴기모트레이닝(PA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 1438</span>
-                                       <span>리뷰 29</span>
-                                    </div>
-                                 </div>
-                              </li>
+
                            </ul>
                         </div>
                      </div>

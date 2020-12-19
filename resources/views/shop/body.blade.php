@@ -16,46 +16,46 @@
 	<meta name="author" content="에스엔패션그룹(주)">
 	<meta name="naver-site-verification" content="204a5d487092e595e48f35ee741cd305fa21d32a"/><!-- 네이버 소유주 확인 2019-11-20 -->
 	<link rel="shortcut icon" href="https://img.sonyunara.com/2020/favicon.png">
-	<script type="text/javascript" src="/asset/libs/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="/asset/libs/jquery-ui.js"></script>
-	<script type="text/javascript" src="/asset/libs/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="/asset/js/jquery.form.min.js"></script>
-	<script type="text/javascript" src="/asset/libs/ion.rangeSlider.js"></script>
-	<script type="text/javascript" src="/asset/libs/modernizr.js"></script>
-	<script type="text/javascript" src="/asset/js/clipboard.js"></script>
-	<script type="text/javascript" src="/asset/libs/sly.js"></script>
-	<script type="text/javascript" src="/asset/libs/jquery.bxslider.min.js"></script>
-	<script type="text/javascript" src="/asset/libs/itemCarousel.js"></script>
-	<script type="text/javascript" src="/asset/libs/slick.min.js"></script>
-	<script type="text/javascript" src="/class/cookie.js"></script>
-	<script type="text/javascript" src="/class/goods.js?a=20201204"></script>
-	<script type="text/javascript" src="/class/buy.js?a=202001204"></script>
-	<script type="text/javascript" src="/class/member.js?a=20201204"></script>
-	<script type="text/javascript" src="/class/site.js?a=20200903"></script>
-	<script src="/asset/js/swiper.js"></script>
-	<script src="/asset/js/swiper.min.js"></script>
-	<script type="text/javascript" src="/class/order.js?a=20200612"></script>
-	<script type="text/javascript" src="/asset/js/script.js?a=20200728"></script>
-	<script type="text/javascript" src="/asset/js/rollingBanner.js"></script>
-	<script type="text/javascript" src="/asset/js/common.js?a=20200707"></script>
-	<script type="text/javascript" src="/asset/js/common2.js?a=20200925"></script>
-	<script type="text/javascript" src="/crontab/auto_complete.js?a=20201218-13"></script>
-	<script type="text/javascript" src="/asset/js/sn_review.js?a=20200728"></script>
-	<link rel="stylesheet" type="text/css" href="/asset/css/ion.rangeSlider.min.css">
-	<link rel="stylesheet" type="text/css" href="/asset/css/ion.rangeSlider.skinFlat.css">
-	<link rel="stylesheet" type="text/css" href="/asset/css/jquery-ui.css">
-	<link rel="stylesheet" type="text/css" href="/asset/css/common.css?a=20200826">
-	<link rel="stylesheet" type="text/css" href="/asset/css/common_modify.css?a=20200810">
-	<link rel="stylesheet" type="text/css" href="/asset/css/main.css?a=20200707">
-	<link rel="stylesheet" type="text/css" href="/asset/css/sub.css?a=202012141">
-	<link rel="stylesheet" type="text/css" href="/asset/css/slick.css">
-	<link rel="stylesheet" type="text/css" href="/asset/css/slick-theme.css">
-	<link rel="stylesheet" type="text/css" href="/asset/css/custom.css">
-	<link rel="stylesheet" type="text/css" href="/asset/css/jelly.css?a=20201120">
-	<link rel="stylesheet" href="/asset/css/swiper.css">
-	<link rel="stylesheet" href="/asset/css/swiper.min.css">
-	<link rel="stylesheet" type="text/css" href="/asset/css/sn_review.css?a=202012011">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script type="text/javascript" src="{{asset('libs/jquery-1.11.0.min.js')}}"></script>
+      <script type="text/javascript" src="{{asset('libs/jquery-ui.js')}}"></script>
+      <script type="text/javascript" src="{{asset('libs/jquery.easing.1.3.js')}}"></script>
+      <script type="text/javascript" src="{{asset('libs/ion.rangeSlider.js')}}"></script>
+      <script type="text/javascript" src="{{asset('libs/modernizr.js')}}"></script>
+      <script type="text/javascript" src="{{asset('libs/sly.js')}}"></script>
+      <script type="text/javascript" src="{{asset('libs/jquery.bxslider.min.js')}}"></script>
+      <script type="text/javascript" src="{{asset('libs/itemCarousel.js')}}"></script>
+      <script type="text/javascript" src="{{asset('libs/slick.min.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/jquery.form.min.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/clipboard.js')}}"></script>
+      <script type="text/javascript" src="{{asset('class/cookie.js')}}"></script>
+      <script type="text/javascript" src="{{asset('class/goods.js')}}"></script>
+      <script type="text/javascript" src="{{asset('class/buy.js')}}"></script>
+      <script type="text/javascript" src="{{asset('class/member.js')}}"></script>
+      <script type="text/javascript" src="{{asset('class/site.js')}}"></script>
+      <script src="{{asset('js/swiper.js')}}"></script>
+      <script src="{{asset('js/swiper.min.js')}}"></script>
+      <script type="text/javascript" src="{{asset('class/order.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/script.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/rollingBanner.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/common.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/common2.js')}}"></script>
+      <script type="text/javascript" src="{{asset('crontab/auto_complete.js')}}"></script>
+      <script type="text/javascript" src="{{asset('js/sn_review.js')}}"></script>
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/ion.rangeSlider.min.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{ asset('css/ion.rangeSlider.skinFlat.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/jquery-ui.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/common.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/common_modify.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/main.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/sub.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/slick.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/slick-theme.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/custom.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/jelly.css')}}">
+      <link rel="stylesheet" href="{{asset('css/swiper.css')}}">
+      <link rel="stylesheet" href="{{asset('css/swiper.min.css')}}">
+      <link rel="stylesheet" type="text/css" href="{{asset('css/sn_review.css')}}">
+      <link rel="stylesheet" href="{{asset('css/font-awesome.css')}}">
 	<!-- luna herina script start 지우지말것 카카오 상담안됨-->
 <script type="text/javascript">
 	!function(h,e,a,r,i,n,c){c=function(){};i=e.createElement(a);i.async=!0;i.src=r;i.onload=c;n=e.getElementsByTagName(a)[0];n.parentNode.insertBefore(i,n);if(h.hearinaJs){c();return;}}(window,document,'script','//cdn.hearina.com/js/luna_hearina_v.0.4.js');

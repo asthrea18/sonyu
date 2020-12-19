@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko">
    <head>
-      <title>소녀나라 - 니트</title>
+      <title>소녀나라 - 아우터</title>
       <meta name="build" content="" />
-      <meta name="title" content="소녀나라 - 니트" />
-      <meta name="subject" content="니트" />
-      <meta name="description" content="니트,당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰" />
+      <meta name="title" content="소녀나라 - 아우터" />
+      <meta name="subject" content="아우터" />
+      <meta name="description" content="아우터,당일배송여성쇼핑몰,소녀나라,소나,10대여자쇼핑몰,여자여름코디,키작녀쇼핑몰,10대쇼핑몰" />
       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
       <meta name="author" content="에스엔패션그룹(주)">
@@ -124,7 +124,7 @@
       //
       //function autoLogin(){
       //	var memindex = "";
-      //	var autoLogin = "";
+      //	var autoLogin = "1";
       //
       //	if( memindex == '' && autoLogin == '1' ){
       //		$.ajax({
@@ -186,34 +186,18 @@
          .bannerStat > div.centerBox{display:none;}
       </style>
       <div class="pctopBanner" id="topBanner">
+         <div class="swiper-slide " style="background-color:#002315">
+            <a href="/shop/promotion.php?pro_idx=1240" target="_self" class="trace_link" data-name="피씨탑6510">
+               <div style="position:relative; display:inline-block;">
+                  <img src="https://img.sonyunara.com/files/new_banner/1608191704_0.gif" style="margin:auto;">
+                  <button type="button" class="btn-close" >닫기</button>
+               </div>
+            </a>
+         </div>
          <div class="swiper-slide " style="background-color:#ffb7cc">
             <a href="/event/view.php?index_no=2844" target="_self" class="trace_link" data-name="피씨탑6430">
                <div style="position:relative; display:inline-block;">
-                  <img src="{{asset('img/new_banner.gif')}}" style="margin:auto;">
-                  <button type="button" class="btn-close" >닫기</button>
-               </div>
-            </a>
-         </div>
-         <div class="swiper-slide " style="background-color:#6ec9c9">
-            <a href="/event/view.php?index_no=2824#event-title" target="_self" class="trace_link" data-name="피씨탑6414">
-               <div style="position:relative; display:inline-block;">
-                  <img src="{{asset('img/new_banner2.gif')}}" style="margin:auto;">
-                  <button type="button" class="btn-close" >닫기</button>
-               </div>
-            </a>
-         </div>
-         <div class="swiper-slide " style="background-color:#dde6ff">
-            <a href="/event/view.php?index_no=2858" target="_self" class="trace_link" data-name="피씨탑6420">
-               <div style="position:relative; display:inline-block;">
-                  <img src="{{asset('img/new_banner2.gif')}}" style="margin:auto;">
-                  <button type="button" class="btn-close" >닫기</button>
-               </div>
-            </a>
-         </div>
-         <div class="swiper-slide " style="background-color:#49bfb3">
-            <a href="/event/view.php?index_no=2838#event-title" target="_self" class="trace_link" data-name="피씨탑6372">
-               <div style="position:relative; display:inline-block;">
-                  <img src="https://img.sonyunara.com/files/new_banner/1607479599_0.gif" style="margin:auto;">
+                  <img src="https://img.sonyunara.com/files/new_banner/1607674382_0.gif" style="margin:auto;">
                   <button type="button" class="btn-close" >닫기</button>
                </div>
             </a>
@@ -269,11 +253,12 @@
             <div class="top">
                <h1>
                   <a href="/">
-                  <img src="https://img.sonyunara.com/2019/asset/pc/img/common/header/renual_logo.png" alt="sonyunara" width="130px">
+                  <img src="https://img.sonyunara.com/2020/asset/pc/img/common/header/renual_logo3.gif" alt="sonyunara" style="position:relative; top:-7px; width:235px;">
+                  <img src="https://img.sonyunara.com/2019/asset/pc/img/common/header/renual_logo.png" alt="sonyunara" width="130px" style="display:none;">
                   </a>
                </h1>
                <ul class="toplink">
-                  <li><a href="/member/join_step1.php">회원가입<em>(<font style="color:#ff7d9e;">+ 2만원</font>)</em></a></li>
+                  <li><a href="/member/register.php">회원가입<em>(<font style="color:#ff7d9e;">+ 2만원</font>)</em></a></li>
                   <li><a href="/cs/">고객센터</a></li>
                   <li>
                      <a href="/member/login.php">
@@ -307,44 +292,44 @@
                      <div class="table">
                         <div class="wrap">
                            <div>
-                              <a href="#">
-                              <strong>1.</strong> 기모</a>
+                              <a href="/shop/search.php?searchOrder=1&keyword=기모" target="_self">
+                              <strong>1.</strong> 기모								</a>
                            </div>
                            <div>
-                              <a href="#">
-                              <strong>2.</strong> 후드집업</a>
+                              <a href="/shop/list.php?cate=0101" target="_self">
+                              <strong>2.</strong> 니트								</a>
                            </div>
                            <div>
-                              <a href="#">
-                              <strong>3.</strong> 양털</a>
+                              <a href="/shop/list.php?cate=0412" target="_self">
+                              <strong>3.</strong> 뮤즈샵								</a>
                            </div>
                            <div>
-                              <a href="#">
-                              <strong>4.</strong> 플리스</a>
+                              <a href="/shop/search.php?searchOrder=&keyword=후드집업" target="_self">
+                              <strong>4.</strong> 후드집업								</a>
                            </div>
                            <div>
-                              <a href="#">
-                              <strong>5.</strong> 빵빵숏패딩</a>
+                              <a href="/shop/search.php?searchOrder=&keyword=기모팬츠" target="_self">
+                              <strong>5.</strong> 기모팬츠								</a>
                            </div>
                            <div>
-                              <a href="#">
-                              <strong>6.</strong> 크림치즈</a>
+                              <a href="/shop/search.php?searchOrder=&keyword=코듀로이" target="_self">
+                              <strong>6.</strong> 코듀로이								</a>
                            </div>
                            <div>
-                              <a href="#">
-                              <strong>7.</strong> 맨투맨</a>
+                              <a href="/shop/search.php?searchOrder=&keyword=양털" target="_self">
+                              <strong>7.</strong> 양털								</a>
                            </div>
                            <div>
-                              <a href="#">
-                              <strong>8.</strong> 니트</a>
+                              <a href="/shop/search.php?searchOrder=&keyword=숏패딩" target="_self">
+                              <strong>8.</strong> 숏패딩								</a>
                            </div>
                            <div>
-                              <a href="$">
-                              <strong>9.</strong> 융털</a>
+                              <a href="/shop/search.php?searchOrder=&keyword=트레이닝" target="_self">
+                              <strong>9.</strong> 트레이닝								</a>
                            </div>
                            <div>
-                              <a href="#">
-                              <strong>10.</strong> 코듀로이</a>
+                              <a href="/shop/search.php?searchOrder=&keyword=크림치즈" target="_self">
+                              <strong>10.</strong> 크림치즈								</a>
                            </div>
                         </div>
                      </div>
@@ -355,7 +340,7 @@
                            <tbody>
                               <tr class='rank'>
                                  <td>
-                                    <strong>1.</strong><a href="#">기모</a>
+                                    <strong>1.</strong><a href="/shop/search.php?searchOrder=1&keyword=기모" target="_self">기모</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>999</small>
@@ -363,23 +348,15 @@
                               </tr>
                               <tr class='rank'>
                                  <td>
-                                    <strong>2.</strong><a href="#"></a>
+                                    <strong>2.</strong><a href="/shop/list.php?cate=0101" target="_self">니트</a>
                                  </td>
                                  <td class="up">
-                                    <small><i class='fa fa-caret-up'></i>988</small>
+                                    <small><i class='fa fa-caret-up'></i>급상승</small>
                                  </td>
                               </tr>
                               <tr class='rank'>
                                  <td>
-                                    <strong>3.</strong><a href="#">양털</a>
-                                 </td>
-                                 <td class="up">
-                                    <small><i class='fa fa-caret-up'></i>970</small>
-                                 </td>
-                              </tr>
-                              <tr >
-                                 <td>
-                                    <strong>4.</strong><a href="#">플리스</a>
+                                    <strong>3.</strong><a href="/shop/list.php?cate=0412" target="_self">뮤즈샵</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>NEW</small>
@@ -387,15 +364,15 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>5.</strong><a href="#">빵빵숏패딩</a>
+                                    <strong>4.</strong><a href="/shop/search.php?searchOrder=&keyword=후드집업" target="_self">후드집업</a>
                                  </td>
                                  <td class="up">
-                                    <small><i class='fa fa-caret-up'></i>917</small>
+                                    <small><i class='fa fa-caret-up'></i>940</small>
                                  </td>
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>6.</strong><a href="#">크림치즈</a>
+                                    <strong>5.</strong><a href="/shop/search.php?searchOrder=&keyword=기모팬츠" target="_self">기모팬츠</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>급상승</small>
@@ -403,23 +380,23 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>7.</strong><a href="#">맨투맨</a>
+                                    <strong>6.</strong><a href="/shop/search.php?searchOrder=&keyword=코듀로이" target="_self">코듀로이</a>
                                  </td>
                                  <td class="up">
-                                    <small><i class='fa fa-caret-up'></i>845</small>
+                                    <small><i class='fa fa-caret-up'></i>894</small>
                                  </td>
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>8.</strong><a href="#">니트</a>
+                                    <strong>7.</strong><a href="/shop/search.php?searchOrder=&keyword=양털" target="_self">양털</a>
                                  </td>
                                  <td class="up">
-                                    <small><i class='fa fa-caret-up'></i>797</small>
+                                    <small><i class='fa fa-caret-up'></i>871</small>
                                  </td>
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>9.</strong><a href="#">융털</a>
+                                    <strong>8.</strong><a href="/shop/search.php?searchOrder=&keyword=숏패딩" target="_self">숏패딩</a>
                                  </td>
                                  <td class="up">
                                     <small><i class='fa fa-caret-up'></i>급상승</small>
@@ -427,10 +404,18 @@
                               </tr>
                               <tr >
                                  <td>
-                                    <strong>10.</strong><a href="$">코듀로이</a>
+                                    <strong>9.</strong><a href="/shop/search.php?searchOrder=&keyword=트레이닝" target="_self">트레이닝</a>
                                  </td>
                                  <td class="up">
-                                    <small><i class='fa fa-caret-up'></i>759</small>
+                                    <small><i class='fa fa-caret-up'></i>NEW</small>
+                                 </td>
+                              </tr>
+                              <tr >
+                                 <td>
+                                    <strong>10.</strong><a href="/shop/search.php?searchOrder=&keyword=크림치즈" target="_self">크림치즈</a>
+                                 </td>
+                                 <td class="up">
+                                    <small><i class='fa fa-caret-up'></i>740</small>
                                  </td>
                               </tr>
                            </tbody>
@@ -445,56 +430,56 @@
             <!-- //top -->
             <nav id="gnb" class="bottom">
                <button type="button" class="btn-all" id="btnAll"><span>전체메뉴</span></button>
-               <div id="allMenu">
+                <div id="allMenu">
                   <div class="box">
                      <ul class="list import">
-                        <li><a href="#">신상<li>
-                        <li><a href="#">베스트</li>
-                        <li><a href="#">오늘출</li>
-                        <li><a href="#">득템찬스</a></li>
+                        <li><a href="/shop/new.php">신상</a></li>
+                        <li><a href="/shop/best_new.php">베스트</a></li>
+                        <li><a href="/shop/delivery.php">오늘출발</a></li>
+                        <li><a href="/shop/list.php?cate=3001">득템찬스</a></li>
                      </ul>
                      <div class="list-wrap">
                         <h2>소호샵</h2>
                         <ul>
-                           <li><a href="#">아우터</a></li>
-                           <li><a href="#">상의</a></li>
-                           <li><a href="#">셔츠/블라우스</a></li>
-                           <li><a href="#">트레이닝/홈웨어</a></li>
-                           <li><a href="#">베이직</a></li>
-                           <li><a href="#">원피스</a></li>
-                           <li><a href="#">스커트</a></li>
-                           <li><a href="#">팬츠/데님</a></li>
-                           <li><a href="#">가방</a></li>
-                           <li><a href="#">신발</a></li>
-                           <li><a href="#">악세사리</a></li>
-                           <li><a href="#">소나라벨</a></li>
+                           <li><a href="/shop/list.php?cate=0104">아우터</a></li>
+                           <li><a href="/shop/list.php?cate=0101">상의</a></li>
+                           <li><a href="/shop/list.php?cate=0102">셔츠/블라우스</a></li>
+                           <li><a href="/shop/list.php?cate=0105">트레이닝/홈웨어</a></li>
+                           <li><a href="/shop/list.php?cate=0407">베이직</a></li>
+                           <li><a href="/shop/list.php?cate=0103">원피스</a></li>
+                           <li><a href="/shop/list.php?cate=0202">스커트</a></li>
+                           <li><a href="/shop/list.php?cate=0201">팬츠/데님</a></li>
+                           <li><a href="/shop/list.php?cate=0601">가방</a></li>
+                           <li><a href="/shop/list.php?cate=0501">신발</a></li>
+                           <li><a href="/shop/list.php?cate=0701">악세사리</a></li>
+                           <li><a href="/shop/list.php?cate=0301">소나라벨</a></li>
                            <!-- 								<li><a href="/shop/search.php?searchOrder=&keyword=%EC%8A%A4%ED%83%A0%EB%8B%A4%EB%93%9C%ED%95%8F">스탠다드 핏</a></li> -->
                         </ul>
                      </div>
                      <div class="list-wrap">
                         <h2>브랜드</h2>
                         <ul class="wide">
-                           <li><a href="#">상의</a></li>
-                           <li><a href="#">하의</a></li>
-                           <li><a href="#">아우터</a></li>
-                           <li><a href="#">신발</a></li>
-                           <li><a href="#">패션잡화</a></li>
-                           <li><a href="#">가방</a></li>
+                           <li><a href="/shop/list.php?cate=3701">상의</a></li>
+                           <li><a href="/shop/list.php?cate=3702">하의</a></li>
+                           <li><a href="/shop/list.php?cate=3704">아우터</a></li>
+                           <li><a href="/shop/list.php?cate=3706">신발</a></li>
+                           <li><a href="/shop/list.php?cate=3703">패션잡화</a></li>
+                           <li><a href="/shop/list.php?cate=3705">가방</a></li>
                         </ul>
                         <ul class="brand">
-                           <li><a href="#">휠라</a></li>
-                           <li><a href="#">FCMM</a></li>
-                           <li><a href="#">프랑켄모노</a></li>
-                           <li><a href="#">SNRD</a></li>
+                           <li><a href="/shop/brand_list.php?cate=2801">휠라</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3501">FCMM</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3503">프랑켄모노</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3502">SNRD</a></li>
                            <!-- 							<li><a href="/shop/brand_list.php?cate=3506">널디</a></li> -->
-                           <li><a href="#">론론</a></li>
-                           <li><a href="#">오프위</a></li>
-                           <li><a href="#">챔피온</a></li>
-                           <li><a href="#">데이라이프</a></li>
-                           <li><a href="#">테일러스튜디오</a></li>
-                           <li><a href="#">엠블러</a></li>
-                           <li><a href="#">애플앤딥</a></li>
-                           <li><a href="#">베테제</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3505">론론</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3508">오프위</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3504">챔피온</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3507">데이라이프</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3509">테일러스튜디오</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3510">엠블러</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3511">애플앤딥</a></li>
+                           <li><a href="/shop/brand_list.php?cate=3512">베테제</a></li>
                            <!--							<li><a href="/shop/brand_list.php?cate=3513">나이키</a></li>-->
                            <!--							<li><a href="/shop/brand_list.php?cate=3514">아디다스</a></li>-->
                            <!-- 							<li><a href="/shop/brand_list.php?cate=3515">칼하트</a></li> -->
@@ -530,42 +515,41 @@
                      <div class="list-wrap">
                         <h2>커뮤니티</h2>
                         <ul>
-                           <li><a href="#">기획전</a></li>
-                           <li><a href="#">이벤트</a></li>
-                           <li><a href="#">이벤트 당첨자발표</a></li>
-                           <li><a href="#">이벤트 당첨후기</a></li>
-                           <li><a href="#">출석체크</a></li>
-                           <li><a href="#">소나후기</a></li>
-                           <li><a href="#">뮤즈후기</a></li>
+                           <li><a href="/shop/list_promotion.php">기획전</a></li>
+                           <li><a href="/event/list.php">이벤트</a></li>
+                           <li><a href="/board/list.php?boardid=event_notice">이벤트 당첨자발표</a></li>
+                           <li><a href="/board/list.php?boardid=event_after">이벤트 당첨후기</a></li>
+                           <li><a href="/member/attend.php">출석체크</a></li>
+                           <li><a href="/review/review_index.php">소나후기</a></li>
+                           <li><a href="/review/review_muse.php">뮤즈후기</a></li>
                         </ul>
                      </div>
                      <div class="list-wrap">
                         <h2>마이페이지</h2>
                         <ul>
-                           <li><a href="#">주문배송</a></li>
-                           <li><a href="#">장바구니</a></li>
-                           <li><a href="#">적립금/쿠폰</a></li>
-                           <li><a href="#">교환/반품신청</a></li>
-                           <li><a href="#">좋아요</a></li>
+                           <li><a href="/member/order.php">주문배송</a></li>
+                           <li><a href="/member/cart.php">장바구니</a></li>
+                           <li><a href="/member/coupon.php">적립금/쿠폰</a></li>
+                           <li><a href="/member/order.php">교환/반품신청</a></li>
+                           <li><a href="/member/wish.php">좋아요</a></li>
                         </ul>
                      </div>
                      <div class="list-wrap">
                         <h2>고객센터</h2>
                         <ul>
-                           <li><a href="#">공지사항</a></li>
-                           <li><a href="#">자주묻는 질문</a></li>
-                           <li><a href="#">1:1문의하기</a></li>
-                           <li><a href="#">아이디/비번찾기</a></li>
-                           <li><a href="#">비회원 주문조회</a></li>
-                           <li><a href="#">비회원 문의</a></li>
+                           <li><a href="/board/list.php?boardid=csnotice">공지사항</a></li>
+                           <li><a href="/cs/index.php">자주묻는 질문</a></li>
+                           <li><a href="/cs/inquiry.php">1:1문의하기</a></li>
+                           <li><a href="/member/search_id_pw.php">아이디/비번찾기</a></li>
+                           <li><a href="/member/login.php">비회원 주문조회</a></li>
+                           <li><a href="/cs/inquiry_no.php">비회원 문의</a></li>
                         </ul>
                      </div>
                   </div>
                   <!-- //box -->
                </div>
                <!-- //allMenu -->
-
-			<ul class="menu">
+               <ul class="menu">
 				<li style="color: #9F3FF8;"><a href="{{url('shop/best')}}">베스트</a></li>
 				<li style="color: #FF416F;"><a href="{{url('shop/body')}}">신상</a></li>
 				<li>
@@ -630,15 +614,15 @@
 <!-- 				<li> -->
 <!-- 					<a href="/shop/list.php?cate=3101">선오픈</a> -->
 <!-- 				</li> -->
-			</ul><!-- //menu -->
+			</ul>
                <!-- //menu -->
                <ul class="cateogry">
                   <!-- 				<li class="c6"><a href="/shop/list.php?cate=3101"><span>선오픈 10%</span></a><em>33</em></li> -->
                   <!-- 				<li class="c1"><a href="/shop/new.php"><span>오늘신상</span></a><em>39</em></li> -->
                   <!-- 				<li class="c2"><a href="/shop/best_new.php"><span>베스트</span></a></li> -->
-                  <li class="c3"><a href="#"></a></li>
+                  <li class="c3"><a href="/shop/delivery.php"></a></li>
                   <!-- 				<li class="c5"><a href="/shop/beauty.php"></a></li> -->
-                  <li class="c4"><a href="#"></a></li>
+                  <li class="c4"><a href="/shop/brand.php"></a></li>
                   <!-- 				<li class="c5"><a href="/shop/list.php?cate=0704"><span>갑질</span></a></li> -->
                </ul>
             </nav>
@@ -658,18 +642,18 @@
             </div>
             <div class="contents">
                <div style="text-align: center; position: relative; display: none;margin-bottom:80px;">
-                  <img src="https://img.sonyunara.com/files/cateimage/0101.gif" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
+                  <img src="https://img.sonyunara.com/files/cateimage/0104.gif" onerror="$(this).remove();" onload="$(this).closest('div').show();" />
                </div>
-               <h2 class="">상의</h2>
+               <h2 class="">아우터</h2>
                <div class="category-product">
                   <ul class="tabmenu">
-                     <li class=''><a class="" href="/shop/list.php?cate=0101">All</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010102">긴팔티셔츠</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010104">맨투맨</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010103">후드</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010101">반팔/민소매티셔츠</a></li>
-                     <li class='on'><a class="" href="/shop/list.php?cate=010105">니트</a></li>
-                     <li class=''><a class="" href="/shop/list.php?cate=010106">브랜드상의</a></li>
+                     <li class='on'><a class="" href="/shop/list.php?cate=0104">All</a></li>
+                     <li class=''><a class="" href="/shop/list.php?cate=010401">가디건·조끼</a></li>
+                     <li class=''><a class="" href="/shop/list.php?cate=010403">야상·점퍼</a></li>
+                     <li class=''><a class="" href="/shop/list.php?cate=010404">자켓·코트</a></li>
+                     <li class=''><a class="" href="/shop/list.php?cate=010405">패딩</a></li>
+                     <li class=''><a class="" href="/shop/list.php?cate=010406">플리스</a></li>
+                     <li class=''><a class="" href="/shop/list.php?cate=010407">브랜드아우터</a></li>
                   </ul>
                   <!-- //tabmenu -->
                   <div class="product-box" style="padding-top:0 !important;">
@@ -684,159 +668,169 @@
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">1</span>
-                                    <a href="/shop/view.php?index_no=67092" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/67092/1607047703_5.gif.webp">
+                                    <a href="/shop/view.php?index_no=64734" class="image">
+                                       <img src="https://img.sonyunara.com/files/goods/64734/1608108013_5.gif.webp">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67092);">
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(64734);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
                                     </a>
                                  </div>
                                  <div class="item-content">
                                     <div class="info">
                                        <div class="pull-left">
-                                          <span>23<em>%</em></span>												<span>21,500</span>
+                                          <span>53<em>%</em></span>												<span>35,000</span>
+                                       </div>
+                                       <div class="pull-right">
+                                          오늘출발
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=67092">여리핏꽈배기니트 (9colors!)(T)</a>
+                                       <a href="/shop/view.php?index_no=64734">[프리미엄/신상주문폭주] 빵빵숏패딩(9colors!)(SN)</a>
                                     </div>
                                     <div class="count">
-                                       <span>구매 131</span>
+                                       <span>구매 11538</span>
+                                       <span>리뷰 87</span>
                                     </div>
                                  </div>
                               </li>
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">2</span>
-                                    <a href="/shop/view.php?index_no=66106" class="image">
-                                       <img src="{{asset('img/top/top1.webp')}}">
+                                    <a href="/shop/view.php?index_no=67238" class="image">
+                                       <img src="{{asset('img/outer/outer1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66106);">
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67238);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
                                     </a>
                                  </div>
                                  <div class="item-content">
                                     <div class="info">
                                        <div class="pull-left">
-                                          <span>31<em>%</em></span>												<span>13,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
+                                          <span>21<em>%</em></span>												<span>43,500</span>
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=66106">[1+1기획]슬림골지폴라니트2종(T)</a>
+                                       <a href="/shop/view.php?index_no=67238">밍크양면패딩(JP)</a>
                                     </div>
                                     <div class="count">
-                                       <span>구매 8445</span>
-                                       <span>리뷰 66</span>
+                                       <span>구매 74</span>
+                                       <span>리뷰 2</span>
                                     </div>
                                  </div>
                               </li>
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">3</span>
-                                    <a href="/shop/view.php?index_no=65278" class="image">
-                                       <img src="{{asset('img/top/top2.webp')}}">
+                                    <a href="/shop/view.php?index_no=45077" class="image">
+                                       <img src="{{asset('img/outer/outer2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65278);">
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(45077);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
                                     </a>
                                  </div>
                                  <div class="item-content">
                                     <div class="info">
                                        <div class="pull-left">
-                                          <span>25<em>%</em></span>												<span>13,500</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
+                                          <span>20<em>%</em></span>												<span>39,800</span>
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=65278">[주문폭주]포니와플니트 (8colors!)(T)</a>
+                                       <a href="/shop/view.php?index_no=45077">템포양면후리스집업(JU)</a>
                                     </div>
                                     <div class="count">
-                                       <span>구매 7158</span>
-                                       <span>리뷰 82</span>
+                                       <span>구매 7671</span>
+                                       <span>리뷰 134</span>
                                     </div>
                                  </div>
                               </li>
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">4</span>
-                                    <a href="/shop/view.php?index_no=66010" class="image">
-                                       <img src="{{asset('img/top/top3.webp')}}">
+                                    <a href="/shop/view.php?index_no=67196" class="image">
+                                       <img src="{{asset('img/outer/outer3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66010);">
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67196);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
                                     </a>
                                  </div>
                                  <div class="item-content">
                                     <div class="info">
                                        <div class="pull-left">
-                                          <span>24<em>%</em></span>												<span>14,500</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
+                                          <span>17<em>%</em></span>												<span>33,200</span>
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=66010">빅꽈배기브이넥니트 (7colors!)(T)</a>
+                                       <a href="/shop/view.php?index_no=67196">베이밍크후드점퍼(JP)</a>
                                     </div>
                                     <div class="count">
-                                       <span>구매 3593</span>
-                                       <span>리뷰 25</span>
+                                       <span>구매 168</span>
+                                       <span>리뷰 3</span>
                                     </div>
                                  </div>
                               </li>
                               <li class="slick-slide">
                                  <div class="item-image">
                                     <span class="rank ">5</span>
-                                    <a href="/shop/view.php?index_no=57922" class="image">
-                                       <img src="{{asset('img/top/top4.webp')}}">
+                                    <a href="/shop/view.php?index_no=67174" class="image">
+                                       <img src="{{asset('img/outer/outer4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(57922);">
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(67174);">
                                        <!-- 											<i class="fa fa-heart"></i> -->
                                     </a>
                                  </div>
                                  <div class="item-content">
                                     <div class="info">
                                        <div class="pull-left">
-                                          <span>34<em>%</em></span>												<span>13,900</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
+                                          <span>18<em>%</em></span>												<span>22,900</span>
                                        </div>
                                     </div>
                                     <div class="subject">
-                                       <a href="/shop/view.php?index_no=57922">[주문대폭주]젠트리브이넥니트 (5colors!)(T)</a>
+                                       <a href="/shop/view.php?index_no=67174">대세플리스가디건(G)</a>
                                     </div>
                                     <div class="count">
-                                       <span>구매 6746</span>
-                                       <span>리뷰 132</span>
+                                       <span>구매 108</span>
+                                       <span>리뷰 1</span>
                                     </div>
                                  </div>
                               </li>
+                              <li class="slick-slide">
+                                 <div class="item-image">
+                                    <span class="rank ">6</span>
+                                    <a href="/shop/view.php?index_no=66320" class="image">
+                                       <img src="{{asset('img/outer/outer4.webp')}}">
+                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
+                                    </a>
+                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(66320);">
+                                       <!-- 											<i class="fa fa-heart"></i> -->
+                                    </a>
+                                 </div>
+                                 <div class="item-content">
+                                    <div class="info">
+                                       <div class="pull-left">
+                                          <span>21<em>%</em></span>												<span>47,500</span>
+                                       </div>
+                                    </div>
+                                    <div class="subject">
+                                       <a href="/shop/view.php?index_no=66320">퍼카라숏패딩(JP)</a>
+                                    </div>
+                                    <div class="count">
+                                       <span>구매 571</span>
+                                       <span>리뷰 7</span>
+                                    </div>
+                                 </div>
+                              </li>
+
 
                            </ul>
                         </div>
                      </div>
                   </div>
-                  <div class="list-info-box">
-                     <div class="txt"><strong>95개의 상품</strong></div>
-                     <ul class="list-sort">
-                        <li class="on"><a href="/shop/list.php?page=1&cate=010105">추천순</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=010105&orby=1">신상품</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=010105&orby=2">판매량</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=010105&orby=3">낮은가격</a></li>
-                        <!-- <li class=""><a href="/shop/list.php?page=1&cate=010105&orby=4">높은가격</a></li> -->
-                     </ul>
-                  </div>
+
                   <!-- //list-info-box -->
 
                </div>
@@ -853,7 +847,7 @@
              { event: "setAccount", account: 16750}, // 이 라인은 업데이트하면 안됩니다
              { event: "setEmail", email: "" }, // 유저가 로그인이 안되 있는 경우 빈 문자열을 전달
              { event: "setSiteType", type: deviceType},
-             { event: "viewList", item: [67526,66500,52976] }); // 가장 위에있는 3개의 상품 ID를 전달
+             { event: "viewList", item: [67940,67946,67922] }); // 가장 위에있는 3개의 상품 ID를 전달
          </script>
          <!-- END 카테고리/리스팅 태그 이유경 2020-06-25 남성민 -->
          <footer id="footer">
@@ -938,6 +932,9 @@
                               <div class="tit">NOTICE </div>
                               <ul class="board-simple">
                                  <li>
+                                    <a href="/board/read.php?index_no=53584&amp;boardid=csnotice">2021년1월 적립금 소멸안내</a>
+                                 </li>
+                                 <li>
                                     <a href="/board/read.php?index_no=53494&amp;boardid=csnotice">부정한 방법으로 적립한 젤리는 모두 차감됩니다!</a>
                                  </li>
                                  <li>
@@ -948,9 +945,6 @@
                                  </li>
                                  <li>
                                     <a href="/board/read.php?index_no=52796&amp;boardid=csnotice">네이버 스마트 알림서비스 오픈!</a>
-                                 </li>
-                                 <li>
-                                    <a href="/board/read.php?index_no=52351&amp;boardid=csnotice">2020년도 적립금 소멸 공지</a>
                                  </li>
                               </ul>
                               <a href="/board/list.php?boardid=csnotice" class="more-small">더보기</a>

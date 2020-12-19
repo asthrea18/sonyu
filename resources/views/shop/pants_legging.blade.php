@@ -698,7 +698,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=40339" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/40339/1538101793_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(40339);">
@@ -727,7 +727,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=34123" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/34123/1597988326_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(34123);">
@@ -753,7 +753,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=35813" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/35813/1599103416_5.jpg.webp">
+                                       <img src="{{asset('img/pants/pants3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(35813);">
@@ -782,7 +782,7 @@
                                  <div class="item-image">
                                     <span class="rank ">5</span>
                                     <a href="/shop/view.php?index_no=37043" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/37043/1597987875_5.gif.webp">
+                                       <img src="{{asset('img/pants/pants4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(37043);">
