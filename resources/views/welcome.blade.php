@@ -311,31 +311,31 @@ function bannerChk() {
 									<strong>1.</strong> 기모								</a>
 							</div>
 														<div>
-								<a href="/shop/list.php?cate=0101" target="_self">
+								<a href="#" target="_self">
 									<strong>2.</strong> 니트								</a>
 							</div>
 														<div>
-								<a href="/shop/list.php?cate=010104" target="_self">
+								<a href="#" target="_self">
 									<strong>3.</strong> 맨투맨								</a>
 							</div>
 														<div>
-								<a href="/shop/search.php?searchOrder=&keyword=후드집업" target="_self">
+								<a href="#" target="_self">
 									<strong>4.</strong> 후드집업								</a>
 							</div>
 														<div>
-								<a href="/shop/search.php?searchOrder=&keyword=기모팬츠" target="_self">
+								<a href="#" target="_self">
 									<strong>5.</strong> 기모팬츠								</a>
 							</div>
 														<div>
-								<a href="/shop/search.php?searchOrder=&keyword=코듀로이" target="_self">
+								<a href="#" target="_self">
 									<strong>6.</strong> 코듀로이								</a>
 							</div>
 														<div>
-								<a href="/shop/search.php?searchOrder=&keyword=양털" target="_self">
+								<a href="#" target="_self">
 									<strong>7.</strong> 양털								</a>
 							</div>
 														<div>
-								<a href="/shop/search.php?searchOrder=&keyword=숏패딩" target="_self">
+								<a href="#" target="_self">
 									<strong>8.</strong> 숏패딩								</a>
 							</div>
 														<div>
@@ -560,74 +560,76 @@ function bannerChk() {
 						</ul>
 					</div>
 				</div><!-- //box -->
-			</div><!-- //allMenu -->
+            </div><!-- //allMenu -->
 
-			<ul class="menu">
-				<li style="color: #9F3FF8;"><a href="{{url('shop/best')}}">베스트</a></li>
-				<li style="color: #FF416F;"><a href="{{url('shop/body')}}">신상</a></li>
-				<li>
-					<a href="#">아우터</a><!-- //outer -->
-					<ul class="sub">
-						<li><a href="{{url('shop/card')}}">가디건/조끼</a></li><!-- //cardigan -->
-						<li><a href="{{url('shop/field')}}">야상/점퍼</a></li><!-- //field -->
-						<li><a href="{{url('shop/jacket')}}">자켓/코트</a></li><!-- //jacket -->
-						<li><a href="{{url('shop/padding')}}">패딩</a></li><!-- //padding -->
-						<li><a href="{{url('shop/fleece')}}">플리스</a></li><!-- //fleece -->
-					</ul>
-				</li>
-				<li>
-					<a href="#">상의</a><!-- //top -->
-					<ul class="sub">
-						<li><a href="{{url('shop/longsleeve')}}">긴팔티셔츠</a></li><!-- //longsleeves -->
-						<li><a href="{{url('shop/man')}}">맨투맨</a></li><!-- //man -->
-						<li><a href="{{url('shop/hood')}}">후드</a></li><!-- //hood -->
-						<li><a href="{{url('shop/shortsleeve')}}">반팔/민소매티셔츠</a></li><!-- //shortsleeve -->
-						<li><a href="{{url('shop/neat')}}">니트</a></li><!-- //neat -->
-					</ul>
-				</li>
-				<li><a href="{{url('shop/shirt')}}">셔츠/블라우스</a></li><!-- //shirt or blouse -->
-				<li><a href="{{url('shop/training')}}">트레이닝</a></li><!-- //training -->
-				<li><a href="{{url('shop/basic')}}">베이직</a></li><!-- //basic -->
-				<li><a href="{{url('shop/onepiece')}}">원피스</a></li>
-				<li><a href="/shop/list.php?cate=0202">스커트</a></li>
-				<li>
-					<a href="/shop/list.php?cate=0201">팬츠</a>
-					<ul class="sub">
-						<li><a href="/shop/list.php?cate=020103">청바지</a></li>
-						<li><a href="/shop/list.php?cate=020102">롱팬츠</a></li>
-						<li><a href="/shop/list.php?cate=020104">면바지</a></li>
-						<li><a href="/shop/list.php?cate=020106">슬랙스</a></li>
-						<li><a href="/shop/list.php?cate=020105">레깅스</a></li>
-						<li><a href="/shop/list.php?cate=020101">숏팬츠</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="/shop/list.php?cate=0601">가방</a>
-					<ul class="sub">
-						<li><a href="/shop/list.php?cate=060101">백팩/스쿨백</a></li>
-						<li><a href="/shop/list.php?cate=060102">크로스/토트백</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="/shop/list.php?cate=0501">신발</a>
-					<ul class="sub">
-						<li><a href="/shop/list.php?cate=050101">운동화/단화</a></li>
-						<li><a href="/shop/list.php?cate=050102">구두/워커</a></li>
-						<li><a href="/shop/list.php?cate=050103">샌들/슬리퍼/장화</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="/shop/list.php?cate=0701">악세사리</a>
-					<ul class="sub">
-						<li><a href="/shop/list.php?cate=070101">주얼리</a></li>
-						<li><a href="/shop/list.php?cate=070104">모자/벨트</a></li>
-						<li><a href="/shop/list.php?cate=070105">양말/스타킹</a></li>
-					</ul>
-				</li>
-<!-- 				<li> -->
-<!-- 					<a href="/shop/list.php?cate=3101">선오픈</a> -->
-<!-- 				</li> -->
-			</ul><!-- //menu -->
+            <ul class="menu">
+                <li style="color: #9F3FF8;"><a href="{{url('shop/best')}}">베스트</a></li>
+                <li style="color: #FF416F;"><a href="{{url('shop/body')}}">신상</a></li>
+                <li>
+                    <a href="#">아우터</a><!-- //outer -->
+                    <ul class="sub">
+                        <li><a href="{{url('shop/card')}}">가디건/조끼</a></li><!-- //cardigan -->
+                        <li><a href="{{url('shop/field')}}">야상/점퍼</a></li><!-- //field -->
+                        <li><a href="{{url('shop/jacket')}}">자켓/코트</a></li><!-- //jacket -->
+                        <li><a href="{{url('shop/padding')}}">패딩</a></li><!-- //padding -->
+                        <li><a href="{{url('shop/fleece')}}">플리스</a></li><!-- //fleece -->
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">상의</a><!-- //top -->
+                    <ul class="sub">
+                        <li><a href="{{url('shop/longsleeve')}}">긴팔티셔츠</a></li><!-- //longsleeves -->
+                        <li><a href="{{url('shop/man')}}">맨투맨</a></li><!-- //man -->
+                        <li><a href="{{url('shop/hood')}}">후드</a></li><!-- //hood -->
+                        <li><a href="{{url('shop/shortsleeve')}}">반팔/민소매티셔츠</a></li><!-- //shortsleeve -->
+                        <li><a href="{{url('shop/neat')}}">니트</a></li><!-- //neat -->
+                    </ul>
+                </li>
+                <li><a href="{{url('shop/shirt')}}">셔츠/블라우스</a></li><!-- //shirt or blouse -->
+                <li><a href="{{url('shop/training')}}">트레이닝</a></li><!-- //training -->
+                <li><a href="{{url('shop/basic')}}">베이직</a></li><!-- //basic -->
+                <li><a href="{{url('shop/onepiece')}}">원피스</a></li>
+                <li><a href="/shop/list.php?cate=0202">스커트</a></li>
+                <li>
+                    <a href="/shop/list.php?cate=0201">팬츠</a>
+                    <ul class="sub">
+                        <li><a href="/shop/list.php?cate=020103">청바지</a></li>
+                        <li><a href="/shop/list.php?cate=020102">롱팬츠</a></li>
+                        <li><a href="/shop/list.php?cate=020104">면바지</a></li>
+                        <li><a href="/shop/list.php?cate=020106">슬랙스</a></li>
+                        <li><a href="/shop/list.php?cate=020105">레깅스</a></li>
+                        <li><a href="/shop/list.php?cate=020101">숏팬츠</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/shop/list.php?cate=0601">가방</a>
+                    <ul class="sub">
+                        <li><a href="/shop/list.php?cate=060101">백팩/스쿨백</a></li>
+                        <li><a href="/shop/list.php?cate=060102">크로스/토트백</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/shop/list.php?cate=0501">신발</a>
+                    <ul class="sub">
+                        <li><a href="/shop/list.php?cate=050101">운동화/단화</a></li>
+                        <li><a href="/shop/list.php?cate=050102">구두/워커</a></li>
+                        <li><a href="/shop/list.php?cate=050103">샌들/슬리퍼/장화</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/shop/list.php?cate=0701">악세사리</a>
+                    <ul class="sub">
+                        <li><a href="/shop/list.php?cate=070101">주얼리</a></li>
+                        <li><a href="/shop/list.php?cate=070104">모자/벨트</a></li>
+                        <li><a href="/shop/list.php?cate=070105">양말/스타킹</a></li>
+                    </ul>
+                </li>
+            <!-- 				<li> -->
+            <!-- 					<a href="/shop/list.php?cate=3101">선오픈</a> -->
+            <!-- 				</li> -->
+            </ul><!-- //menu -->
+
+
 			<ul class="cateogry">
 <!-- 				<li class="c6"><a href="/shop/list.php?cate=3101"><span>선오픈 10%</span></a><em>33</em></li> -->
 <!-- 				<li class="c1"><a href="/shop/new.php"><span>오늘신상</span></a><em>39</em></li> -->
@@ -755,7 +757,7 @@ setInterval(function(){
                   <div class="item-image">
                      <span class="rank">1</span>
                      <a href="/shop/view.php?index_no=67490" class="image">
-                     <img src="https://img.sonyunara.com/files/goods/67490/1607935496_5.gif.webp" alt="유자골지폴라니트 (10colors!)"></a>
+                     <img src="{{asset('img/new_img/1607935496_5.gif.webp')}}" alt="유자골지폴라니트 (10colors!)"></a>
                      <a href="javascript:" class="good " onclick="GoodsProc.new_set_wish_single(67490);"></a>
                   </div>
                   <div class="item-content">
@@ -765,7 +767,7 @@ setInterval(function(){
                         </div>
                      </div>
                      <div class="subject">
-                        <a href="/shop/view.php?index_no=67490">유자골지폴라니트 (10colors!)</a>
+                        <a href="#">유자골지폴라니트 (10colors!)</a>
                      </div>
                      <div class="count">
                         <span>구매 34</span>
@@ -775,8 +777,8 @@ setInterval(function(){
                <li class="slick-slide">
                   <div class="item-image">
                      <span class="rank">2</span>
-                     <a href="/shop/view.php?index_no=67494" class="image">
-                        <img src="https://img.sonyunara.com/files/goods/67494/1607313724_5.gif.webp" alt="슬림베이직스커트">
+                     <a href="#" class="image">
+                        <img src="{{asset('img/new_img/1607313724_5.gif.webp')}}" alt="슬림베이직스커트">
                         <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                      </a>
                      <a href="javascript:" class="good " onclick="GoodsProc.new_set_wish_single(67494);">
@@ -800,8 +802,8 @@ setInterval(function(){
                <li class="slick-slide">
                   <div class="item-image">
                      <span class="rank">3</span>
-                     <a href="/shop/view.php?index_no=67666" class="image">
-                        <img src="https://img.sonyunara.com/files/goods/67666/1607653391_5.gif.webp" alt="[기획]겨울원피스모음-12종">
+                     <a href="#" class="image">
+                        <img src="{{asset('img/new_image/1607653391_5.gif.webp')}}" alt="[기획]겨울원피스모음-12종">
                         <img class="list_hot_icon" src="https://img.sonyunara.com/2020/icon/pc_hotItem.png" alt="" >
                         <!-- 								<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                      </a>
