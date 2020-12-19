@@ -51,7 +51,7 @@ Route::group(['prefix' => 'shop'], function () {
     Route::get('skirt', 'NavigatorController@Skirt');
     /* shoes */
     Route::get('shoe-brand', 'NavigatorController@Shoebrand');
-    Route::get('shoe', 'NavigatorController@Shoebrand');
+    Route::get('shoe', 'NavigatorController@Shoe');
     Route::get('shoe-walker', 'NavigatorController@Shoewalker');
     Route::get('shoe-sneaker', 'NavigatorController@Shoesneaker');
     Route::get('shoe-sandal', 'NavigatorController@Shoesandal');
@@ -71,8 +71,15 @@ Route::group(['prefix' => 'shop'], function () {
     Route::get('onepiece', 'NavigatorController@Onepiece');
     /* one piece */
     Route::get('bag', 'NavigatorController@bag');
-    Route::get('bag', 'NavigatorController@bagbackpack');
-    Route::get('bag', 'NavigatorController@bagcrosstoe');
+    Route::get('bag-backpack', 'NavigatorController@bagbackpack');
+    Route::get('bag-crosstoe', 'NavigatorController@bagcrosstoe');
+    /* accessories */
+    Route::get('accessories', 'NavigatorController@accessories');
+    Route::get('acce-jewerly', 'NavigatorController@accejewerly');
+    Route::get('acce-stockings', 'NavigatorController@accestockings');
+    Route::get('acce-halt', 'NavigatorController@accehalt');
+
+
 
 }); /* Shop */
 

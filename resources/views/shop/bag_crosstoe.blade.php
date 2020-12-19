@@ -550,11 +550,11 @@
                </div>
                <!-- //allMenu -->
 
-			<ul class="menu">
+               <ul class="menu">
 				<li style="color: #9F3FF8;"><a href="{{url('shop/best')}}">베스트</a></li>
 				<li style="color: #FF416F;"><a href="{{url('shop/body')}}">신상</a></li>
 				<li>
-					<a href="#">아우터</a><!-- //outer -->
+					<a href="{{url('shop/outer')}}">아우터</a><!-- //outer -->
 					<ul class="sub">
 						<li><a href="{{url('shop/card')}}">가디건/조끼</a></li><!-- //cardigan -->
 						<li><a href="{{url('shop/field')}}">야상/점퍼</a></li><!-- //field -->
@@ -564,7 +564,7 @@
 					</ul>
 				</li>
 				<li>
-					<a href="#">상의</a><!-- //top -->
+					<a href="{{url('shop/top')}}">상의</a><!-- //top -->
 					<ul class="sub">
 						<li><a href="{{url('shop/longsleeve')}}">긴팔티셔츠</a></li><!-- //longsleeves -->
 						<li><a href="{{url('shop/man')}}">맨투맨</a></li><!-- //man -->
@@ -576,47 +576,48 @@
 				<li><a href="{{url('shop/shirt')}}">셔츠/블라우스</a></li><!-- //shirt or blouse -->
 				<li><a href="{{url('shop/training')}}">트레이닝</a></li><!-- //training -->
 				<li><a href="{{url('shop/basic')}}">베이직</a></li><!-- //basic -->
-				<li><a href="/shop/list.php?cate=0103">원피스</a></li>
-				<li><a href="/shop/list.php?cate=0202">스커트</a></li>
+				<li><a href="{{url('shop/onepiece')}}">원피스</a></li><!-- //onepiece -->
+				<li><a href="{{url('shop/skirt')}}">스커트</a></li>  <!-- //skirt -->
 				<li>
-					<a href="/shop/list.php?cate=0201">팬츠</a>
+					<a href="{{url('shop/pants')}}">팬츠</a> <!--//pants-->
 					<ul class="sub">
-						<li><a href="/shop/list.php?cate=020103">청바지</a></li>
-						<li><a href="/shop/list.php?cate=020102">롱팬츠</a></li>
-						<li><a href="/shop/list.php?cate=020104">면바지</a></li>
-						<li><a href="/shop/list.php?cate=020106">슬랙스</a></li>
-						<li><a href="/shop/list.php?cate=020105">레깅스</a></li>
-						<li><a href="/shop/list.php?cate=020101">숏팬츠</a></li>
+						<li><a href="{{url('shop/pants-bluejean')}}">청바지</a></li><!--//jeans-->
+						<li><a href="{{url('shop/pants-long')}}">롱팬츠</a></li><!--//longpants-->
+						<li><a href="{{url('shop/pants-cotton')}}">면바지</a></li><!--//cotton-->
+						<li><a href="{{url('shop/pants-slacks')}}">슬랙스</a></li><!--//slacks-->
+						<li><a href="{{url('shop/pants-legging')}}">레깅스</a></li><!--//leggings-->
+						<li><a href="{{url('shop/pants-short')}}">숏팬츠</a></li><!--//short pants-->
 					</ul>
 				</li>
 				<li>
-					<a href="/shop/list.php?cate=0601">가방</a>
+					<a href="{{url('shop/bag')}}">가방</a>
 					<ul class="sub">
-						<li><a href="/shop/list.php?cate=060101">백팩/스쿨백</a></li>
-						<li><a href="/shop/list.php?cate=060102">크로스/토트백</a></li>
+						<li><a href="{{url('shop/bag-backpack')}}">백팩/스쿨백</a></li><!--//bag backpack-->
+						<li><a href="{{url('shop/bag-crosstoe')}}">크로스/토트백</a></li><!--//short crosstoe-->
 					</ul>
 				</li>
 				<li>
-					<a href="/shop/list.php?cate=0501">신발</a>
+					<a href="{{url('shop/shoes')}}">신발</a> <!--//shoes -->
 					<ul class="sub">
-						<li><a href="/shop/list.php?cate=050101">운동화/단화</a></li>
-						<li><a href="/shop/list.php?cate=050102">구두/워커</a></li>
-						<li><a href="/shop/list.php?cate=050103">샌들/슬리퍼/장화</a></li>
+						<li><a href="{{url('shop/shoe-sneaker')}}">운동화/단화</a></li> <!--//shoes - sneaker -->
+						<li><a href="{{url('shop/shoe-walker')}}">구두/워커</a></li> <!--//shoes - walker -->
+                        <li><a href="{{url('shop/shoe-sandal')}}">샌들/슬리퍼/장화</a></li><!--//shoes - sandals -->
+                        <li><a href="{{url('shop/shoe-brand')}}">샌들/슬리퍼/장화</a></li><!--//shoes - brand -->
+
 					</ul>
 				</li>
 				<li>
-					<a href="/shop/list.php?cate=0701">악세사리</a>
+					<a href="{{url('shop/accessories')}}">악세사리</a> <!--//accessories -->
 					<ul class="sub">
-						<li><a href="/shop/list.php?cate=070101">주얼리</a></li>
-						<li><a href="/shop/list.php?cate=070104">모자/벨트</a></li>
-						<li><a href="/shop/list.php?cate=070105">양말/스타킹</a></li>
+						<li><a href="{{url('shop/acce-')}}">주얼리</a></li> <!--//accessories -->
+						<li><a href="{{url('shop/acce-sneaker')}}">모자/벨트</a></li>  <!--//accessories -->
+						<li><a href="{{url('shop/acce-sneaker')}}">양말/스타킹</a></li> <!--//accessories -->
 					</ul>
 				</li>
 <!-- 				<li> -->
 <!-- 					<a href="/shop/list.php?cate=3101">선오픈</a> -->
 <!-- 				</li> -->
 			</ul><!-- //menu -->
-               <!-- //menu -->
                <ul class="cateogry">
                   <!-- 				<li class="c6"><a href="/shop/list.php?cate=3101"><span>선오픈 10%</span></a><em>33</em></li> -->
                   <!-- 				<li class="c1"><a href="/shop/new.php"><span>오늘신상</span></a><em>39</em></li> -->
@@ -667,7 +668,7 @@
                                  <div class="item-image">
                                     <span class="rank ">1</span>
                                     <a href="/shop/view.php?index_no=51850" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/51850/1562231007_5.gif.webp">
+                                       <img src="{{asset('img/bag/bag1.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(51850);">
@@ -693,7 +694,7 @@
                                  <div class="item-image">
                                     <span class="rank ">2</span>
                                     <a href="/shop/view.php?index_no=58028" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/58028/1579683966_5.jpg.webp">
+                                       <img src="{{asset('img/bag/bag2.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(58028);">
@@ -719,7 +720,7 @@
                                  <div class="item-image">
                                     <span class="rank ">3</span>
                                     <a href="/shop/view.php?index_no=62456" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/62456/1589779551_5.gif.webp">
+                                       <img src="{{asset('img/bag/bag3.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(62456);">
@@ -744,131 +745,7 @@
                                  <div class="item-image">
                                     <span class="rank ">4</span>
                                     <a href="/shop/view.php?index_no=58992" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/58992/1582522208_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(58992);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>40<em>%</em></span>												<span>18,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=58992">로이미니크로스백(BA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 1447</span>
-                                       <span>리뷰 31</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">5</span>
-                                    <a href="/shop/view.php?index_no=46911" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/46911/1548812580_5.gif.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(46911);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>43<em>%</em></span>												<span>12,000</span>
-                                       </div>
-                                       <div class="pull-right">
-                                          오늘출발
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=46911">베리에코백(BA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 7064</span>
-                                       <span>리뷰 126</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">6</span>
-                                    <a href="/shop/view.php?index_no=50677" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/50677/1558078581_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(50677);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>36<em>%</em></span>												<span>16,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=50677">바라크로스백(BA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 2119</span>
-                                       <span>리뷰 58</span>
-                                    </div>
-                                 </div>
-                              </li>
-                              <li class="slick-slide">
-                                 <div class="item-image">
-                                    <span class="rank ">7</span>
-                                    <a href="/shop/view.php?index_no=65370" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/65370/1600066413_5.jpg.webp">
-                                       <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
-                                    </a>
-                                    <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(65370);">
-                                       <!-- 											<i class="fa fa-heart"></i> -->
-                                    </a>
-                                 </div>
-                                 <div class="item-content">
-                                    <div class="info">
-                                       <div class="pull-left">
-                                          <span>18<em>%</em></span>												<span>23,000</span>
-                                       </div>
-                                    </div>
-                                    <div class="subject">
-                                       <a href="/shop/view.php?index_no=65370">코듀로이미니가방(BA)</a>
-                                    </div>
-                                    <div class="count">
-                                       <span>구매 145</span>
-                                    </div>
-                                 </div>
-                              </li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="list-info-box">
-                     <div class="txt"><strong>82개의 상품</strong></div>
-                     <ul class="list-sort">
-                        <li class="on"><a href="/shop/list.php?page=1&cate=060102">추천순</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=060102&orby=1">신상품</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=060102&orby=2">판매량</a></li>
-                        <li class=""><a href="/shop/list.php?page=1&cate=060102&orby=3">낮은가격</a></li>
-                        <!-- <li class=""><a href="/shop/list.php?page=1&cate=060102&orby=4">높은가격</a></li> -->
-                     </ul>
-                  </div>
-                  <!-- //list-info-box -->
-                  <div class="product-box" style="padding-top:0 !important;">
-                     <div class="box">
-                        <div class="item-wrap">
-                           <ul class="item rows admSortTable" data-table="shop_goods_cate" data-cate='060102'">
-                              <li>
-                                 <div class="item-image">
-                                    <a href="/shop/view.php?index_no=58992" class="image">
-                                       <img src="https://img.sonyunara.com/files/goods/58992/1582522208_5.gif.webp">
+                                       <img src="{{asset('img/bag/bag4.webp')}}">
                                        <!-- 												<img class="list_show_icon" src="https://img.sonyunara.com/2020/icon/best_icon.png" alt=""> -->
                                     </a>
                                     <a href="javascript:;" class="good " onclick="GoodsProc.new_set_wish_single(58992);">
@@ -892,10 +769,10 @@
                               </li>
 
                            </ul>
-                           <div class='paging'><a class='first' href='javascript:' onclick='alert("첫 페이지 입니다.")'>first</a><a class='prev' href='javascript:' onclick='alert("첫 페이지 입니다.")'>prev</a><span><strong><a href='javascript:' class='active'>1</a></strong></span><a class='next' href='javascript:' onclick='alert("마지막 페이지 입니다.")'>next</a><a class='last' href='javascript:' onclick='alert("마지막 페이지 입니다.")'>last</a></div>
                         </div>
                      </div>
                   </div>
+
                </div>
                <!-- //products-best -->
             </div>

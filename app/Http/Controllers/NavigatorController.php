@@ -154,6 +154,22 @@ class NavigatorController extends Controller
     {
         return view('shop/bag_crosstoe');
     }
+    public function accessories()
+    {
+        return view('shop/accessories');
+    }
+    public function accejewerly()
+    {
+        return view('shop/acc_jewerly');
+    }
+    public function accestockings()
+    {
+        return view('shop/acc_stockings');
+    }
+    public function accehalt()
+    {
+        return view('shop/acc_halt_belt');
+    }
 
 
 }
